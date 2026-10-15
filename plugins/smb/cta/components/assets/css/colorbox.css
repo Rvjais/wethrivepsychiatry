@@ -1,0 +1,190 @@
+.ctaColorBox {
+    /*
+        Colorbox Core Style:
+        The following CSS is consistent between example themes and should not be altered.
+    */
+    /* 
+        User Style:
+        Change the following styles to modify the appearance of Colorbox.  They are
+        ordered & tabbed in a way that represents the nesting of the generated HTML.
+    */
+    /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+    /* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+  }
+  .ctaColorBox#colorbox, .ctaColorBox#cboxOverlay,
+  .ctaColorBox #cboxWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    overflow: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+  .ctaColorBox #cboxWrapper {
+    max-width: none;
+  }
+  .ctaColorBox#cboxOverlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+  }
+  .ctaColorBox #cboxMiddleLeft,
+  .ctaColorBox #cboxBottomLeft {
+    clear: left;
+  }
+  .ctaColorBox #cboxContent {
+    position: relative;
+  }
+  .ctaColorBox #cboxLoadedContent {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .ctaColorBox #cboxTitle {
+    margin: 0;
+  }
+  .ctaColorBox #cboxLoadingOverlay,
+  .ctaColorBox #cboxLoadingGraphic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .ctaColorBox #cboxPrevious,
+  .ctaColorBox #cboxNext,
+  .ctaColorBox #cboxClose,
+  .ctaColorBox #cboxSlideshow {
+    cursor: pointer;
+  }
+  .ctaColorBox .cboxPhoto {
+    float: left;
+    margin: auto;
+    border: 0;
+    display: block;
+    max-width: none;
+    -ms-interpolation-mode: bicubic;
+  }
+  .ctaColorBox .cboxIframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 0;
+    padding: 0;
+    margin: 0;
+  }
+  .ctaColorBox#colorbox,
+  .ctaColorBox #cboxContent,
+  .ctaColorBox #cboxLoadedContent {
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+  }
+  .ctaColorBox#cboxOverlay {
+    background: #fff;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+  }
+  .ctaColorBox#colorbox {
+    outline: 0;
+  }
+  .ctaColorBox #cboxContent {
+    margin-top: 32px;
+    overflow: visible;
+    background: #000;
+  }
+  .ctaColorBox .cboxIframe {
+    background: #fff;
+  }
+  .ctaColorBox #cboxError {
+    padding: 50px;
+    border: 1px solid #ccc;
+  }
+  .ctaColorBox #cboxLoadedContent {
+    background: #000;
+    padding: 1px;
+  }
+  .ctaColorBox #cboxLoadingGraphic {
+    background: url("images/loading.gif") no-repeat center center;
+  }
+  .ctaColorBox #cboxLoadingOverlay {
+    background: #000;
+  }
+  .ctaColorBox #cboxTitle {
+    position: absolute;
+    top: -22px;
+    left: 0;
+    color: #000;
+  }
+  .ctaColorBox #cboxCurrent {
+    position: absolute;
+    top: -22px;
+    right: 205px;
+    text-indent: -9999px;
+  }
+  .ctaColorBox #cboxPrevious,
+  .ctaColorBox #cboxNext,
+  .ctaColorBox #cboxSlideshow,
+  .ctaColorBox #cboxClose {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    text-indent: -9999px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -20px;
+    background: url("images/controls.png") no-repeat 0 0;
+  }
+  .ctaColorBox #cboxPrevious:active,
+  .ctaColorBox #cboxNext:active,
+  .ctaColorBox #cboxSlideshow:active,
+  .ctaColorBox #cboxClose:active {
+    outline: 0;
+  }
+  .ctaColorBox #cboxPrevious {
+    background-position: 0px 0px;
+    right: 44px;
+  }
+  .ctaColorBox #cboxPrevious:hover {
+    background-position: 0px -25px;
+  }
+  .ctaColorBox #cboxNext {
+    background-position: -25px 0px;
+    right: 22px;
+  }
+  .ctaColorBox #cboxNext:hover {
+    background-position: -25px -25px;
+  }
+  .ctaColorBox #cboxClose {
+    background-position: -50px 0px;
+    right: 0;
+  }
+  .ctaColorBox #cboxClose:hover {
+    background-position: -50px -25px;
+  }
+  .ctaColorBox .cboxSlideshow_on #cboxPrevious,
+  .ctaColorBox .cboxSlideshow_off #cboxPrevious {
+    right: 66px;
+  }
+  .ctaColorBox .cboxSlideshow_on #cboxSlideshow {
+    background-position: -75px -25px;
+    right: 44px;
+  }
+  .ctaColorBox .cboxSlideshow_on #cboxSlideshow:hover {
+    background-position: -100px -25px;
+  }
+  .ctaColorBox .cboxSlideshow_off #cboxSlideshow {
+    background-position: -100px 0px;
+    right: 44px;
+  }
+  .ctaColorBox .cboxSlideshow_off #cboxSlideshow:hover {
+    background-position: -75px -25px;
+  }
+  .ctaColorBox .lightbox-wrap {
+    padding: 10px;
+    background: #fff;
+  }
+  
+  /*# sourceMappingURL=test.css.map */
+  

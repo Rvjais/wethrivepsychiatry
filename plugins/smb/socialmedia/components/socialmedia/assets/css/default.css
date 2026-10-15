@@ -1,0 +1,17 @@
+.socialmedia:not(.isPle) .socialmedia__link-wrapper {
+  text-decoration: none; }
+
+.socialmedia.isPle .socialmedia__list {
+  display: flex; }
+.socialmedia.isPle .custom-uploaded .icon {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+.socialmedia.isPle.text-right .socialmedia__list {
+  float: right; }
+.socialmedia.isPle.text-left .socialmedia__list {
+  float: left; }
+.socialmedia.isPle.text-center .socialmedia__list {
+  justify-content: center; }
+
+/*# sourceMappingURL=default.css.map */

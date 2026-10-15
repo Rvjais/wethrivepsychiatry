@@ -1,0 +1,45 @@
+.cta__icon{
+    font-family: font-awesome;
+}
+.cta_button, .cta__button--icon{
+	text-transform: uppercase;
+    border-radius: 5px;
+    border-bottom: 3px solid white;
+    color: black;
+    background-color: white;
+    padding: 15px 45px;
+    margin-bottom: 10px;
+    font-style: normal;
+    display: inline-block;
+}
+.cta_button:hover{
+	background-color:#d6d6d6;
+}
+.cta__button--icon i{
+	margin-right: 10px;
+
+}
+
+.icon-fa-chevron-circle-right:before {
+    content: "\f138";
+}
+
+.icon-fa-chevron-circle-left:before {
+    content: "\f137";
+}
+
+.icon-fa-envelope:before {
+    content: "\f0e0";
+}
+
+.icon-fa-phone:before {
+    content: "\f095";
+}
+
+.icon-fa-calendar:before {
+    content: "\f073";
+}
+
+.icon-fa-file-text-o:before {
+    content: "\f0f6";
+}

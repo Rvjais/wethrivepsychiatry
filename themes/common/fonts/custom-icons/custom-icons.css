@@ -1,0 +1,591 @@
+@font-face {
+  font-family: "custom-icons";
+  font-display: auto;
+  src: url("custom-icons.eot");
+  src: url("custom-icons.eot#iefix") format("embedded-opentype"), url("custom-icons.ttf") format("truetype"), url("custom-icons.woff") format("woff"), url("custom-icons.svg#custom-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+[class^=cicon-], [class*=" cicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "custom-icons" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*Redactor/Modules*/
+.cicon-scroll-a:before {
+  content: "\e95a";
+}
+
+.cicon-scroll-b:before {
+  content: "\e95b";
+}
+
+.cicon-scroll-c:before {
+  content: "\e95c";
+}
+
+.cicon-scroll-d:before {
+  content: "\e95d";
+}
+
+.cicon-clear-formatting:before {
+  content: "\e942";
+}
+
+/*Custom*/
+.cicon-tba-center:before {
+  content: "\e951";
+}
+
+.cicon-tba-left:before {
+  content: "\e952";
+}
+
+.cicon-tba-right:before {
+  content: "\e953";
+}
+
+.cicon-tbph-center:before {
+  content: "\e954";
+}
+
+.cicon-tbph-left:before {
+  content: "\e955";
+}
+
+.cicon-tbph-right:before {
+  content: "\e956";
+}
+
+.cicon-tbpv-bottom:before {
+  content: "\e957";
+}
+
+.cicon-tbpv-center:before {
+  content: "\e958";
+}
+
+.cicon-tbpv-top:before {
+  content: "\e959";
+}
+
+.cicon-add-page:before {
+  content: "\e94c";
+}
+
+.cicon-delete-trash:before {
+  content: "\e94d";
+}
+
+.cicon-infinity-shape:before {
+  content: "\e930";
+}
+
+.cicon-volume-mute:before {
+  content: "\e92f";
+}
+
+.cicon-arrow-left:before {
+  content: "\e92d";
+}
+
+.cicon-arrow-right:before {
+  content: "\e92e";
+}
+
+/*SocialMedia*/
+.cicon-tiktok:before {
+  content: "\e98b";
+}
+
+.cicon-psychology-today:before {
+  content: "\e98c";
+}
+
+.cicon-x-twitter:before {
+  content: "\e989";
+}
+
+.cicon-square-x-twitter:before {
+  content: "\e98a";
+}
+
+.cicon-blogger_2:before {
+  content: "\e931";
+}
+
+.cicon-blogger:before {
+  content: "\e900";
+}
+
+.cicon-avvo:before {
+  content: "\e93e";
+}
+
+.cicon-lawyers:before {
+  content: "\e93f";
+}
+
+.cicon-martindale:before {
+  content: "\e940";
+}
+
+.cicon-nolo:before {
+  content: "\e941";
+}
+
+.cicon-nolo_2:before {
+  content: "\e943";
+}
+
+.cicon-martindale_2:before {
+  content: "\e944";
+}
+
+.cicon-lawyers_2:before {
+  content: "\e945";
+}
+
+.cicon-avvo_2:before {
+  content: "\e946";
+}
+
+.cicon-google_1:before {
+  content: "\e94e";
+}
+
+.cicon-google_2:before {
+  content: "\e94f";
+}
+
+.cicon-google_3:before {
+  content: "\e950";
+}
+
+/*AOPs*/
+.cicon-chiro_1:before {
+  content: "\e932";
+}
+
+.cicon-chiro_2:before {
+  content: "\e933";
+}
+
+.cicon-chiro_3:before {
+  content: "\e934";
+}
+
+.cicon-chiro_4:before {
+  content: "\e94b";
+}
+
+.cicon-chiro_5:before {
+  content: "\e981";
+}
+
+.cicon-chiro_6:before {
+  content: "\e982";
+}
+
+.cicon-chiro_7:before {
+  content: "\e983";
+}
+
+.cicon-chiro_8:before {
+  content: "\e984";
+}
+
+.cicon-chiro_9:before {
+  content: "\e985";
+}
+
+.cicon-chiro_10:before {
+  content: "\e986";
+}
+
+.cicon-chiro_11:before {
+  content: "\e987";
+}
+
+.cicon-chiro_12:before {
+  content: "\e988";
+}
+
+.cicon-dental_1:before {
+  content: "\e935";
+}
+
+.cicon-dental_2:before {
+  content: "\e936";
+}
+
+.cicon-dental_3:before {
+  content: "\e937";
+}
+
+.cicon-opto_1:before {
+  content: "\e938";
+}
+
+.cicon-opto_2:before {
+  content: "\e939";
+}
+
+.cicon-opto_3:before {
+  content: "\e93a";
+}
+
+.cicon-opto_4:before {
+  content: "\e96d";
+}
+
+.cicon-opto_5:before {
+  content: "\e96e";
+}
+
+.cicon-opto_6:before {
+  content: "\e96f";
+}
+
+.cicon-opto_7:before {
+  content: "\e970";
+}
+
+.cicon-opto_8:before {
+  content: "\e971";
+}
+
+.cicon-opto_9:before {
+  content: "\e972";
+}
+
+.cicon-opto_10:before {
+  content: "\e973";
+}
+
+.cicon-opto_11:before {
+  content: "\e974";
+}
+
+.cicon-opto_12:before {
+  content: "\e975";
+}
+
+.cicon-opto_13:before {
+  content: "\e976";
+}
+
+.cicon-opto_14:before {
+  content: "\e977";
+}
+
+.cicon-opto_15:before {
+  content: "\e978";
+}
+
+.cicon-opto_16:before {
+  content: "\e979";
+}
+
+.cicon-opto_17:before {
+  content: "\e97a";
+}
+
+.cicon-opto_18:before {
+  content: "\e97b";
+}
+
+.cicon-opto_19:before {
+  content: "\e97c";
+}
+
+.cicon-opto_20:before {
+  content: "\e97d";
+}
+
+.cicon-opto_21:before {
+  content: "\e97e";
+}
+
+.cicon-opto_22:before {
+  content: "\e97f";
+}
+
+.cicon-opto_23:before {
+  content: "\e980";
+}
+
+.cicon-vet_1:before {
+  content: "\e93b";
+}
+
+.cicon-vet_2:before {
+  content: "\e93c";
+}
+
+.cicon-vet_3:before {
+  content: "\e93d";
+}
+
+.cicon-vet_4:before {
+  content: "\e95e";
+}
+
+.cicon-vet_5:before {
+  content: "\e95f";
+}
+
+.cicon-vet_6:before {
+  content: "\e960";
+}
+
+.cicon-vet_7:before {
+  content: "\e961";
+}
+
+.cicon-vet_8:before {
+  content: "\e962";
+}
+
+.cicon-vet_9:before {
+  content: "\e963";
+}
+
+.cicon-vet_10:before {
+  content: "\e964";
+}
+
+.cicon-vet_11:before {
+  content: "\e965";
+}
+
+.cicon-vet_12:before {
+  content: "\e966";
+}
+
+.cicon-vet_13:before {
+  content: "\e967";
+}
+
+.cicon-vet_14:before {
+  content: "\e968";
+}
+
+.cicon-vet_15:before {
+  content: "\e969";
+}
+
+.cicon-vet_16:before {
+  content: "\e96a";
+}
+
+.cicon-vet_17:before {
+  content: "\e96b";
+}
+
+.cicon-vet_18:before {
+  content: "\e96c";
+}
+
+.cicon-dermatology_1:before {
+  content: "\e901";
+}
+
+.cicon-dermatology_2:before {
+  content: "\e902";
+}
+
+.cicon-dermatology_3:before {
+  content: "\e903";
+}
+
+.cicon-dermatology_4:before {
+  content: "\e904";
+}
+
+.cicon-ent_1:before {
+  content: "\e905";
+}
+
+.cicon-ent_2:before {
+  content: "\e906";
+}
+
+.cicon-ent_3:before {
+  content: "\e907";
+}
+
+.cicon-ent_4:before {
+  content: "\e908";
+}
+
+.cicon-gastro_1:before {
+  content: "\e909";
+}
+
+.cicon-gastro_2:before {
+  content: "\e90a";
+}
+
+.cicon-gastro_3:before {
+  content: "\e90b";
+}
+
+.cicon-gastro_4:before {
+  content: "\e90c";
+}
+
+.cicon-general_dentist_1:before {
+  content: "\e90d";
+}
+
+.cicon-general_dentist_2:before {
+  content: "\e90e";
+}
+
+.cicon-general_dentist_3:before {
+  content: "\e90f";
+}
+
+.cicon-general_dentist_4:before {
+  content: "\e910";
+}
+
+.cicon-general_medical_1:before {
+  content: "\e911";
+}
+
+.cicon-general_medical_2:before {
+  content: "\e912";
+}
+
+.cicon-general_medical_3:before {
+  content: "\e913";
+}
+
+.cicon-general_medical_4:before {
+  content: "\e914";
+}
+
+.cicon-obgyn_1:before {
+  content: "\e915";
+}
+
+.cicon-obgyn_2:before {
+  content: "\e916";
+}
+
+.cicon-obgyn_3:before {
+  content: "\e917";
+}
+
+.cicon-obgyn_4:before {
+  content: "\e918";
+}
+
+.cicon-orthodontics_1:before {
+  content: "\e919";
+}
+
+.cicon-orthodontics_2:before {
+  content: "\e91a";
+}
+
+.cicon-orthodontics_3:before {
+  content: "\e91b";
+}
+
+.cicon-orthodontics_4:before {
+  content: "\e91c";
+}
+
+.cicon-pediatric_1:before {
+  content: "\e91d";
+}
+
+.cicon-pediatric_2:before {
+  content: "\e91e";
+}
+
+.cicon-pediatric_3:before {
+  content: "\e91f";
+}
+
+.cicon-pediatric_4:before {
+  content: "\e920";
+}
+
+.cicon-pediatric_dentist_1:before {
+  content: "\e921";
+}
+
+.cicon-pediatric_dentist_2:before {
+  content: "\e922";
+}
+
+.cicon-pediatric_dentist_3:before {
+  content: "\e923";
+}
+
+.cicon-pediatric_dentist_4:before {
+  content: "\e924";
+}
+
+.cicon-periodontics_1:before {
+  content: "\e925";
+}
+
+.cicon-periodontics_2:before {
+  content: "\e926";
+}
+
+.cicon-periodontics_3:before {
+  content: "\e927";
+}
+
+.cicon-periodontics_4:before {
+  content: "\e928";
+}
+
+.cicon-podiatry_1:before {
+  content: "\e929";
+}
+
+.cicon-podiatry_2:before {
+  content: "\e92a";
+}
+
+.cicon-podiatry_3:before {
+  content: "\e92b";
+}
+
+.cicon-podiatry_4:before {
+  content: "\e92c";
+}
+
+.cicon-podiatry_5:before {
+  content: "\e947";
+}
+
+.cicon-podiatry_6:before {
+  content: "\e948";
+}
+
+.cicon-podiatry_7:before {
+  content: "\e949";
+}
+
+.cicon-podiatry_8:before {
+  content: "\e94a";
+}
+
+/*# sourceMappingURL=custom-icons.css.map */

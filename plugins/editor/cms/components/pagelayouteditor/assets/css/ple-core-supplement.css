@@ -1,0 +1,21 @@
+.section-base-container {
+  position: relative; }
+
+.section-overlap-container {
+  position: absolute;
+  width: 100%;
+  z-index: 10; }
+
+@media screen and (min-width: 992px) {
+  body:not(.ple-show-hidden-viewport) .ple-hide-for-desktop {
+    display: none !important; } }
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  body:not(.ple-show-hidden-viewport) .ple-hide-for-tablet {
+    display: none !important; } }
+
+@media screen and (max-width: 767.98px) {
+  body:not(.ple-show-hidden-viewport) .ple-hide-for-mobile {
+    display: none !important; } }
+
+/*# sourceMappingURL=ple-core-supplement.css.map */

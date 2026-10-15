@@ -1,0 +1,14 @@
+.staff-member__image{
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 100px;
+}
+
+.fix-scroll-bar .redactor-limit-scrollbar {
+    max-height: 100px;
+    overflow-y: scroll;
+}
+
+.flexslider .slides .staff-member__description img {
+    width: inherit;
+}

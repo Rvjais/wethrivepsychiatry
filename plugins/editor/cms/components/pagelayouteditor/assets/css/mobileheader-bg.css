@@ -1,0 +1,36 @@
+.section__bg--light-0 {
+  --sbg-background: var(--theme-section-background--light-0, white);
+  --sbg-color: var(--theme-section-color--light-0, black);
+}
+.section__bg--light-0.swatch {
+  background: var(--sbg-background);
+}
+.section__bg--dark-0 {
+  --sbg-background: var(--theme-section-background--dark-0, black);
+  --sbg-color: var(--theme-section-color--dark-0, white);
+}
+.section__bg--dark-0.swatch {
+  background: var(--sbg-background);
+}
+.section__bg--dark-0.mobileHeader-container, .section__bg--light-0.mobileHeader-container {
+  background: var(--sbg-background);
+  color: var(--sbg-color);
+}
+.section__bg--dark-0.mobileHeader-container a, .section__bg--dark-0.mobileHeader-container a:hover, .section__bg--light-0.mobileHeader-container a, .section__bg--light-0.mobileHeader-container a:hover {
+  color: var(--sbg-color);
+}
+.section__bg--dark-0.mobileHeader-locWrap .location-list, .section__bg--light-0.mobileHeader-locWrap .location-list {
+  background: var(--sbg-color);
+  color: var(--sbg-background);
+}
+.section__bg--dark-0.mobileHeader-locWrap .location-phone, .section__bg--dark-0.mobileHeader-locWrap .location-phone:hover, .section__bg--light-0.mobileHeader-locWrap .location-phone, .section__bg--light-0.mobileHeader-locWrap .location-phone:hover {
+  color: var(--sbg-color);
+}
+.section__bg--dark-0#mobileHeaderNav.mm-menu, .section__bg--light-0#mobileHeaderNav.mm-menu {
+  background: var(--sbg-background);
+}
+.section__bg--dark-0#mobileHeaderNav .mm-homeIcon, .section__bg--dark-0#mobileHeaderNav a, .section__bg--light-0#mobileHeaderNav .mm-homeIcon, .section__bg--light-0#mobileHeaderNav a {
+  color: var(--sbg-color);
+}
+
+/*# sourceMappingURL=mobileheader-bg.css.map */

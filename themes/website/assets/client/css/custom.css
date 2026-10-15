@@ -1,0 +1,124 @@
+/* Featuredblocks */
+.section--dark .featuredblocks-grid-e .featuredblock__bgImage:before {
+    background-color: transparent;
+    /*background-color: rgba(13, 17, 42, 0.50);*/
+    /*background-color: #b7b7e5;*/
+}
+/* Staff */
+span.staff-member__first-last {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+}
+.staff-member__position.component__subtitle {
+    color: #000;
+}
+
+/* Forms */
+.leadFormInfo:after {
+    content: "Please do not submit any Protected Health Information (PHI).";
+}
+
+/* Colors */
+.brooklyn {
+    --color2: #B7B7E5;
+    --rgb-color-2-alpha3: rgba(183, 183, 229, 0.3);
+    --clink__light: #8b8bdf;
+}
+.section__bg--dark-4::before {
+    background-image: linear-gradient(to right, #b7b7e5 , #8b8bdf);
+}
+.section--dark .banner .component__button--2.cta__button, .section--dark .component__button--2, .section--dark .cta__button.component__button--2 {
+    background-color: #B7B7E5 !important;
+    border-color: #B7B7E5 !important;
+    color: white !important;
+    text-shadow: 1px 1px 1px black;
+	box-shadow: 5px 5px 5px black;
+}
+.section__bg--dark-4 .section--dark .component__button--2, .section--dark .cta__button.component__button--2 {
+    box-shadow: 5px 5px 5px #8c8cdf;
+}
+.section--dark .banner .component__button--2.cta__button:hover:after, .section--dark .cta__button.component__button--2:hover:after {
+    background-color: #B7B7E5 !important;
+}
+.section--light .banner .component__button--2.cta__button, .section--light .component__button--2, .section--light .cta__button.component__button--2 {
+	text-shadow: 1px 1px 1px black;
+	box-shadow: 5px 5px 5px #e9e9e9;
+}
+.section--dark .featuredblocks-grid-e .featuredblock__item:hover .featuredblock__bgImage:before {
+    background-color: black;
+}
+.section--dark .featuredblocks-grid-e .featuredblock__item .featuredblock__title,
+.section--dark .featuredblocks-grid-e .featuredblock__item:hover .featuredblock__title {
+    color: #fff;
+    text-shadow: 1px 1px 1px black;
+}
+.featuredblocks-grid-e .featuredblock__content {
+    min-height: unset;
+    margin: 0;
+}
+.form-themeExtras .leadForm form .form-wrap__submit,
+.forms--2col-textarea .form-themeExtras .leadForm form .form-wrap__submit {
+    max-width: 147px;
+    min-width: unset;
+}
+.section-form .section--light .form-themeExtras .leadForm form .form-wrap__submit input {
+    background-color: #b7b7e5;
+    color: white !important;
+	text-shadow: 1px 1px 1px black;
+	box-shadow: 5px 5px 5px black;
+}
+.section-form .section--light .form-themeExtras .leadForm form .form-wrap__submit input:hover {
+    color: #b7b7e5 !important;
+    background-color: transparent !important;
+}
+.section--light .article h3, .section--light .article h2, .section--light .blog h3, .section--light .blog h2, .section--light .editable__container h3, .section--light .editable__container h2 {
+    color: #8b8bdf !important;
+}
+
+/* Columns */
+.ul-col3 {
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+}
+
+/* Media */
+@media(max-width:767px){
+    .ul-col3 {
+		-webkit-column-count: 1;
+		-moz-column-count: 1;
+		column-count: 1;
+	}
+}
+
+.wrap_testimonials {
+    box-shadow:3px 1px 19px -3px rgba(0,0,0,.75);
+    -webkit-box-shadow:3px 1px 19px -3px rgba(0,0,0,.75);
+    -moz-box-shadow:3px 1px 19px -3px rgba(0,0,0,.75);
+    width:95%;
+    margin:25px
+}
+.wrap_testimonials_inner {
+    margin:0 auto;
+    padding:15px 35px 35px;
+    background:rgba(255,255,255,.5);
+    text-align:center;
+}
+.btn_cta a {
+  background:#a7a7e3;
+  padding: 10px 15px !important;
+  text-decoration: none !important;
+  color: #fff !important;
+  display: inline-block;
+  min-width:320px;
+}
+@media (max-width: 767px) {
+.wrap_testimonials {
+  width: 100%;
+  margin: 0;
+}
+.btn_cta a {
+  min-width: 100%;
+}
+}

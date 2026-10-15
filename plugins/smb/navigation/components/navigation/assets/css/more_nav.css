@@ -1,0 +1,15 @@
+.more_nav--loading{
+    flex-wrap: nowrap !important;
+    overflow: hidden !important;
+}
+.more_nav--loading .navigation__item{
+    flex-shrink: 0;
+}
+/*.navigation:not(.mm-menu) .more_nav li.hideshow ul{
+    position:absolute;
+    display:none;
+    left:0px;
+}
+.navigation:not(.mm-menu) .more_nav li.hideshow{
+    position:relative;
+}*/

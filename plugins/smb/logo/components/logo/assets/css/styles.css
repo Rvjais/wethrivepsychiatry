@@ -1,0 +1,67 @@
+.logo__link {
+    display: flex;
+    align-items: center;
+}
+
+.logo__link.logo__left .logo__image, .logo__left img[class$="__img"] {
+    margin-right: 15px;
+}
+
+.logo__link.logo__right .logo__image, .logo__right img[class$="__img"] {
+    margin-left: 15px;
+}
+
+.logo__link.logo__bottom .logo__image, .logo__bottom img[class$="__img"] {
+    margin-top: 15px;
+}
+
+.logo__link.logo__top .logo__image, .logo__top img[class$="__img"] {
+    margin-bottom: 15px;
+}
+
+.logo__summary {
+    flex: 0 1 auto;
+}
+
+.logo__link.logo__left {
+    flex-direction: row;
+}
+
+.logo__link.logo__right {
+    flex-direction: row-reverse;
+}
+
+.logo__link.logo__left .logo__title,
+.logo__link.logo__right .logo__title {
+    align-self: flex-end;
+}
+
+.logo__link.logo__bottom {
+    flex-direction: column-reverse;
+}
+
+.logo__link.logo__top {
+    flex-direction: column;
+}
+
+.logo__top, .logo__bottom {
+  flex-direction: column;
+}
+
+.logo-a__vertical__top, .logo-a__vertical__bottom,
+.logo-a__horizontal__left, .logo-a__horizontal__right {
+    text-align: center;
+}
+
+.logo-a__horizontal__left a, .logo-a__horizontal__right a,
+.logo-a__horizontal__left span, .logo-a__horizontal__right span {
+    display: flex;
+    align-items: center;
+}
+
+.logo-a__vertical__top a, .logo-a__vertical__bottom a,
+.logo-a__vertical__top span, .logo-a__vertical__bottom span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

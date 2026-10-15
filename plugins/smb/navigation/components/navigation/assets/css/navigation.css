@@ -1,0 +1,20 @@
+.navigation-wrapper {
+    z-index: 100;
+}
+
+/**
+ * Keep submenus open when module is clicked
+ */
+/* Baltimore, Colton, Nina, Tulsa */
+.active-component .navigation:not(.mm-menu) .navigation__list > .active-trail > .navigation__list--sub {
+    display: block!important;
+}
+
+/* Buffalo, Newport, Tara, Westchester */
+.active-component .navigation:not(.mm-menu) .navigation__list > .active-trail .sublevel-1 > ul {
+    transform: translateY(0);
+}
+
+.navigation-a .navigation__list.navigation__list--head > .navigation__item.has-drop-down:hover, .navigation-a .navigation__list.navigation__list--head > .navigation__item.has-drop-down.navigation-open {
+  z-index: 105;
+}

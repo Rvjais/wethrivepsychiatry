@@ -1,0 +1,193 @@
+.hidden {
+  display: none !important;
+}
+
+.form__input--file .fileUpload {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.form__input--file .fileUpload + label {
+  border: 1px solid black;
+  border-radius: 2px;
+  background-color: white;
+  padding: 0;
+  color: #7F7F7F;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.form__input--file .fileUpload + label span {
+  min-height: 1em;
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  vertical-align: top;
+}
+
+.form__input--file .fileUpload + label span:first-child {
+  float: left;
+  flex: auto;
+}
+
+.form__input--file .fileUpload + label span:nth-child(2) {
+  text-align: center;
+  float: right;
+}
+
+.form__input--file .fileUpload + label > span {
+  padding: 0.625rem 0.5rem;
+}
+
+.form__input--file .fileUpload + label span.error {
+  color: #f50800;
+}
+
+.form__input--file .fileUpload + label span span i:before {
+  margin-right: 5px;
+}
+
+.form__input--file .input_container label {
+  font-size: 12px;
+}
+
+.form__input--file i.file_upload-close:hover {
+  cursor: pointer;
+}
+
+.form__input--file span.status-label:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 90px;
+  width: 1px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.form__input--file .form-input-info {
+  color: #7F7F7F;
+}
+
+@font-face {
+  font-family: leads-api-customIcons;
+  src: url("fonts/leads-api-customIcons.eot");
+  src: url("fonts/leads-api-customIcons.eot#iefix") format("embedded-opentype"), url("fonts/leads-api-customIcons.ttf") format("truetype"), url("fonts/leads-api-customIcons.woff") format("woff"), url("fonts/leads-api-customIcons.svg#leads-api-customIcons") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+[class*=" la-cicon-"],
+[class^=la-cicon-] {
+  font-family: leads-api-customIcons !important;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.la-cicon-close:before {
+  content: "\e100";
+}
+
+.la-cicon-exclamation:before {
+  content: "\e101";
+}
+
+.la-cicon-file-audio:before {
+  content: "\e102";
+}
+
+.la-cicon-file-other:before {
+  content: "\e103";
+}
+
+.la-cicon-file-text:before {
+  content: "\e104";
+}
+
+.la-cicon-file-image:before {
+  content: "\e105";
+}
+
+.la-cicon-file-pdf:before {
+  content: "\e106";
+}
+
+.la-cicon-spinner:before {
+  content: "\e107";
+}
+
+.la-cicon-upload:before {
+  content: "\e108";
+}
+
+.la-cicon-file-video:before {
+  content: "\e109";
+}
+
+.la-cicon-file-document:before {
+  content: "\e110";
+}
+
+.leadForm .form-input-preferred_date .input_container:before {
+  font-family: "font-awesome";
+  content: "\f073";
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.leadForm .form-input-preferred_date .input_container .hasDatepicker {
+  width: 100%;
+  line-height: inherit !important;
+}
+
+/*# sourceMappingURL=form.css.map */
+
+/*SMBWMGR-22930*/
+
+#h-error-title {
+  font-family: "font-awesome";
+  font-size:2rem;
+  font-weight: bold;
+  color: #e53935;
+  margin-bottom:0px;
+}
+
+#p-error-message {
+  margin-top: 18px;
+  font-size: 1.1rem;
+  padding:0px;
+}
+
+#error-form-dialog[open] {
+  border: none;
+  padding:0px;
+  position:fixed;
+  top: 50%;
+  transform: translatey(-50%);
+}
+
+#error-form-dialog:not([open]) {
+  display: none !important;
+}
+
+#close-dialog {
+  font-size: 18px;
+}
+#modal-content-form {
+  margin-top: 0px;
+}

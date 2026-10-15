@@ -1,0 +1,4135 @@
+@import url("../../../../../../../_external/fonts.googleapis.com/css2_ee85aa67.css");
+@import url("../../../../../../../_external/fonts.googleapis.com/css2_76c772b9.css");
+@import url("../../../../../../../_external/fonts.googleapis.com/css2_94bbf4c0.css");
+body {
+  font: 16px/1.375 "Roboto", sans-serif;
+}
+
+:root {
+  --error: #E03B33;
+  --color1: #0F303F;
+  --color2: #D81820;
+  --color3: #616060;
+  --color4: #e0e0e0;
+  --color5: #FF7F00;
+}
+
+.brooklyn {
+  --color1: #0F303F;
+  --color2: #D81820;
+  --color3: #616060;
+  --color4: #e0e0e0;
+  --color5: #FF7F00;
+  --title__color--h1: var(--color1);
+  --title__color--h2: var(--color2);
+  --clink__light: var(--color2);
+  --clink__dark: white;
+  --clink__light--hover: var(--color3);
+  --clink__dark--hover: rgba(white, .8);
+  --clink--text__light: var(--color5);
+  --clink--text__dark: white;
+  --clink--text__light--hover: var(--color5);
+  --clink--text__dark--hover: white;
+  --regular__color: var(--color3);
+  --component__title: var(--color1);
+  --component__title__dark: white;
+  --regular__color__dark: white;
+  --component__subtitle: var(--color2);
+  --cbutton__light-color-1: var(--color2);
+  --cbutton__light-color-1--hover: white;
+  --cbutton__light-bg-1: transparent;
+  --cbutton__light-bg-1--hover: var(--color2);
+  --cbutton__light-color-2: white;
+  --cbutton__light-color-2--hover: var(--color2);
+  --cbutton__light-bg-2: var(--color2);
+  --cbutton__light-bg-2--hover: transparent;
+  --cbutton__light-color-3: white;
+  --cbutton__light-color-3--hover: var(--color5);
+  --cbutton__light-bg-3: var(--color5);
+  --cbutton__light-bg-3--hover: white;
+  --cbutton__dark-color-1: white;
+  --cbutton__dark-bg-1: transparent;
+  --cbutton__dark-color-1--hover: var(--color1);
+  --cbutton__dark-bg-1--hover: white;
+  --cbutton__dark-color-2: white;
+  --cbutton__dark-bg-2: var(--color1);
+  --cbutton__dark-color-2--hover: white;
+  --cbutton__dark-bg-2--hover: transparent;
+  --cbutton__dark-color-3: white;
+  --cbutton__dark-bg-3: var(--color5);
+  --cbutton__dark-bg-3--hover: var(--color1);
+  --input-field-bg: white;
+  --input-field-color: rgba(97, 96, 96, 0.5);
+  --input-field-color--active: var(--color3);
+  --input-field-border: var(--color2);
+  --input-select-field-color: white;
+  --input-checkbox-color: var(--color2);
+  --socialmedia-color: var(--color2);
+  --socialmedia-color--hover: var(--color5);
+  --phone__light-color: var(--color2);
+  --phone__light-color--hover: var(--color3);
+  --phone__dark-color: white;
+  --phone__dark-color--hover: rgba(white, .8);
+  --rgb-color-2-alpha5:rgba(216, 24, 32, 0.5);
+  --rgb-color-2-alpha3:rgba(216, 24, 32, 0.3);
+}
+
+.color-x23-trad-1 {
+  --color1: #464230;
+  --color2: #90b626;
+  --color3: #4a4a4a;
+  --color4: #e0e0e0;
+  --color5: #FF8000;
+  --title__color--h1: var(--color1);
+  --title__color--h2: var(--color2);
+  --clink__light: var(--color2);
+  --clink__dark: white;
+  --clink__light--hover: var(--color3);
+  --clink__dark--hover: rgba(white, .8);
+  --clink--text__light: var(--color5);
+  --clink--text__dark: white;
+  --clink--text__light--hover: var(--color5);
+  --clink--text__dark--hover: white;
+  --regular__color: var(--color3);
+  --component__title: var(--color1);
+  --component__title__dark: white;
+  --regular__color__dark: white;
+  --component__subtitle: var(--color2);
+  --cbutton__light-color-1: var(--color2);
+  --cbutton__light-color-1--hover: white;
+  --cbutton__light-bg-1: transparent;
+  --cbutton__light-bg-1--hover: var(--color2);
+  --cbutton__light-color-2: white;
+  --cbutton__light-color-2--hover: var(--color2);
+  --cbutton__light-bg-2: var(--color2);
+  --cbutton__light-bg-2--hover: transparent;
+  --cbutton__light-color-3: white;
+  --cbutton__light-color-3--hover: var(--color5);
+  --cbutton__light-bg-3: var(--color5);
+  --cbutton__light-bg-3--hover: white;
+  --cbutton__dark-color-1: white;
+  --cbutton__dark-bg-1: transparent;
+  --cbutton__dark-color-1--hover: var(--color1);
+  --cbutton__dark-bg-1--hover: white;
+  --cbutton__dark-color-2: white;
+  --cbutton__dark-bg-2: var(--color1);
+  --cbutton__dark-color-2--hover: white;
+  --cbutton__dark-bg-2--hover: transparent;
+  --cbutton__dark-color-3: white;
+  --cbutton__dark-bg-3: var(--color5);
+  --cbutton__dark-bg-3--hover: var(--color1);
+  --input-field-bg: white;
+  --input-field-color: rgba(74, 74, 74, 0.5);
+  --input-field-color--active: var(--color3);
+  --input-field-border: var(--color2);
+  --input-select-field-color: white;
+  --input-checkbox-color: var(--color2);
+  --socialmedia-color: var(--color2);
+  --socialmedia-color--hover: var(--color5);
+  --phone__light-color: var(--color2);
+  --phone__light-color--hover: var(--color3);
+  --phone__dark-color: white;
+  --phone__dark-color--hover: rgba(white, .8);
+  --rgb-color-2-alpha5:rgba(144, 182, 38, 0.5);
+  --rgb-color-2-alpha3:rgba(144, 182, 38, 0.3);
+}
+
+.color-x23-trad-2 {
+  --color1: #002d42;
+  --color2: #00adef;
+  --color3: #4a4a4a;
+  --color4: #e0e0e0;
+  --color5: #FFC000;
+  --title__color--h1: var(--color1);
+  --title__color--h2: var(--color2);
+  --clink__light: var(--color2);
+  --clink__dark: white;
+  --clink__light--hover: var(--color3);
+  --clink__dark--hover: rgba(white, .8);
+  --clink--text__light: var(--color5);
+  --clink--text__dark: white;
+  --clink--text__light--hover: var(--color5);
+  --clink--text__dark--hover: white;
+  --regular__color: var(--color3);
+  --component__title: var(--color1);
+  --component__title__dark: white;
+  --regular__color__dark: white;
+  --component__subtitle: var(--color2);
+  --cbutton__light-color-1: var(--color2);
+  --cbutton__light-color-1--hover: white;
+  --cbutton__light-bg-1: transparent;
+  --cbutton__light-bg-1--hover: var(--color2);
+  --cbutton__light-color-2: white;
+  --cbutton__light-color-2--hover: var(--color2);
+  --cbutton__light-bg-2: var(--color2);
+  --cbutton__light-bg-2--hover: transparent;
+  --cbutton__light-color-3: white;
+  --cbutton__light-color-3--hover: var(--color5);
+  --cbutton__light-bg-3: var(--color5);
+  --cbutton__light-bg-3--hover: white;
+  --cbutton__dark-color-1: white;
+  --cbutton__dark-bg-1: transparent;
+  --cbutton__dark-color-1--hover: var(--color1);
+  --cbutton__dark-bg-1--hover: white;
+  --cbutton__dark-color-2: white;
+  --cbutton__dark-bg-2: var(--color1);
+  --cbutton__dark-color-2--hover: white;
+  --cbutton__dark-bg-2--hover: transparent;
+  --cbutton__dark-color-3: white;
+  --cbutton__dark-bg-3: var(--color5);
+  --cbutton__dark-bg-3--hover: var(--color1);
+  --input-field-bg: white;
+  --input-field-color: rgba(74, 74, 74, 0.5);
+  --input-field-color--active: var(--color3);
+  --input-field-border: var(--color2);
+  --input-select-field-color: white;
+  --input-checkbox-color: var(--color2);
+  --socialmedia-color: var(--color2);
+  --socialmedia-color--hover: var(--color5);
+  --phone__light-color: var(--color2);
+  --phone__light-color--hover: var(--color3);
+  --phone__dark-color: white;
+  --phone__dark-color--hover: rgba(white, .8);
+  --rgb-color-2-alpha5:rgba(0, 173, 239, 0.5);
+  --rgb-color-2-alpha3:rgba(0, 173, 239, 0.3);
+}
+
+.color-x23-trad-3 {
+  --color1: #1e4865;
+  --color2: #bdb464;
+  --color3: #4a4a4a;
+  --color4: #e0e0e0;
+  --color5: #FF7F00;
+  --title__color--h1: var(--color1);
+  --title__color--h2: var(--color2);
+  --clink__light: var(--color2);
+  --clink__dark: white;
+  --clink__light--hover: var(--color3);
+  --clink__dark--hover: rgba(white, .8);
+  --clink--text__light: var(--color5);
+  --clink--text__dark: white;
+  --clink--text__light--hover: var(--color5);
+  --clink--text__dark--hover: white;
+  --regular__color: var(--color3);
+  --component__title: var(--color1);
+  --component__title__dark: white;
+  --regular__color__dark: white;
+  --component__subtitle: var(--color2);
+  --cbutton__light-color-1: var(--color2);
+  --cbutton__light-color-1--hover: white;
+  --cbutton__light-bg-1: transparent;
+  --cbutton__light-bg-1--hover: var(--color2);
+  --cbutton__light-color-2: white;
+  --cbutton__light-color-2--hover: var(--color2);
+  --cbutton__light-bg-2: var(--color2);
+  --cbutton__light-bg-2--hover: transparent;
+  --cbutton__light-color-3: white;
+  --cbutton__light-color-3--hover: var(--color5);
+  --cbutton__light-bg-3: var(--color5);
+  --cbutton__light-bg-3--hover: white;
+  --cbutton__dark-color-1: white;
+  --cbutton__dark-bg-1: transparent;
+  --cbutton__dark-color-1--hover: var(--color1);
+  --cbutton__dark-bg-1--hover: white;
+  --cbutton__dark-color-2: white;
+  --cbutton__dark-bg-2: var(--color1);
+  --cbutton__dark-color-2--hover: white;
+  --cbutton__dark-bg-2--hover: transparent;
+  --cbutton__dark-color-3: white;
+  --cbutton__dark-bg-3: var(--color5);
+  --cbutton__dark-bg-3--hover: var(--color1);
+  --input-field-bg: white;
+  --input-field-color: rgba(74, 74, 74, 0.5);
+  --input-field-color--active: var(--color3);
+  --input-field-border: var(--color2);
+  --input-select-field-color: white;
+  --input-checkbox-color: var(--color2);
+  --socialmedia-color: var(--color2);
+  --socialmedia-color--hover: var(--color5);
+  --phone__light-color: var(--color2);
+  --phone__light-color--hover: var(--color3);
+  --phone__dark-color: white;
+  --phone__dark-color--hover: rgba(white, .8);
+  --rgb-color-2-alpha5:rgba(189, 180, 100, 0.5);
+  --rgb-color-2-alpha3:rgba(189, 180, 100, 0.3);
+}
+
+.color-x23-trad-4 {
+  --color1: #04364e;
+  --color2: #7cb0d3;
+  --color3: #4a4a4a;
+  --color4: #e0e0e0;
+  --color5: #FF7F00;
+  --title__color--h1: var(--color1);
+  --title__color--h2: var(--color2);
+  --clink__light: var(--color2);
+  --clink__dark: white;
+  --clink__light--hover: var(--color3);
+  --clink__dark--hover: rgba(white, .8);
+  --clink--text__light: var(--color5);
+  --clink--text__dark: white;
+  --clink--text__light--hover: var(--color5);
+  --clink--text__dark--hover: white;
+  --regular__color: var(--color3);
+  --component__title: var(--color1);
+  --component__title__dark: white;
+  --regular__color__dark: white;
+  --component__subtitle: var(--color2);
+  --cbutton__light-color-1: var(--color2);
+  --cbutton__light-color-1--hover: white;
+  --cbutton__light-bg-1: transparent;
+  --cbutton__light-bg-1--hover: var(--color2);
+  --cbutton__light-color-2: white;
+  --cbutton__light-color-2--hover: var(--color2);
+  --cbutton__light-bg-2: var(--color2);
+  --cbutton__light-bg-2--hover: transparent;
+  --cbutton__light-color-3: white;
+  --cbutton__light-color-3--hover: var(--color5);
+  --cbutton__light-bg-3: var(--color5);
+  --cbutton__light-bg-3--hover: white;
+  --cbutton__dark-color-1: white;
+  --cbutton__dark-bg-1: transparent;
+  --cbutton__dark-color-1--hover: var(--color1);
+  --cbutton__dark-bg-1--hover: white;
+  --cbutton__dark-color-2: white;
+  --cbutton__dark-bg-2: var(--color1);
+  --cbutton__dark-color-2--hover: white;
+  --cbutton__dark-bg-2--hover: transparent;
+  --cbutton__dark-color-3: white;
+  --cbutton__dark-bg-3: var(--color5);
+  --cbutton__dark-bg-3--hover: var(--color1);
+  --input-field-bg: white;
+  --input-field-color: rgba(74, 74, 74, 0.5);
+  --input-field-color--active: var(--color3);
+  --input-field-border: var(--color2);
+  --input-select-field-color: white;
+  --input-checkbox-color: var(--color2);
+  --socialmedia-color: var(--color2);
+  --socialmedia-color--hover: var(--color5);
+  --phone__light-color: var(--color2);
+  --phone__light-color--hover: var(--color3);
+  --phone__dark-color: white;
+  --phone__dark-color--hover: rgba(white, .8);
+  --rgb-color-2-alpha5:rgba(124, 176, 211, 0.5);
+  --rgb-color-2-alpha3:rgba(124, 176, 211, 0.3);
+}
+
+.color-x23-trad-5 {
+  --color1: #5d1601;
+  --color2: #ccaa67;
+  --color3: #4a4a4a;
+  --color4: #e0e0e0;
+  --color5: #FF6320;
+  --title__color--h1: var(--color1);
+  --title__color--h2: var(--color2);
+  --clink__light: var(--color2);
+  --clink__dark: white;
+  --clink__light--hover: var(--color3);
+  --clink__dark--hover: rgba(white, .8);
+  --clink--text__light: var(--color5);
+  --clink--text__dark: white;
+  --clink--text__light--hover: var(--color5);
+  --clink--text__dark--hover: white;
+  --regular__color: var(--color3);
+  --component__title: var(--color1);
+  --component__title__dark: white;
+  --regular__color__dark: white;
+  --component__subtitle: var(--color2);
+  --cbutton__light-color-1: var(--color2);
+  --cbutton__light-color-1--hover: white;
+  --cbutton__light-bg-1: transparent;
+  --cbutton__light-bg-1--hover: var(--color2);
+  --cbutton__light-color-2: white;
+  --cbutton__light-color-2--hover: var(--color2);
+  --cbutton__light-bg-2: var(--color2);
+  --cbutton__light-bg-2--hover: transparent;
+  --cbutton__light-color-3: white;
+  --cbutton__light-color-3--hover: var(--color5);
+  --cbutton__light-bg-3: var(--color5);
+  --cbutton__light-bg-3--hover: white;
+  --cbutton__dark-color-1: white;
+  --cbutton__dark-bg-1: transparent;
+  --cbutton__dark-color-1--hover: var(--color1);
+  --cbutton__dark-bg-1--hover: white;
+  --cbutton__dark-color-2: white;
+  --cbutton__dark-bg-2: var(--color1);
+  --cbutton__dark-color-2--hover: white;
+  --cbutton__dark-bg-2--hover: transparent;
+  --cbutton__dark-color-3: white;
+  --cbutton__dark-bg-3: var(--color5);
+  --cbutton__dark-bg-3--hover: var(--color1);
+  --input-field-bg: white;
+  --input-field-color: rgba(74, 74, 74, 0.5);
+  --input-field-color--active: var(--color3);
+  --input-field-border: var(--color2);
+  --input-select-field-color: white;
+  --input-checkbox-color: var(--color2);
+  --socialmedia-color: var(--color2);
+  --socialmedia-color--hover: var(--color5);
+  --phone__light-color: var(--color2);
+  --phone__light-color--hover: var(--color3);
+  --phone__dark-color: white;
+  --phone__dark-color--hover: rgba(white, .8);
+  --rgb-color-2-alpha5:rgba(204, 170, 103, 0.5);
+  --rgb-color-2-alpha3:rgba(204, 170, 103, 0.3);
+}
+
+.color-x23-trad-6 {
+  --color1: #172242;
+  --color2: #da6a39;
+  --color3: #4a4a4a;
+  --color4: #e0e0e0;
+  --color5: #c90d31;
+  --title__color--h1: var(--color1);
+  --title__color--h2: var(--color2);
+  --clink__light: var(--color2);
+  --clink__dark: white;
+  --clink__light--hover: var(--color3);
+  --clink__dark--hover: rgba(white, .8);
+  --clink--text__light: var(--color5);
+  --clink--text__dark: white;
+  --clink--text__light--hover: var(--color5);
+  --clink--text__dark--hover: white;
+  --regular__color: var(--color3);
+  --component__title: var(--color1);
+  --component__title__dark: white;
+  --regular__color__dark: white;
+  --component__subtitle: var(--color2);
+  --cbutton__light-color-1: var(--color2);
+  --cbutton__light-color-1--hover: white;
+  --cbutton__light-bg-1: transparent;
+  --cbutton__light-bg-1--hover: var(--color2);
+  --cbutton__light-color-2: white;
+  --cbutton__light-color-2--hover: var(--color2);
+  --cbutton__light-bg-2: var(--color2);
+  --cbutton__light-bg-2--hover: transparent;
+  --cbutton__light-color-3: white;
+  --cbutton__light-color-3--hover: var(--color5);
+  --cbutton__light-bg-3: var(--color5);
+  --cbutton__light-bg-3--hover: white;
+  --cbutton__dark-color-1: white;
+  --cbutton__dark-bg-1: transparent;
+  --cbutton__dark-color-1--hover: var(--color1);
+  --cbutton__dark-bg-1--hover: white;
+  --cbutton__dark-color-2: white;
+  --cbutton__dark-bg-2: var(--color1);
+  --cbutton__dark-color-2--hover: white;
+  --cbutton__dark-bg-2--hover: transparent;
+  --cbutton__dark-color-3: white;
+  --cbutton__dark-bg-3: var(--color5);
+  --cbutton__dark-bg-3--hover: var(--color1);
+  --input-field-bg: white;
+  --input-field-color: rgba(74, 74, 74, 0.5);
+  --input-field-color--active: var(--color3);
+  --input-field-border: var(--color2);
+  --input-select-field-color: white;
+  --input-checkbox-color: var(--color2);
+  --socialmedia-color: var(--color2);
+  --socialmedia-color--hover: var(--color5);
+  --phone__light-color: var(--color2);
+  --phone__light-color--hover: var(--color3);
+  --phone__dark-color: white;
+  --phone__dark-color--hover: rgba(white, .8);
+  --rgb-color-2-alpha5:rgba(218, 106, 57, 0.5);
+  --rgb-color-2-alpha3:rgba(218, 106, 57, 0.3);
+}
+
+.color-x23-trad-7 {
+  --color1: #4f4e4e;
+  --color2: #d3a335;
+  --color3: #4a4a4a;
+  --color4: #e0e0e0;
+  --color5: #c6451a;
+  --title__color--h1: var(--color1);
+  --title__color--h2: var(--color2);
+  --clink__light: var(--color2);
+  --clink__dark: white;
+  --clink__light--hover: var(--color3);
+  --clink__dark--hover: rgba(white, .8);
+  --clink--text__light: var(--color5);
+  --clink--text__dark: white;
+  --clink--text__light--hover: var(--color5);
+  --clink--text__dark--hover: white;
+  --regular__color: var(--color3);
+  --component__title: var(--color1);
+  --component__title__dark: white;
+  --regular__color__dark: white;
+  --component__subtitle: var(--color2);
+  --cbutton__light-color-1: var(--color2);
+  --cbutton__light-color-1--hover: white;
+  --cbutton__light-bg-1: transparent;
+  --cbutton__light-bg-1--hover: var(--color2);
+  --cbutton__light-color-2: white;
+  --cbutton__light-color-2--hover: var(--color2);
+  --cbutton__light-bg-2: var(--color2);
+  --cbutton__light-bg-2--hover: transparent;
+  --cbutton__light-color-3: white;
+  --cbutton__light-color-3--hover: var(--color5);
+  --cbutton__light-bg-3: var(--color5);
+  --cbutton__light-bg-3--hover: white;
+  --cbutton__dark-color-1: white;
+  --cbutton__dark-bg-1: transparent;
+  --cbutton__dark-color-1--hover: var(--color1);
+  --cbutton__dark-bg-1--hover: white;
+  --cbutton__dark-color-2: white;
+  --cbutton__dark-bg-2: var(--color1);
+  --cbutton__dark-color-2--hover: white;
+  --cbutton__dark-bg-2--hover: transparent;
+  --cbutton__dark-color-3: white;
+  --cbutton__dark-bg-3: var(--color5);
+  --cbutton__dark-bg-3--hover: var(--color1);
+  --input-field-bg: white;
+  --input-field-color: rgba(74, 74, 74, 0.5);
+  --input-field-color--active: var(--color3);
+  --input-field-border: var(--color2);
+  --input-select-field-color: white;
+  --input-checkbox-color: var(--color2);
+  --socialmedia-color: var(--color2);
+  --socialmedia-color--hover: var(--color5);
+  --phone__light-color: var(--color2);
+  --phone__light-color--hover: var(--color3);
+  --phone__dark-color: white;
+  --phone__dark-color--hover: rgba(white, .8);
+  --rgb-color-2-alpha5:rgba(211, 163, 53, 0.5);
+  --rgb-color-2-alpha3:rgba(211, 163, 53, 0.3);
+}
+
+.color-x23-trad-8 {
+  --color1: #1d1145;
+  --color2: #0db4b9;
+  --color3: #4a4a4a;
+  --color4: #e0e0e0;
+  --color5: #f3b527;
+  --title__color--h1: var(--color1);
+  --title__color--h2: var(--color2);
+  --clink__light: var(--color2);
+  --clink__dark: white;
+  --clink__light--hover: var(--color3);
+  --clink__dark--hover: rgba(white, .8);
+  --clink--text__light: var(--color5);
+  --clink--text__dark: white;
+  --clink--text__light--hover: var(--color5);
+  --clink--text__dark--hover: white;
+  --regular__color: var(--color3);
+  --component__title: var(--color1);
+  --component__title__dark: white;
+  --regular__color__dark: white;
+  --component__subtitle: var(--color2);
+  --cbutton__light-color-1: var(--color2);
+  --cbutton__light-color-1--hover: white;
+  --cbutton__light-bg-1: transparent;
+  --cbutton__light-bg-1--hover: var(--color2);
+  --cbutton__light-color-2: white;
+  --cbutton__light-color-2--hover: var(--color2);
+  --cbutton__light-bg-2: var(--color2);
+  --cbutton__light-bg-2--hover: transparent;
+  --cbutton__light-color-3: white;
+  --cbutton__light-color-3--hover: var(--color5);
+  --cbutton__light-bg-3: var(--color5);
+  --cbutton__light-bg-3--hover: white;
+  --cbutton__dark-color-1: white;
+  --cbutton__dark-bg-1: transparent;
+  --cbutton__dark-color-1--hover: var(--color1);
+  --cbutton__dark-bg-1--hover: white;
+  --cbutton__dark-color-2: white;
+  --cbutton__dark-bg-2: var(--color1);
+  --cbutton__dark-color-2--hover: white;
+  --cbutton__dark-bg-2--hover: transparent;
+  --cbutton__dark-color-3: white;
+  --cbutton__dark-bg-3: var(--color5);
+  --cbutton__dark-bg-3--hover: var(--color1);
+  --input-field-bg: white;
+  --input-field-color: rgba(74, 74, 74, 0.5);
+  --input-field-color--active: var(--color3);
+  --input-field-border: var(--color2);
+  --input-select-field-color: white;
+  --input-checkbox-color: var(--color2);
+  --socialmedia-color: var(--color2);
+  --socialmedia-color--hover: var(--color5);
+  --phone__light-color: var(--color2);
+  --phone__light-color--hover: var(--color3);
+  --phone__dark-color: white;
+  --phone__dark-color--hover: rgba(white, .8);
+  --rgb-color-2-alpha5:rgba(13, 180, 185, 0.5);
+  --rgb-color-2-alpha3:rgba(13, 180, 185, 0.3);
+}
+
+.color-x23-trad-9 {
+  --color1: #193227;
+  --color2: #4bb685;
+  --color3: #4a4a4a;
+  --color4: #e0e0e0;
+  --color5: #ff9d00;
+  --title__color--h1: var(--color1);
+  --title__color--h2: var(--color2);
+  --clink__light: var(--color2);
+  --clink__dark: white;
+  --clink__light--hover: var(--color3);
+  --clink__dark--hover: rgba(white, .8);
+  --clink--text__light: var(--color5);
+  --clink--text__dark: white;
+  --clink--text__light--hover: var(--color5);
+  --clink--text__dark--hover: white;
+  --regular__color: var(--color3);
+  --component__title: var(--color1);
+  --component__title__dark: white;
+  --regular__color__dark: white;
+  --component__subtitle: var(--color2);
+  --cbutton__light-color-1: var(--color2);
+  --cbutton__light-color-1--hover: white;
+  --cbutton__light-bg-1: transparent;
+  --cbutton__light-bg-1--hover: var(--color2);
+  --cbutton__light-color-2: white;
+  --cbutton__light-color-2--hover: var(--color2);
+  --cbutton__light-bg-2: var(--color2);
+  --cbutton__light-bg-2--hover: transparent;
+  --cbutton__light-color-3: white;
+  --cbutton__light-color-3--hover: var(--color5);
+  --cbutton__light-bg-3: var(--color5);
+  --cbutton__light-bg-3--hover: white;
+  --cbutton__dark-color-1: white;
+  --cbutton__dark-bg-1: transparent;
+  --cbutton__dark-color-1--hover: var(--color1);
+  --cbutton__dark-bg-1--hover: white;
+  --cbutton__dark-color-2: white;
+  --cbutton__dark-bg-2: var(--color1);
+  --cbutton__dark-color-2--hover: white;
+  --cbutton__dark-bg-2--hover: transparent;
+  --cbutton__dark-color-3: white;
+  --cbutton__dark-bg-3: var(--color5);
+  --cbutton__dark-bg-3--hover: var(--color1);
+  --input-field-bg: white;
+  --input-field-color: rgba(74, 74, 74, 0.5);
+  --input-field-color--active: var(--color3);
+  --input-field-border: var(--color2);
+  --input-select-field-color: white;
+  --input-checkbox-color: var(--color2);
+  --socialmedia-color: var(--color2);
+  --socialmedia-color--hover: var(--color5);
+  --phone__light-color: var(--color2);
+  --phone__light-color--hover: var(--color3);
+  --phone__dark-color: white;
+  --phone__dark-color--hover: rgba(white, .8);
+  --rgb-color-2-alpha5:rgba(75, 182, 133, 0.5);
+  --rgb-color-2-alpha3:rgba(75, 182, 133, 0.3);
+}
+
+.color-x23-trad-10 {
+  --color1: #36303e;
+  --color2: #d33b3b;
+  --color3: #4a4a4a;
+  --color4: #e0e0e0;
+  --color5: #f9b311;
+  --title__color--h1: var(--color1);
+  --title__color--h2: var(--color2);
+  --clink__light: var(--color2);
+  --clink__dark: white;
+  --clink__light--hover: var(--color3);
+  --clink__dark--hover: rgba(white, .8);
+  --clink--text__light: var(--color5);
+  --clink--text__dark: white;
+  --clink--text__light--hover: var(--color5);
+  --clink--text__dark--hover: white;
+  --regular__color: var(--color3);
+  --component__title: var(--color1);
+  --component__title__dark: white;
+  --regular__color__dark: white;
+  --component__subtitle: var(--color2);
+  --cbutton__light-color-1: var(--color2);
+  --cbutton__light-color-1--hover: white;
+  --cbutton__light-bg-1: transparent;
+  --cbutton__light-bg-1--hover: var(--color2);
+  --cbutton__light-color-2: white;
+  --cbutton__light-color-2--hover: var(--color2);
+  --cbutton__light-bg-2: var(--color2);
+  --cbutton__light-bg-2--hover: transparent;
+  --cbutton__light-color-3: white;
+  --cbutton__light-color-3--hover: var(--color5);
+  --cbutton__light-bg-3: var(--color5);
+  --cbutton__light-bg-3--hover: white;
+  --cbutton__dark-color-1: white;
+  --cbutton__dark-bg-1: transparent;
+  --cbutton__dark-color-1--hover: var(--color1);
+  --cbutton__dark-bg-1--hover: white;
+  --cbutton__dark-color-2: white;
+  --cbutton__dark-bg-2: var(--color1);
+  --cbutton__dark-color-2--hover: white;
+  --cbutton__dark-bg-2--hover: transparent;
+  --cbutton__dark-color-3: white;
+  --cbutton__dark-bg-3: var(--color5);
+  --cbutton__dark-bg-3--hover: var(--color1);
+  --input-field-bg: white;
+  --input-field-color: rgba(74, 74, 74, 0.5);
+  --input-field-color--active: var(--color3);
+  --input-field-border: var(--color2);
+  --input-select-field-color: white;
+  --input-checkbox-color: var(--color2);
+  --socialmedia-color: var(--color2);
+  --socialmedia-color--hover: var(--color5);
+  --phone__light-color: var(--color2);
+  --phone__light-color--hover: var(--color3);
+  --phone__dark-color: white;
+  --phone__dark-color--hover: rgba(white, .8);
+  --rgb-color-2-alpha5:rgba(211, 59, 59, 0.5);
+  --rgb-color-2-alpha3:rgba(211, 59, 59, 0.3);
+}
+
+.color-x23-neu-red-blue {
+  --color1: #8c3928;
+  --color2: #3652a0;
+  --color3: #4a4a4a;
+  --color4: #f8f8f8;
+  --color5: #eb773d;
+  --title__color--h1: var(--color1);
+  --title__color--h2: var(--color2);
+  --clink__light: var(--color2);
+  --clink__dark: white;
+  --clink__light--hover: var(--color3);
+  --clink__dark--hover: rgba(white, .8);
+  --clink--text__light: var(--color5);
+  --clink--text__dark: white;
+  --clink--text__light--hover: var(--color5);
+  --clink--text__dark--hover: white;
+  --regular__color: var(--color3);
+  --component__title: var(--color1);
+  --component__title__dark: white;
+  --regular__color__dark: white;
+  --component__subtitle: var(--color2);
+  --cbutton__light-color-1: var(--color2);
+  --cbutton__light-color-1--hover: white;
+  --cbutton__light-bg-1: transparent;
+  --cbutton__light-bg-1--hover: var(--color2);
+  --cbutton__light-color-2: white;
+  --cbutton__light-color-2--hover: var(--color2);
+  --cbutton__light-bg-2: var(--color2);
+  --cbutton__light-bg-2--hover: transparent;
+  --cbutton__light-color-3: white;
+  --cbutton__light-color-3--hover: var(--color5);
+  --cbutton__light-bg-3: var(--color5);
+  --cbutton__light-bg-3--hover: white;
+  --cbutton__dark-color-1: white;
+  --cbutton__dark-bg-1: transparent;
+  --cbutton__dark-color-1--hover: var(--color1);
+  --cbutton__dark-bg-1--hover: white;
+  --cbutton__dark-color-2: white;
+  --cbutton__dark-bg-2: var(--color1);
+  --cbutton__dark-color-2--hover: white;
+  --cbutton__dark-bg-2--hover: transparent;
+  --cbutton__dark-color-3: white;
+  --cbutton__dark-bg-3: var(--color5);
+  --cbutton__dark-bg-3--hover: var(--color1);
+  --input-field-bg: white;
+  --input-field-color: rgba(74, 74, 74, 0.5);
+  --input-field-color--active: var(--color3);
+  --input-field-border: var(--color2);
+  --input-select-field-color: white;
+  --input-checkbox-color: var(--color2);
+  --socialmedia-color: var(--color2);
+  --socialmedia-color--hover: var(--color5);
+  --phone__light-color: var(--color2);
+  --phone__light-color--hover: var(--color3);
+  --phone__dark-color: white;
+  --phone__dark-color--hover: rgba(white, .8);
+  --rgb-color-2-alpha5:rgba(54, 82, 160, 0.5);
+  --rgb-color-2-alpha3:rgba(54, 82, 160, 0.3);
+}
+
+.color-x23-neu-green-orange {
+  --color1: #016565;
+  --color2: #cf7400;
+  --color3: #4a4a4a;
+  --color4: #f8f8f8;
+  --color5: #5c8db0;
+  --title__color--h1: var(--color1);
+  --title__color--h2: var(--color2);
+  --clink__light: var(--color2);
+  --clink__dark: white;
+  --clink__light--hover: var(--color3);
+  --clink__dark--hover: rgba(white, .8);
+  --clink--text__light: var(--color5);
+  --clink--text__dark: white;
+  --clink--text__light--hover: var(--color5);
+  --clink--text__dark--hover: white;
+  --regular__color: var(--color3);
+  --component__title: var(--color1);
+  --component__title__dark: white;
+  --regular__color__dark: white;
+  --component__subtitle: var(--color2);
+  --cbutton__light-color-1: var(--color2);
+  --cbutton__light-color-1--hover: white;
+  --cbutton__light-bg-1: transparent;
+  --cbutton__light-bg-1--hover: var(--color2);
+  --cbutton__light-color-2: white;
+  --cbutton__light-color-2--hover: var(--color2);
+  --cbutton__light-bg-2: var(--color2);
+  --cbutton__light-bg-2--hover: transparent;
+  --cbutton__light-color-3: white;
+  --cbutton__light-color-3--hover: var(--color5);
+  --cbutton__light-bg-3: var(--color5);
+  --cbutton__light-bg-3--hover: white;
+  --cbutton__dark-color-1: white;
+  --cbutton__dark-bg-1: transparent;
+  --cbutton__dark-color-1--hover: var(--color1);
+  --cbutton__dark-bg-1--hover: white;
+  --cbutton__dark-color-2: white;
+  --cbutton__dark-bg-2: var(--color1);
+  --cbutton__dark-color-2--hover: white;
+  --cbutton__dark-bg-2--hover: transparent;
+  --cbutton__dark-color-3: white;
+  --cbutton__dark-bg-3: var(--color5);
+  --cbutton__dark-bg-3--hover: var(--color1);
+  --input-field-bg: white;
+  --input-field-color: rgba(74, 74, 74, 0.5);
+  --input-field-color--active: var(--color3);
+  --input-field-border: var(--color2);
+  --input-select-field-color: white;
+  --input-checkbox-color: var(--color2);
+  --socialmedia-color: var(--color2);
+  --socialmedia-color--hover: var(--color5);
+  --phone__light-color: var(--color2);
+  --phone__light-color--hover: var(--color3);
+  --phone__dark-color: white;
+  --phone__dark-color--hover: rgba(white, .8);
+  --rgb-color-2-alpha5:rgba(207, 116, 0, 0.5);
+  --rgb-color-2-alpha3:rgba(207, 116, 0, 0.3);
+}
+
+.color-x23-neu-gray-red {
+  --color1: #2d2d2d;
+  --color2: #89121c;
+  --color3: #4a4a4a;
+  --color4: #f8f8f8;
+  --color5: #3652a0;
+  --title__color--h1: var(--color1);
+  --title__color--h2: var(--color2);
+  --clink__light: var(--color2);
+  --clink__dark: white;
+  --clink__light--hover: var(--color3);
+  --clink__dark--hover: rgba(white, .8);
+  --clink--text__light: var(--color5);
+  --clink--text__dark: white;
+  --clink--text__light--hover: var(--color5);
+  --clink--text__dark--hover: white;
+  --regular__color: var(--color3);
+  --component__title: var(--color1);
+  --component__title__dark: white;
+  --regular__color__dark: white;
+  --component__subtitle: var(--color2);
+  --cbutton__light-color-1: var(--color2);
+  --cbutton__light-color-1--hover: white;
+  --cbutton__light-bg-1: transparent;
+  --cbutton__light-bg-1--hover: var(--color2);
+  --cbutton__light-color-2: white;
+  --cbutton__light-color-2--hover: var(--color2);
+  --cbutton__light-bg-2: var(--color2);
+  --cbutton__light-bg-2--hover: transparent;
+  --cbutton__light-color-3: white;
+  --cbutton__light-color-3--hover: var(--color5);
+  --cbutton__light-bg-3: var(--color5);
+  --cbutton__light-bg-3--hover: white;
+  --cbutton__dark-color-1: white;
+  --cbutton__dark-bg-1: transparent;
+  --cbutton__dark-color-1--hover: var(--color1);
+  --cbutton__dark-bg-1--hover: white;
+  --cbutton__dark-color-2: white;
+  --cbutton__dark-bg-2: var(--color1);
+  --cbutton__dark-color-2--hover: white;
+  --cbutton__dark-bg-2--hover: transparent;
+  --cbutton__dark-color-3: white;
+  --cbutton__dark-bg-3: var(--color5);
+  --cbutton__dark-bg-3--hover: var(--color1);
+  --input-field-bg: white;
+  --input-field-color: rgba(74, 74, 74, 0.5);
+  --input-field-color--active: var(--color3);
+  --input-field-border: var(--color2);
+  --input-select-field-color: white;
+  --input-checkbox-color: var(--color2);
+  --socialmedia-color: var(--color2);
+  --socialmedia-color--hover: var(--color5);
+  --phone__light-color: var(--color2);
+  --phone__light-color--hover: var(--color3);
+  --phone__dark-color: white;
+  --phone__dark-color--hover: rgba(white, .8);
+  --rgb-color-2-alpha5:rgba(137, 18, 28, 0.5);
+  --rgb-color-2-alpha3:rgba(137, 18, 28, 0.3);
+}
+
+.color-x23-neu-blue-orange {
+  --color1: #24567f;
+  --color2: #e2612b;
+  --color3: #4a4a4a;
+  --color4: #f8f8f8;
+  --color5: #5294f2;
+  --title__color--h1: var(--color1);
+  --title__color--h2: var(--color2);
+  --clink__light: var(--color2);
+  --clink__dark: white;
+  --clink__light--hover: var(--color3);
+  --clink__dark--hover: rgba(white, .8);
+  --clink--text__light: var(--color5);
+  --clink--text__dark: white;
+  --clink--text__light--hover: var(--color5);
+  --clink--text__dark--hover: white;
+  --regular__color: var(--color3);
+  --component__title: var(--color1);
+  --component__title__dark: white;
+  --regular__color__dark: white;
+  --component__subtitle: var(--color2);
+  --cbutton__light-color-1: var(--color2);
+  --cbutton__light-color-1--hover: white;
+  --cbutton__light-bg-1: transparent;
+  --cbutton__light-bg-1--hover: var(--color2);
+  --cbutton__light-color-2: white;
+  --cbutton__light-color-2--hover: var(--color2);
+  --cbutton__light-bg-2: var(--color2);
+  --cbutton__light-bg-2--hover: transparent;
+  --cbutton__light-color-3: white;
+  --cbutton__light-color-3--hover: var(--color5);
+  --cbutton__light-bg-3: var(--color5);
+  --cbutton__light-bg-3--hover: white;
+  --cbutton__dark-color-1: white;
+  --cbutton__dark-bg-1: transparent;
+  --cbutton__dark-color-1--hover: var(--color1);
+  --cbutton__dark-bg-1--hover: white;
+  --cbutton__dark-color-2: white;
+  --cbutton__dark-bg-2: var(--color1);
+  --cbutton__dark-color-2--hover: white;
+  --cbutton__dark-bg-2--hover: transparent;
+  --cbutton__dark-color-3: white;
+  --cbutton__dark-bg-3: var(--color5);
+  --cbutton__dark-bg-3--hover: var(--color1);
+  --input-field-bg: white;
+  --input-field-color: rgba(74, 74, 74, 0.5);
+  --input-field-color--active: var(--color3);
+  --input-field-border: var(--color2);
+  --input-select-field-color: white;
+  --input-checkbox-color: var(--color2);
+  --socialmedia-color: var(--color2);
+  --socialmedia-color--hover: var(--color5);
+  --phone__light-color: var(--color2);
+  --phone__light-color--hover: var(--color3);
+  --phone__dark-color: white;
+  --phone__dark-color--hover: rgba(white, .8);
+  --rgb-color-2-alpha5:rgba(226, 97, 43, 0.5);
+  --rgb-color-2-alpha3:rgba(226, 97, 43, 0.3);
+}
+
+.color-x23-demo-1 {
+  --color1: #000000;
+  --color2: #565656;
+  --color3: #4a4a4a;
+  --color4: #e0e0e0;
+  --color5: #C90D31;
+  --title__color--h1: var(--color1);
+  --title__color--h2: var(--color2);
+  --clink__light: var(--color2);
+  --clink__dark: white;
+  --clink__light--hover: var(--color3);
+  --clink__dark--hover: rgba(white, .8);
+  --clink--text__light: var(--color5);
+  --clink--text__dark: white;
+  --clink--text__light--hover: var(--color5);
+  --clink--text__dark--hover: white;
+  --regular__color: var(--color3);
+  --component__title: var(--color1);
+  --component__title__dark: white;
+  --regular__color__dark: white;
+  --component__subtitle: var(--color2);
+  --cbutton__light-color-1: var(--color2);
+  --cbutton__light-color-1--hover: white;
+  --cbutton__light-bg-1: transparent;
+  --cbutton__light-bg-1--hover: var(--color2);
+  --cbutton__light-color-2: white;
+  --cbutton__light-color-2--hover: var(--color2);
+  --cbutton__light-bg-2: var(--color2);
+  --cbutton__light-bg-2--hover: transparent;
+  --cbutton__light-color-3: white;
+  --cbutton__light-color-3--hover: var(--color5);
+  --cbutton__light-bg-3: var(--color5);
+  --cbutton__light-bg-3--hover: white;
+  --cbutton__dark-color-1: white;
+  --cbutton__dark-bg-1: transparent;
+  --cbutton__dark-color-1--hover: var(--color1);
+  --cbutton__dark-bg-1--hover: white;
+  --cbutton__dark-color-2: white;
+  --cbutton__dark-bg-2: var(--color1);
+  --cbutton__dark-color-2--hover: white;
+  --cbutton__dark-bg-2--hover: transparent;
+  --cbutton__dark-color-3: white;
+  --cbutton__dark-bg-3: var(--color5);
+  --cbutton__dark-bg-3--hover: var(--color1);
+  --input-field-bg: white;
+  --input-field-color: rgba(74, 74, 74, 0.5);
+  --input-field-color--active: var(--color3);
+  --input-field-border: var(--color2);
+  --input-select-field-color: white;
+  --input-checkbox-color: var(--color2);
+  --socialmedia-color: var(--color2);
+  --socialmedia-color--hover: var(--color5);
+  --phone__light-color: var(--color2);
+  --phone__light-color--hover: var(--color3);
+  --phone__dark-color: white;
+  --phone__dark-color--hover: rgba(white, .8);
+  --rgb-color-2-alpha5:rgba(86, 86, 86, 0.5);
+  --rgb-color-2-alpha3:rgba(86, 86, 86, 0.3);
+}
+
+.color-x23-comp-1 {
+  --color1: #57422f;
+  --color2: #cd8c4b;
+  --color3: #4a4a4a;
+  --color4: #e0e0e0;
+  --color5: #ff7f00;
+  --title__color--h1: var(--color1);
+  --title__color--h2: var(--color2);
+  --clink__light: var(--color2);
+  --clink__dark: white;
+  --clink__light--hover: var(--color3);
+  --clink__dark--hover: rgba(white, .8);
+  --clink--text__light: var(--color5);
+  --clink--text__dark: white;
+  --clink--text__light--hover: var(--color5);
+  --clink--text__dark--hover: white;
+  --regular__color: var(--color3);
+  --component__title: var(--color1);
+  --component__title__dark: white;
+  --regular__color__dark: white;
+  --component__subtitle: var(--color2);
+  --cbutton__light-color-1: var(--color2);
+  --cbutton__light-color-1--hover: white;
+  --cbutton__light-bg-1: transparent;
+  --cbutton__light-bg-1--hover: var(--color2);
+  --cbutton__light-color-2: white;
+  --cbutton__light-color-2--hover: var(--color2);
+  --cbutton__light-bg-2: var(--color2);
+  --cbutton__light-bg-2--hover: transparent;
+  --cbutton__light-color-3: white;
+  --cbutton__light-color-3--hover: var(--color5);
+  --cbutton__light-bg-3: var(--color5);
+  --cbutton__light-bg-3--hover: white;
+  --cbutton__dark-color-1: white;
+  --cbutton__dark-bg-1: transparent;
+  --cbutton__dark-color-1--hover: var(--color1);
+  --cbutton__dark-bg-1--hover: white;
+  --cbutton__dark-color-2: white;
+  --cbutton__dark-bg-2: var(--color1);
+  --cbutton__dark-color-2--hover: white;
+  --cbutton__dark-bg-2--hover: transparent;
+  --cbutton__dark-color-3: white;
+  --cbutton__dark-bg-3: var(--color5);
+  --cbutton__dark-bg-3--hover: var(--color1);
+  --input-field-bg: white;
+  --input-field-color: rgba(74, 74, 74, 0.5);
+  --input-field-color--active: var(--color3);
+  --input-field-border: var(--color2);
+  --input-select-field-color: white;
+  --input-checkbox-color: var(--color2);
+  --socialmedia-color: var(--color2);
+  --socialmedia-color--hover: var(--color5);
+  --phone__light-color: var(--color2);
+  --phone__light-color--hover: var(--color3);
+  --phone__dark-color: white;
+  --phone__dark-color--hover: rgba(white, .8);
+  --rgb-color-2-alpha5:rgba(205, 140, 75, 0.5);
+  --rgb-color-2-alpha3:rgba(205, 140, 75, 0.3);
+}
+
+.color-x23-comp-2 {
+  --color1: #585f57;
+  --color2: #ccb325;
+  --color3: #f0efe5;
+  --color4: #e0e0e0;
+  --color5: #ff7f00;
+  --title__color--h1: var(--color1);
+  --title__color--h2: var(--color2);
+  --clink__light: var(--color2);
+  --clink__dark: white;
+  --clink__light--hover: var(--color3);
+  --clink__dark--hover: rgba(white, .8);
+  --clink--text__light: var(--color5);
+  --clink--text__dark: white;
+  --clink--text__light--hover: var(--color5);
+  --clink--text__dark--hover: white;
+  --regular__color: var(--color3);
+  --component__title: var(--color1);
+  --component__title__dark: white;
+  --regular__color__dark: white;
+  --component__subtitle: var(--color2);
+  --cbutton__light-color-1: var(--color2);
+  --cbutton__light-color-1--hover: white;
+  --cbutton__light-bg-1: transparent;
+  --cbutton__light-bg-1--hover: var(--color2);
+  --cbutton__light-color-2: white;
+  --cbutton__light-color-2--hover: var(--color2);
+  --cbutton__light-bg-2: var(--color2);
+  --cbutton__light-bg-2--hover: transparent;
+  --cbutton__light-color-3: white;
+  --cbutton__light-color-3--hover: var(--color5);
+  --cbutton__light-bg-3: var(--color5);
+  --cbutton__light-bg-3--hover: white;
+  --cbutton__dark-color-1: white;
+  --cbutton__dark-bg-1: transparent;
+  --cbutton__dark-color-1--hover: var(--color1);
+  --cbutton__dark-bg-1--hover: white;
+  --cbutton__dark-color-2: white;
+  --cbutton__dark-bg-2: var(--color1);
+  --cbutton__dark-color-2--hover: white;
+  --cbutton__dark-bg-2--hover: transparent;
+  --cbutton__dark-color-3: white;
+  --cbutton__dark-bg-3: var(--color5);
+  --cbutton__dark-bg-3--hover: var(--color1);
+  --input-field-bg: white;
+  --input-field-color: rgba(240, 239, 229, 0.5);
+  --input-field-color--active: var(--color3);
+  --input-field-border: var(--color2);
+  --input-select-field-color: white;
+  --input-checkbox-color: var(--color2);
+  --socialmedia-color: var(--color2);
+  --socialmedia-color--hover: var(--color5);
+  --phone__light-color: var(--color2);
+  --phone__light-color--hover: var(--color3);
+  --phone__dark-color: white;
+  --phone__dark-color--hover: rgba(white, .8);
+  --rgb-color-2-alpha5:rgba(204, 179, 37, 0.5);
+  --rgb-color-2-alpha3:rgba(204, 179, 37, 0.3);
+}
+
+.color-x23-comp-3 {
+  --color1: #62341c;
+  --color2: #d67741;
+  --color3: #f0efe5;
+  --color4: #e0e0e0;
+  --color5: #ff9d00;
+  --title__color--h1: var(--color1);
+  --title__color--h2: var(--color2);
+  --clink__light: var(--color2);
+  --clink__dark: white;
+  --clink__light--hover: var(--color3);
+  --clink__dark--hover: rgba(white, .8);
+  --clink--text__light: var(--color5);
+  --clink--text__dark: white;
+  --clink--text__light--hover: var(--color5);
+  --clink--text__dark--hover: white;
+  --regular__color: var(--color3);
+  --component__title: var(--color1);
+  --component__title__dark: white;
+  --regular__color__dark: white;
+  --component__subtitle: var(--color2);
+  --cbutton__light-color-1: var(--color2);
+  --cbutton__light-color-1--hover: white;
+  --cbutton__light-bg-1: transparent;
+  --cbutton__light-bg-1--hover: var(--color2);
+  --cbutton__light-color-2: white;
+  --cbutton__light-color-2--hover: var(--color2);
+  --cbutton__light-bg-2: var(--color2);
+  --cbutton__light-bg-2--hover: transparent;
+  --cbutton__light-color-3: white;
+  --cbutton__light-color-3--hover: var(--color5);
+  --cbutton__light-bg-3: var(--color5);
+  --cbutton__light-bg-3--hover: white;
+  --cbutton__dark-color-1: white;
+  --cbutton__dark-bg-1: transparent;
+  --cbutton__dark-color-1--hover: var(--color1);
+  --cbutton__dark-bg-1--hover: white;
+  --cbutton__dark-color-2: white;
+  --cbutton__dark-bg-2: var(--color1);
+  --cbutton__dark-color-2--hover: white;
+  --cbutton__dark-bg-2--hover: transparent;
+  --cbutton__dark-color-3: white;
+  --cbutton__dark-bg-3: var(--color5);
+  --cbutton__dark-bg-3--hover: var(--color1);
+  --input-field-bg: white;
+  --input-field-color: rgba(240, 239, 229, 0.5);
+  --input-field-color--active: var(--color3);
+  --input-field-border: var(--color2);
+  --input-select-field-color: white;
+  --input-checkbox-color: var(--color2);
+  --socialmedia-color: var(--color2);
+  --socialmedia-color--hover: var(--color5);
+  --phone__light-color: var(--color2);
+  --phone__light-color--hover: var(--color3);
+  --phone__dark-color: white;
+  --phone__dark-color--hover: rgba(white, .8);
+  --rgb-color-2-alpha5:rgba(214, 119, 65, 0.5);
+  --rgb-color-2-alpha3:rgba(214, 119, 65, 0.3);
+}
+
+.color-x23-comp-4 {
+  --color1: #574747;
+  --color2: #e5521f;
+  --color3: #4a4a4a;
+  --color4: #e0e0e0;
+  --color5: #ffa91e;
+  --title__color--h1: var(--color1);
+  --title__color--h2: var(--color2);
+  --clink__light: var(--color2);
+  --clink__dark: white;
+  --clink__light--hover: var(--color3);
+  --clink__dark--hover: rgba(white, .8);
+  --clink--text__light: var(--color5);
+  --clink--text__dark: white;
+  --clink--text__light--hover: var(--color5);
+  --clink--text__dark--hover: white;
+  --regular__color: var(--color3);
+  --component__title: var(--color1);
+  --component__title__dark: white;
+  --regular__color__dark: white;
+  --component__subtitle: var(--color2);
+  --cbutton__light-color-1: var(--color2);
+  --cbutton__light-color-1--hover: white;
+  --cbutton__light-bg-1: transparent;
+  --cbutton__light-bg-1--hover: var(--color2);
+  --cbutton__light-color-2: white;
+  --cbutton__light-color-2--hover: var(--color2);
+  --cbutton__light-bg-2: var(--color2);
+  --cbutton__light-bg-2--hover: transparent;
+  --cbutton__light-color-3: white;
+  --cbutton__light-color-3--hover: var(--color5);
+  --cbutton__light-bg-3: var(--color5);
+  --cbutton__light-bg-3--hover: white;
+  --cbutton__dark-color-1: white;
+  --cbutton__dark-bg-1: transparent;
+  --cbutton__dark-color-1--hover: var(--color1);
+  --cbutton__dark-bg-1--hover: white;
+  --cbutton__dark-color-2: white;
+  --cbutton__dark-bg-2: var(--color1);
+  --cbutton__dark-color-2--hover: white;
+  --cbutton__dark-bg-2--hover: transparent;
+  --cbutton__dark-color-3: white;
+  --cbutton__dark-bg-3: var(--color5);
+  --cbutton__dark-bg-3--hover: var(--color1);
+  --input-field-bg: white;
+  --input-field-color: rgba(74, 74, 74, 0.5);
+  --input-field-color--active: var(--color3);
+  --input-field-border: var(--color2);
+  --input-select-field-color: white;
+  --input-checkbox-color: var(--color2);
+  --socialmedia-color: var(--color2);
+  --socialmedia-color--hover: var(--color5);
+  --phone__light-color: var(--color2);
+  --phone__light-color--hover: var(--color3);
+  --phone__dark-color: white;
+  --phone__dark-color--hover: rgba(white, .8);
+  --rgb-color-2-alpha5:rgba(229, 82, 31, 0.5);
+  --rgb-color-2-alpha3:rgba(229, 82, 31, 0.3);
+}
+
+.color-x23-comp-5 {
+  --color1: #6b4326;
+  --color2: #bab64b;
+  --color3: #4a4a4a;
+  --color4: #e0e0e0;
+  --color5: #ff7f00;
+  --title__color--h1: var(--color1);
+  --title__color--h2: var(--color2);
+  --clink__light: var(--color2);
+  --clink__dark: white;
+  --clink__light--hover: var(--color3);
+  --clink__dark--hover: rgba(white, .8);
+  --clink--text__light: var(--color5);
+  --clink--text__dark: white;
+  --clink--text__light--hover: var(--color5);
+  --clink--text__dark--hover: white;
+  --regular__color: var(--color3);
+  --component__title: var(--color1);
+  --component__title__dark: white;
+  --regular__color__dark: white;
+  --component__subtitle: var(--color2);
+  --cbutton__light-color-1: var(--color2);
+  --cbutton__light-color-1--hover: white;
+  --cbutton__light-bg-1: transparent;
+  --cbutton__light-bg-1--hover: var(--color2);
+  --cbutton__light-color-2: white;
+  --cbutton__light-color-2--hover: var(--color2);
+  --cbutton__light-bg-2: var(--color2);
+  --cbutton__light-bg-2--hover: transparent;
+  --cbutton__light-color-3: white;
+  --cbutton__light-color-3--hover: var(--color5);
+  --cbutton__light-bg-3: var(--color5);
+  --cbutton__light-bg-3--hover: white;
+  --cbutton__dark-color-1: white;
+  --cbutton__dark-bg-1: transparent;
+  --cbutton__dark-color-1--hover: var(--color1);
+  --cbutton__dark-bg-1--hover: white;
+  --cbutton__dark-color-2: white;
+  --cbutton__dark-bg-2: var(--color1);
+  --cbutton__dark-color-2--hover: white;
+  --cbutton__dark-bg-2--hover: transparent;
+  --cbutton__dark-color-3: white;
+  --cbutton__dark-bg-3: var(--color5);
+  --cbutton__dark-bg-3--hover: var(--color1);
+  --input-field-bg: white;
+  --input-field-color: rgba(74, 74, 74, 0.5);
+  --input-field-color--active: var(--color3);
+  --input-field-border: var(--color2);
+  --input-select-field-color: white;
+  --input-checkbox-color: var(--color2);
+  --socialmedia-color: var(--color2);
+  --socialmedia-color--hover: var(--color5);
+  --phone__light-color: var(--color2);
+  --phone__light-color--hover: var(--color3);
+  --phone__dark-color: white;
+  --phone__dark-color--hover: rgba(white, .8);
+  --rgb-color-2-alpha5:rgba(186, 182, 75, 0.5);
+  --rgb-color-2-alpha3:rgba(186, 182, 75, 0.3);
+}
+
+.color-x23-comp-6 {
+  --color1: #310f1f;
+  --color2: #ff9c6c;
+  --color3: #4a4a4a;
+  --color4: #e0e0e0;
+  --color5: #cb1300;
+  --title__color--h1: var(--color1);
+  --title__color--h2: var(--color2);
+  --clink__light: var(--color2);
+  --clink__dark: white;
+  --clink__light--hover: var(--color3);
+  --clink__dark--hover: rgba(white, .8);
+  --clink--text__light: var(--color5);
+  --clink--text__dark: white;
+  --clink--text__light--hover: var(--color5);
+  --clink--text__dark--hover: white;
+  --regular__color: var(--color3);
+  --component__title: var(--color1);
+  --component__title__dark: white;
+  --regular__color__dark: white;
+  --component__subtitle: var(--color2);
+  --cbutton__light-color-1: var(--color2);
+  --cbutton__light-color-1--hover: white;
+  --cbutton__light-bg-1: transparent;
+  --cbutton__light-bg-1--hover: var(--color2);
+  --cbutton__light-color-2: white;
+  --cbutton__light-color-2--hover: var(--color2);
+  --cbutton__light-bg-2: var(--color2);
+  --cbutton__light-bg-2--hover: transparent;
+  --cbutton__light-color-3: white;
+  --cbutton__light-color-3--hover: var(--color5);
+  --cbutton__light-bg-3: var(--color5);
+  --cbutton__light-bg-3--hover: white;
+  --cbutton__dark-color-1: white;
+  --cbutton__dark-bg-1: transparent;
+  --cbutton__dark-color-1--hover: var(--color1);
+  --cbutton__dark-bg-1--hover: white;
+  --cbutton__dark-color-2: white;
+  --cbutton__dark-bg-2: var(--color1);
+  --cbutton__dark-color-2--hover: white;
+  --cbutton__dark-bg-2--hover: transparent;
+  --cbutton__dark-color-3: white;
+  --cbutton__dark-bg-3: var(--color5);
+  --cbutton__dark-bg-3--hover: var(--color1);
+  --input-field-bg: white;
+  --input-field-color: rgba(74, 74, 74, 0.5);
+  --input-field-color--active: var(--color3);
+  --input-field-border: var(--color2);
+  --input-select-field-color: white;
+  --input-checkbox-color: var(--color2);
+  --socialmedia-color: var(--color2);
+  --socialmedia-color--hover: var(--color5);
+  --phone__light-color: var(--color2);
+  --phone__light-color--hover: var(--color3);
+  --phone__dark-color: white;
+  --phone__dark-color--hover: rgba(white, .8);
+  --rgb-color-2-alpha5:rgba(255, 156, 108, 0.5);
+  --rgb-color-2-alpha3:rgba(255, 156, 108, 0.3);
+}
+
+.color-x23-comp-7 {
+  --color1: #310f1f;
+  --color2: #86b5bb;
+  --color3: #4a4a4a;
+  --color4: #e0e0e0;
+  --color5: #ff915c;
+  --title__color--h1: var(--color1);
+  --title__color--h2: var(--color2);
+  --clink__light: var(--color2);
+  --clink__dark: white;
+  --clink__light--hover: var(--color3);
+  --clink__dark--hover: rgba(white, .8);
+  --clink--text__light: var(--color5);
+  --clink--text__dark: white;
+  --clink--text__light--hover: var(--color5);
+  --clink--text__dark--hover: white;
+  --regular__color: var(--color3);
+  --component__title: var(--color1);
+  --component__title__dark: white;
+  --regular__color__dark: white;
+  --component__subtitle: var(--color2);
+  --cbutton__light-color-1: var(--color2);
+  --cbutton__light-color-1--hover: white;
+  --cbutton__light-bg-1: transparent;
+  --cbutton__light-bg-1--hover: var(--color2);
+  --cbutton__light-color-2: white;
+  --cbutton__light-color-2--hover: var(--color2);
+  --cbutton__light-bg-2: var(--color2);
+  --cbutton__light-bg-2--hover: transparent;
+  --cbutton__light-color-3: white;
+  --cbutton__light-color-3--hover: var(--color5);
+  --cbutton__light-bg-3: var(--color5);
+  --cbutton__light-bg-3--hover: white;
+  --cbutton__dark-color-1: white;
+  --cbutton__dark-bg-1: transparent;
+  --cbutton__dark-color-1--hover: var(--color1);
+  --cbutton__dark-bg-1--hover: white;
+  --cbutton__dark-color-2: white;
+  --cbutton__dark-bg-2: var(--color1);
+  --cbutton__dark-color-2--hover: white;
+  --cbutton__dark-bg-2--hover: transparent;
+  --cbutton__dark-color-3: white;
+  --cbutton__dark-bg-3: var(--color5);
+  --cbutton__dark-bg-3--hover: var(--color1);
+  --input-field-bg: white;
+  --input-field-color: rgba(74, 74, 74, 0.5);
+  --input-field-color--active: var(--color3);
+  --input-field-border: var(--color2);
+  --input-select-field-color: white;
+  --input-checkbox-color: var(--color2);
+  --socialmedia-color: var(--color2);
+  --socialmedia-color--hover: var(--color5);
+  --phone__light-color: var(--color2);
+  --phone__light-color--hover: var(--color3);
+  --phone__dark-color: white;
+  --phone__dark-color--hover: rgba(white, .8);
+  --rgb-color-2-alpha5:rgba(134, 181, 187, 0.5);
+  --rgb-color-2-alpha3:rgba(134, 181, 187, 0.3);
+}
+
+.color-x23-comp-8 {
+  --color1: #1b303e;
+  --color2: #bd4f50;
+  --color3: #4a4a4a;
+  --color4: #e0e0e0;
+  --color5: #60b2bd;
+  --title__color--h1: var(--color1);
+  --title__color--h2: var(--color2);
+  --clink__light: var(--color2);
+  --clink__dark: white;
+  --clink__light--hover: var(--color3);
+  --clink__dark--hover: rgba(white, .8);
+  --clink--text__light: var(--color5);
+  --clink--text__dark: white;
+  --clink--text__light--hover: var(--color5);
+  --clink--text__dark--hover: white;
+  --regular__color: var(--color3);
+  --component__title: var(--color1);
+  --component__title__dark: white;
+  --regular__color__dark: white;
+  --component__subtitle: var(--color2);
+  --cbutton__light-color-1: var(--color2);
+  --cbutton__light-color-1--hover: white;
+  --cbutton__light-bg-1: transparent;
+  --cbutton__light-bg-1--hover: var(--color2);
+  --cbutton__light-color-2: white;
+  --cbutton__light-color-2--hover: var(--color2);
+  --cbutton__light-bg-2: var(--color2);
+  --cbutton__light-bg-2--hover: transparent;
+  --cbutton__light-color-3: white;
+  --cbutton__light-color-3--hover: var(--color5);
+  --cbutton__light-bg-3: var(--color5);
+  --cbutton__light-bg-3--hover: white;
+  --cbutton__dark-color-1: white;
+  --cbutton__dark-bg-1: transparent;
+  --cbutton__dark-color-1--hover: var(--color1);
+  --cbutton__dark-bg-1--hover: white;
+  --cbutton__dark-color-2: white;
+  --cbutton__dark-bg-2: var(--color1);
+  --cbutton__dark-color-2--hover: white;
+  --cbutton__dark-bg-2--hover: transparent;
+  --cbutton__dark-color-3: white;
+  --cbutton__dark-bg-3: var(--color5);
+  --cbutton__dark-bg-3--hover: var(--color1);
+  --input-field-bg: white;
+  --input-field-color: rgba(74, 74, 74, 0.5);
+  --input-field-color--active: var(--color3);
+  --input-field-border: var(--color2);
+  --input-select-field-color: white;
+  --input-checkbox-color: var(--color2);
+  --socialmedia-color: var(--color2);
+  --socialmedia-color--hover: var(--color5);
+  --phone__light-color: var(--color2);
+  --phone__light-color--hover: var(--color3);
+  --phone__dark-color: white;
+  --phone__dark-color--hover: rgba(white, .8);
+  --rgb-color-2-alpha5:rgba(189, 79, 80, 0.5);
+  --rgb-color-2-alpha3:rgba(189, 79, 80, 0.3);
+}
+
+.color-x23-comp-9 {
+  --color1: #42412d;
+  --color2: #b5b381;
+  --color3: #4a4a4a;
+  --color4: #e0e0e0;
+  --color5: #ff8144;
+  --title__color--h1: var(--color1);
+  --title__color--h2: var(--color2);
+  --clink__light: var(--color2);
+  --clink__dark: white;
+  --clink__light--hover: var(--color3);
+  --clink__dark--hover: rgba(white, .8);
+  --clink--text__light: var(--color5);
+  --clink--text__dark: white;
+  --clink--text__light--hover: var(--color5);
+  --clink--text__dark--hover: white;
+  --regular__color: var(--color3);
+  --component__title: var(--color1);
+  --component__title__dark: white;
+  --regular__color__dark: white;
+  --component__subtitle: var(--color2);
+  --cbutton__light-color-1: var(--color2);
+  --cbutton__light-color-1--hover: white;
+  --cbutton__light-bg-1: transparent;
+  --cbutton__light-bg-1--hover: var(--color2);
+  --cbutton__light-color-2: white;
+  --cbutton__light-color-2--hover: var(--color2);
+  --cbutton__light-bg-2: var(--color2);
+  --cbutton__light-bg-2--hover: transparent;
+  --cbutton__light-color-3: white;
+  --cbutton__light-color-3--hover: var(--color5);
+  --cbutton__light-bg-3: var(--color5);
+  --cbutton__light-bg-3--hover: white;
+  --cbutton__dark-color-1: white;
+  --cbutton__dark-bg-1: transparent;
+  --cbutton__dark-color-1--hover: var(--color1);
+  --cbutton__dark-bg-1--hover: white;
+  --cbutton__dark-color-2: white;
+  --cbutton__dark-bg-2: var(--color1);
+  --cbutton__dark-color-2--hover: white;
+  --cbutton__dark-bg-2--hover: transparent;
+  --cbutton__dark-color-3: white;
+  --cbutton__dark-bg-3: var(--color5);
+  --cbutton__dark-bg-3--hover: var(--color1);
+  --input-field-bg: white;
+  --input-field-color: rgba(74, 74, 74, 0.5);
+  --input-field-color--active: var(--color3);
+  --input-field-border: var(--color2);
+  --input-select-field-color: white;
+  --input-checkbox-color: var(--color2);
+  --socialmedia-color: var(--color2);
+  --socialmedia-color--hover: var(--color5);
+  --phone__light-color: var(--color2);
+  --phone__light-color--hover: var(--color3);
+  --phone__dark-color: white;
+  --phone__dark-color--hover: rgba(white, .8);
+  --rgb-color-2-alpha5:rgba(181, 179, 129, 0.5);
+  --rgb-color-2-alpha3:rgba(181, 179, 129, 0.3);
+}
+
+.color-x23-agg-8 {
+  --color1: #1f206d;
+  --color2: #0cd2d1;
+  --color3: #4a4a4a;
+  --color4: #e0e0e0;
+  --color5: #ffb900;
+  --title__color--h1: var(--color1);
+  --title__color--h2: var(--color2);
+  --clink__light: var(--color2);
+  --clink__dark: white;
+  --clink__light--hover: var(--color3);
+  --clink__dark--hover: rgba(white, .8);
+  --clink--text__light: var(--color5);
+  --clink--text__dark: white;
+  --clink--text__light--hover: var(--color5);
+  --clink--text__dark--hover: white;
+  --regular__color: var(--color3);
+  --component__title: var(--color1);
+  --component__title__dark: white;
+  --regular__color__dark: white;
+  --component__subtitle: var(--color2);
+  --cbutton__light-color-1: var(--color2);
+  --cbutton__light-color-1--hover: white;
+  --cbutton__light-bg-1: transparent;
+  --cbutton__light-bg-1--hover: var(--color2);
+  --cbutton__light-color-2: white;
+  --cbutton__light-color-2--hover: var(--color2);
+  --cbutton__light-bg-2: var(--color2);
+  --cbutton__light-bg-2--hover: transparent;
+  --cbutton__light-color-3: white;
+  --cbutton__light-color-3--hover: var(--color5);
+  --cbutton__light-bg-3: var(--color5);
+  --cbutton__light-bg-3--hover: white;
+  --cbutton__dark-color-1: white;
+  --cbutton__dark-bg-1: transparent;
+  --cbutton__dark-color-1--hover: var(--color1);
+  --cbutton__dark-bg-1--hover: white;
+  --cbutton__dark-color-2: white;
+  --cbutton__dark-bg-2: var(--color1);
+  --cbutton__dark-color-2--hover: white;
+  --cbutton__dark-bg-2--hover: transparent;
+  --cbutton__dark-color-3: white;
+  --cbutton__dark-bg-3: var(--color5);
+  --cbutton__dark-bg-3--hover: var(--color1);
+  --input-field-bg: white;
+  --input-field-color: rgba(74, 74, 74, 0.5);
+  --input-field-color--active: var(--color3);
+  --input-field-border: var(--color2);
+  --input-select-field-color: white;
+  --input-checkbox-color: var(--color2);
+  --socialmedia-color: var(--color2);
+  --socialmedia-color--hover: var(--color5);
+  --phone__light-color: var(--color2);
+  --phone__light-color--hover: var(--color3);
+  --phone__dark-color: white;
+  --phone__dark-color--hover: rgba(white, .8);
+  --rgb-color-2-alpha5:rgba(12, 210, 209, 0.5);
+  --rgb-color-2-alpha3:rgba(12, 210, 209, 0.3);
+}
+
+.color-x23-agg-7 {
+  --color1: #000000;
+  --color2: #dba12d;
+  --color3: #4a4a4a;
+  --color4: #e0e0e0;
+  --color5: #e10000;
+  --title__color--h1: var(--color1);
+  --title__color--h2: var(--color2);
+  --clink__light: var(--color2);
+  --clink__dark: white;
+  --clink__light--hover: var(--color3);
+  --clink__dark--hover: rgba(white, .8);
+  --clink--text__light: var(--color5);
+  --clink--text__dark: white;
+  --clink--text__light--hover: var(--color5);
+  --clink--text__dark--hover: white;
+  --regular__color: var(--color3);
+  --component__title: var(--color1);
+  --component__title__dark: white;
+  --regular__color__dark: white;
+  --component__subtitle: var(--color2);
+  --cbutton__light-color-1: var(--color2);
+  --cbutton__light-color-1--hover: white;
+  --cbutton__light-bg-1: transparent;
+  --cbutton__light-bg-1--hover: var(--color2);
+  --cbutton__light-color-2: white;
+  --cbutton__light-color-2--hover: var(--color2);
+  --cbutton__light-bg-2: var(--color2);
+  --cbutton__light-bg-2--hover: transparent;
+  --cbutton__light-color-3: white;
+  --cbutton__light-color-3--hover: var(--color5);
+  --cbutton__light-bg-3: var(--color5);
+  --cbutton__light-bg-3--hover: white;
+  --cbutton__dark-color-1: white;
+  --cbutton__dark-bg-1: transparent;
+  --cbutton__dark-color-1--hover: var(--color1);
+  --cbutton__dark-bg-1--hover: white;
+  --cbutton__dark-color-2: white;
+  --cbutton__dark-bg-2: var(--color1);
+  --cbutton__dark-color-2--hover: white;
+  --cbutton__dark-bg-2--hover: transparent;
+  --cbutton__dark-color-3: white;
+  --cbutton__dark-bg-3: var(--color5);
+  --cbutton__dark-bg-3--hover: var(--color1);
+  --input-field-bg: white;
+  --input-field-color: rgba(74, 74, 74, 0.5);
+  --input-field-color--active: var(--color3);
+  --input-field-border: var(--color2);
+  --input-select-field-color: white;
+  --input-checkbox-color: var(--color2);
+  --socialmedia-color: var(--color2);
+  --socialmedia-color--hover: var(--color5);
+  --phone__light-color: var(--color2);
+  --phone__light-color--hover: var(--color3);
+  --phone__dark-color: white;
+  --phone__dark-color--hover: rgba(white, .8);
+  --rgb-color-2-alpha5:rgba(219, 161, 45, 0.5);
+  --rgb-color-2-alpha3:rgba(219, 161, 45, 0.3);
+}
+
+.color-x23-agg-6 {
+  --color1: #2c2c2c;
+  --color2: #3cd0eb;
+  --color3: #4a4a4a;
+  --color4: #e0e0e0;
+  --color5: #f98903;
+  --title__color--h1: var(--color1);
+  --title__color--h2: var(--color2);
+  --clink__light: var(--color2);
+  --clink__dark: white;
+  --clink__light--hover: var(--color3);
+  --clink__dark--hover: rgba(white, .8);
+  --clink--text__light: var(--color5);
+  --clink--text__dark: white;
+  --clink--text__light--hover: var(--color5);
+  --clink--text__dark--hover: white;
+  --regular__color: var(--color3);
+  --component__title: var(--color1);
+  --component__title__dark: white;
+  --regular__color__dark: white;
+  --component__subtitle: var(--color2);
+  --cbutton__light-color-1: var(--color2);
+  --cbutton__light-color-1--hover: white;
+  --cbutton__light-bg-1: transparent;
+  --cbutton__light-bg-1--hover: var(--color2);
+  --cbutton__light-color-2: white;
+  --cbutton__light-color-2--hover: var(--color2);
+  --cbutton__light-bg-2: var(--color2);
+  --cbutton__light-bg-2--hover: transparent;
+  --cbutton__light-color-3: white;
+  --cbutton__light-color-3--hover: var(--color5);
+  --cbutton__light-bg-3: var(--color5);
+  --cbutton__light-bg-3--hover: white;
+  --cbutton__dark-color-1: white;
+  --cbutton__dark-bg-1: transparent;
+  --cbutton__dark-color-1--hover: var(--color1);
+  --cbutton__dark-bg-1--hover: white;
+  --cbutton__dark-color-2: white;
+  --cbutton__dark-bg-2: var(--color1);
+  --cbutton__dark-color-2--hover: white;
+  --cbutton__dark-bg-2--hover: transparent;
+  --cbutton__dark-color-3: white;
+  --cbutton__dark-bg-3: var(--color5);
+  --cbutton__dark-bg-3--hover: var(--color1);
+  --input-field-bg: white;
+  --input-field-color: rgba(74, 74, 74, 0.5);
+  --input-field-color--active: var(--color3);
+  --input-field-border: var(--color2);
+  --input-select-field-color: white;
+  --input-checkbox-color: var(--color2);
+  --socialmedia-color: var(--color2);
+  --socialmedia-color--hover: var(--color5);
+  --phone__light-color: var(--color2);
+  --phone__light-color--hover: var(--color3);
+  --phone__dark-color: white;
+  --phone__dark-color--hover: rgba(white, .8);
+  --rgb-color-2-alpha5:rgba(60, 208, 235, 0.5);
+  --rgb-color-2-alpha3:rgba(60, 208, 235, 0.3);
+}
+
+.color-x23-agg-5 {
+  --color1: #293246;
+  --color2: #b8cd03;
+  --color3: #616060;
+  --color4: #e0e0e0;
+  --color5: #ff7f00;
+  --title__color--h1: var(--color1);
+  --title__color--h2: var(--color2);
+  --clink__light: var(--color2);
+  --clink__dark: white;
+  --clink__light--hover: var(--color3);
+  --clink__dark--hover: rgba(white, .8);
+  --clink--text__light: var(--color5);
+  --clink--text__dark: white;
+  --clink--text__light--hover: var(--color5);
+  --clink--text__dark--hover: white;
+  --regular__color: var(--color3);
+  --component__title: var(--color1);
+  --component__title__dark: white;
+  --regular__color__dark: white;
+  --component__subtitle: var(--color2);
+  --cbutton__light-color-1: var(--color2);
+  --cbutton__light-color-1--hover: white;
+  --cbutton__light-bg-1: transparent;
+  --cbutton__light-bg-1--hover: var(--color2);
+  --cbutton__light-color-2: white;
+  --cbutton__light-color-2--hover: var(--color2);
+  --cbutton__light-bg-2: var(--color2);
+  --cbutton__light-bg-2--hover: transparent;
+  --cbutton__light-color-3: white;
+  --cbutton__light-color-3--hover: var(--color5);
+  --cbutton__light-bg-3: var(--color5);
+  --cbutton__light-bg-3--hover: white;
+  --cbutton__dark-color-1: white;
+  --cbutton__dark-bg-1: transparent;
+  --cbutton__dark-color-1--hover: var(--color1);
+  --cbutton__dark-bg-1--hover: white;
+  --cbutton__dark-color-2: white;
+  --cbutton__dark-bg-2: var(--color1);
+  --cbutton__dark-color-2--hover: white;
+  --cbutton__dark-bg-2--hover: transparent;
+  --cbutton__dark-color-3: white;
+  --cbutton__dark-bg-3: var(--color5);
+  --cbutton__dark-bg-3--hover: var(--color1);
+  --input-field-bg: white;
+  --input-field-color: rgba(97, 96, 96, 0.5);
+  --input-field-color--active: var(--color3);
+  --input-field-border: var(--color2);
+  --input-select-field-color: white;
+  --input-checkbox-color: var(--color2);
+  --socialmedia-color: var(--color2);
+  --socialmedia-color--hover: var(--color5);
+  --phone__light-color: var(--color2);
+  --phone__light-color--hover: var(--color3);
+  --phone__dark-color: white;
+  --phone__dark-color--hover: rgba(white, .8);
+  --rgb-color-2-alpha5:rgba(184, 205, 3, 0.5);
+  --rgb-color-2-alpha3:rgba(184, 205, 3, 0.3);
+}
+
+.color-x23-agg-4 {
+  --color1: #000000;
+  --color2: #DF151E;
+  --color3: #4a4a4a;
+  --color4: #e0e0e0;
+  --color5: #FFC000;
+  --title__color--h1: var(--color1);
+  --title__color--h2: var(--color2);
+  --clink__light: var(--color2);
+  --clink__dark: white;
+  --clink__light--hover: var(--color3);
+  --clink__dark--hover: rgba(white, .8);
+  --clink--text__light: var(--color5);
+  --clink--text__dark: white;
+  --clink--text__light--hover: var(--color5);
+  --clink--text__dark--hover: white;
+  --regular__color: var(--color3);
+  --component__title: var(--color1);
+  --component__title__dark: white;
+  --regular__color__dark: white;
+  --component__subtitle: var(--color2);
+  --cbutton__light-color-1: var(--color2);
+  --cbutton__light-color-1--hover: white;
+  --cbutton__light-bg-1: transparent;
+  --cbutton__light-bg-1--hover: var(--color2);
+  --cbutton__light-color-2: white;
+  --cbutton__light-color-2--hover: var(--color2);
+  --cbutton__light-bg-2: var(--color2);
+  --cbutton__light-bg-2--hover: transparent;
+  --cbutton__light-color-3: white;
+  --cbutton__light-color-3--hover: var(--color5);
+  --cbutton__light-bg-3: var(--color5);
+  --cbutton__light-bg-3--hover: white;
+  --cbutton__dark-color-1: white;
+  --cbutton__dark-bg-1: transparent;
+  --cbutton__dark-color-1--hover: var(--color1);
+  --cbutton__dark-bg-1--hover: white;
+  --cbutton__dark-color-2: white;
+  --cbutton__dark-bg-2: var(--color1);
+  --cbutton__dark-color-2--hover: white;
+  --cbutton__dark-bg-2--hover: transparent;
+  --cbutton__dark-color-3: white;
+  --cbutton__dark-bg-3: var(--color5);
+  --cbutton__dark-bg-3--hover: var(--color1);
+  --input-field-bg: white;
+  --input-field-color: rgba(74, 74, 74, 0.5);
+  --input-field-color--active: var(--color3);
+  --input-field-border: var(--color2);
+  --input-select-field-color: white;
+  --input-checkbox-color: var(--color2);
+  --socialmedia-color: var(--color2);
+  --socialmedia-color--hover: var(--color5);
+  --phone__light-color: var(--color2);
+  --phone__light-color--hover: var(--color3);
+  --phone__dark-color: white;
+  --phone__dark-color--hover: rgba(white, .8);
+  --rgb-color-2-alpha5:rgba(223, 21, 30, 0.5);
+  --rgb-color-2-alpha3:rgba(223, 21, 30, 0.3);
+}
+
+.color-x23-agg-3 {
+  --color1: #3a3838;
+  --color2: #f26522;
+  --color3: #4a4a4a;
+  --color4: #e0e0e0;
+  --color5: #ffc000;
+  --title__color--h1: var(--color1);
+  --title__color--h2: var(--color2);
+  --clink__light: var(--color2);
+  --clink__dark: white;
+  --clink__light--hover: var(--color3);
+  --clink__dark--hover: rgba(white, .8);
+  --clink--text__light: var(--color5);
+  --clink--text__dark: white;
+  --clink--text__light--hover: var(--color5);
+  --clink--text__dark--hover: white;
+  --regular__color: var(--color3);
+  --component__title: var(--color1);
+  --component__title__dark: white;
+  --regular__color__dark: white;
+  --component__subtitle: var(--color2);
+  --cbutton__light-color-1: var(--color2);
+  --cbutton__light-color-1--hover: white;
+  --cbutton__light-bg-1: transparent;
+  --cbutton__light-bg-1--hover: var(--color2);
+  --cbutton__light-color-2: white;
+  --cbutton__light-color-2--hover: var(--color2);
+  --cbutton__light-bg-2: var(--color2);
+  --cbutton__light-bg-2--hover: transparent;
+  --cbutton__light-color-3: white;
+  --cbutton__light-color-3--hover: var(--color5);
+  --cbutton__light-bg-3: var(--color5);
+  --cbutton__light-bg-3--hover: white;
+  --cbutton__dark-color-1: white;
+  --cbutton__dark-bg-1: transparent;
+  --cbutton__dark-color-1--hover: var(--color1);
+  --cbutton__dark-bg-1--hover: white;
+  --cbutton__dark-color-2: white;
+  --cbutton__dark-bg-2: var(--color1);
+  --cbutton__dark-color-2--hover: white;
+  --cbutton__dark-bg-2--hover: transparent;
+  --cbutton__dark-color-3: white;
+  --cbutton__dark-bg-3: var(--color5);
+  --cbutton__dark-bg-3--hover: var(--color1);
+  --input-field-bg: white;
+  --input-field-color: rgba(74, 74, 74, 0.5);
+  --input-field-color--active: var(--color3);
+  --input-field-border: var(--color2);
+  --input-select-field-color: white;
+  --input-checkbox-color: var(--color2);
+  --socialmedia-color: var(--color2);
+  --socialmedia-color--hover: var(--color5);
+  --phone__light-color: var(--color2);
+  --phone__light-color--hover: var(--color3);
+  --phone__dark-color: white;
+  --phone__dark-color--hover: rgba(white, .8);
+  --rgb-color-2-alpha5:rgba(242, 101, 34, 0.5);
+  --rgb-color-2-alpha3:rgba(242, 101, 34, 0.3);
+}
+
+.color-x23-agg-2 {
+  --color1: #2a024d;
+  --color2: #ff9d00;
+  --color3: #4a4a4a;
+  --color4: #e0e0e0;
+  --color5: #e80c0c;
+  --title__color--h1: var(--color1);
+  --title__color--h2: var(--color2);
+  --clink__light: var(--color2);
+  --clink__dark: white;
+  --clink__light--hover: var(--color3);
+  --clink__dark--hover: rgba(white, .8);
+  --clink--text__light: var(--color5);
+  --clink--text__dark: white;
+  --clink--text__light--hover: var(--color5);
+  --clink--text__dark--hover: white;
+  --regular__color: var(--color3);
+  --component__title: var(--color1);
+  --component__title__dark: white;
+  --regular__color__dark: white;
+  --component__subtitle: var(--color2);
+  --cbutton__light-color-1: var(--color2);
+  --cbutton__light-color-1--hover: white;
+  --cbutton__light-bg-1: transparent;
+  --cbutton__light-bg-1--hover: var(--color2);
+  --cbutton__light-color-2: white;
+  --cbutton__light-color-2--hover: var(--color2);
+  --cbutton__light-bg-2: var(--color2);
+  --cbutton__light-bg-2--hover: transparent;
+  --cbutton__light-color-3: white;
+  --cbutton__light-color-3--hover: var(--color5);
+  --cbutton__light-bg-3: var(--color5);
+  --cbutton__light-bg-3--hover: white;
+  --cbutton__dark-color-1: white;
+  --cbutton__dark-bg-1: transparent;
+  --cbutton__dark-color-1--hover: var(--color1);
+  --cbutton__dark-bg-1--hover: white;
+  --cbutton__dark-color-2: white;
+  --cbutton__dark-bg-2: var(--color1);
+  --cbutton__dark-color-2--hover: white;
+  --cbutton__dark-bg-2--hover: transparent;
+  --cbutton__dark-color-3: white;
+  --cbutton__dark-bg-3: var(--color5);
+  --cbutton__dark-bg-3--hover: var(--color1);
+  --input-field-bg: white;
+  --input-field-color: rgba(74, 74, 74, 0.5);
+  --input-field-color--active: var(--color3);
+  --input-field-border: var(--color2);
+  --input-select-field-color: white;
+  --input-checkbox-color: var(--color2);
+  --socialmedia-color: var(--color2);
+  --socialmedia-color--hover: var(--color5);
+  --phone__light-color: var(--color2);
+  --phone__light-color--hover: var(--color3);
+  --phone__dark-color: white;
+  --phone__dark-color--hover: rgba(white, .8);
+  --rgb-color-2-alpha5:rgba(255, 157, 0, 0.5);
+  --rgb-color-2-alpha3:rgba(255, 157, 0, 0.3);
+}
+
+.color-x23-agg-1 {
+  --color1: #0f303f;
+  --color2: #D81820;
+  --color3: #4a4a4a;
+  --color4: #e0e0e0;
+  --color5: #FF7F00;
+  --title__color--h1: var(--color1);
+  --title__color--h2: var(--color2);
+  --clink__light: var(--color2);
+  --clink__dark: white;
+  --clink__light--hover: var(--color3);
+  --clink__dark--hover: rgba(white, .8);
+  --clink--text__light: var(--color5);
+  --clink--text__dark: white;
+  --clink--text__light--hover: var(--color5);
+  --clink--text__dark--hover: white;
+  --regular__color: var(--color3);
+  --component__title: var(--color1);
+  --component__title__dark: white;
+  --regular__color__dark: white;
+  --component__subtitle: var(--color2);
+  --cbutton__light-color-1: var(--color2);
+  --cbutton__light-color-1--hover: white;
+  --cbutton__light-bg-1: transparent;
+  --cbutton__light-bg-1--hover: var(--color2);
+  --cbutton__light-color-2: white;
+  --cbutton__light-color-2--hover: var(--color2);
+  --cbutton__light-bg-2: var(--color2);
+  --cbutton__light-bg-2--hover: transparent;
+  --cbutton__light-color-3: white;
+  --cbutton__light-color-3--hover: var(--color5);
+  --cbutton__light-bg-3: var(--color5);
+  --cbutton__light-bg-3--hover: white;
+  --cbutton__dark-color-1: white;
+  --cbutton__dark-bg-1: transparent;
+  --cbutton__dark-color-1--hover: var(--color1);
+  --cbutton__dark-bg-1--hover: white;
+  --cbutton__dark-color-2: white;
+  --cbutton__dark-bg-2: var(--color1);
+  --cbutton__dark-color-2--hover: white;
+  --cbutton__dark-bg-2--hover: transparent;
+  --cbutton__dark-color-3: white;
+  --cbutton__dark-bg-3: var(--color5);
+  --cbutton__dark-bg-3--hover: var(--color1);
+  --input-field-bg: white;
+  --input-field-color: rgba(74, 74, 74, 0.5);
+  --input-field-color--active: var(--color3);
+  --input-field-border: var(--color2);
+  --input-select-field-color: white;
+  --input-checkbox-color: var(--color2);
+  --socialmedia-color: var(--color2);
+  --socialmedia-color--hover: var(--color5);
+  --phone__light-color: var(--color2);
+  --phone__light-color--hover: var(--color3);
+  --phone__dark-color: white;
+  --phone__dark-color--hover: rgba(white, .8);
+  --rgb-color-2-alpha5:rgba(216, 24, 32, 0.5);
+  --rgb-color-2-alpha3:rgba(216, 24, 32, 0.3);
+}
+
+body {
+  color: var(--regular__color);
+}
+
+.container-fluid {
+  overflow: hidden;
+}
+
+.section-navigation .container-fluid {
+  overflow: visible;
+}
+
+.editable__container p,
+.map-a .map-search__location-address,
+.map-a .map-search__location-contact,
+.section .component__p,
+.component__p,
+.section-editable p,
+.section-editable ul,
+.section-editable li,
+.section-pagecontent p,
+.section-pagecontent ul,
+.section-pagecontent li {
+  font: 16px/1.375 "Roboto", sans-serif;
+}
+
+blockquote {
+  margin: 10px 15px 10px 0;
+  padding-left: 10px;
+  border-left: 3px solid var(--color1);
+}
+
+/* reset for border on dear_doctor pages articles/dear_doctor_chiro */
+.dd-left img,
+img.dd-left,
+.dd-right img,
+img.dd-right,
+.dd-img-fluid,
+.dd-img-fluid.dd-lightbox img {
+  border: none;
+}
+
+.section--light .editable__container a,
+.section--light a {
+  color: var(--clink__light);
+  text-decoration: underline;
+}
+.section--light .editable__container a:hover,
+.section--light a:hover {
+  color: var(--clink__light--hover);
+  text-decoration: underline;
+}
+.section--light .editable__container th,
+.section--light pre,
+.section--light .editable__container,
+.section--light .component {
+  color: var(--regular__color);
+}
+.section--light .editable__container th__title,
+.section--light pre__title,
+.section--light .editable__container__title,
+.section--light .component__title {
+  color: var(--component__title);
+}
+.section--light .editable__container th__subtitle,
+.section--light pre__subtitle,
+.section--light .editable__container__subtitle,
+.section--light .component__subtitle {
+  color: var(--component__subtitle);
+}
+.section--light .editable__container th__p,
+.section--light pre__p,
+.section--light .editable__container__p,
+.section--light .component__p {
+  color: var(--regular__color);
+}
+.section--light hr,
+.section--light .editable__container th {
+  border-color: var(--regular__color);
+}
+.section--dark .editable__container a,
+.section--dark a {
+  color: var(--regular__color__dark);
+  text-decoration: underline;
+}
+.section--dark .editable__container a:hover,
+.section--dark a:hover {
+  color: var(--clink__dark--hover);
+  text-decoration: underline;
+}
+.section--dark .editable__container th,
+.section--dark pre {
+  color: var(--regular__color__dark);
+}
+.section--dark hr,
+.section--dark .editable__container th {
+  border-color: var(--regular__color__dark);
+}
+
+h6,
+h5,
+h4,
+h3,
+h2,
+h1,
+.editable__container h6,
+.editable__container h5,
+.editable__container h4,
+.editable__container h3,
+.editable__container h2,
+.editable__container h1 {
+  font: bold 26px/34px "Heebo", sans-serif;
+}
+
+h2,
+.editable__container h2 {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+h3,
+.editable__container h3 {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+h4,
+.editable__container h4 {
+  font-size: 18px;
+}
+
+h5,
+.editable__container h5 {
+  font-size: 17px;
+}
+
+h6,
+.editable__container h6 {
+  font-size: 16px;
+}
+
+.article__post-permalink,
+.blog__post-permalink,
+.blog__post-title,
+.article__post-title {
+  font-family: "Heebo", sans-serif;
+}
+
+.section--light .article h1, .section--light .article h2, .section--light .article h3, .section--light .article h4, .section--light .article h5, .section--light .article h6, .section--light .article p, .section--light .article ol, .section--light .article ul, .section--light .article li, .section--light .article td,
+.section--light .blog h1,
+.section--light .blog h2,
+.section--light .blog h3,
+.section--light .blog h4,
+.section--light .blog h5,
+.section--light .blog h6,
+.section--light .blog p,
+.section--light .blog ol,
+.section--light .blog ul,
+.section--light .blog li,
+.section--light .blog td,
+.section--light .editable__container h1,
+.section--light .editable__container h2,
+.section--light .editable__container h3,
+.section--light .editable__container h4,
+.section--light .editable__container h5,
+.section--light .editable__container h6,
+.section--light .editable__container p,
+.section--light .editable__container ol,
+.section--light .editable__container ul,
+.section--light .editable__container li,
+.section--light .editable__container td {
+  color: var(--regular__color);
+}
+.section--light .article h1,
+.section--light .blog h1,
+.section--light .editable__container h1 {
+  color: var(--title__color--h1);
+}
+.section--light .article h3,
+.section--light .article h2,
+.section--light .blog h3,
+.section--light .blog h2,
+.section--light .editable__container h3,
+.section--light .editable__container h2 {
+  color: var(--title__color--h2) !important;
+}
+.section--dark .article h3,
+.section--dark .article h2,
+.section--dark .blog h3,
+.section--dark .blog h2 {
+  color: var(--title__color--h2) !important;
+}
+.section .component__title {
+  font-family: "Heebo", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+}
+.section .component__subtitle {
+  font-family: "Heebo", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+}
+.blade-a__title .section .component__title {
+  font-size: 28px;
+}
+.blade-a__title .section .component__subtitle {
+  font-size: 22px;
+}
+
+.section .logo a {
+  text-decoration: none;
+}
+.section .logo .component__title {
+  text-transform: uppercase;
+  font-size: 27px;
+}
+.section .logo .component__subtitle {
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.outline-border.section__bg--dark-1, .outline-border.section__bg--dark-2, .outline-border.section__bg--dark-3, .outline-border.section__bg--dark-4, .outline-border.section__bg--dark-5, .outline-border.section__bg--dark-6, .outline-border.section__bg--dark-7, .outline-border.section__bg--dark-8 {
+  padding-bottom: 19px;
+}
+.outline-border.section__bg--dark-1:before, .outline-border.section__bg--dark-2:before, .outline-border.section__bg--dark-3:before, .outline-border.section__bg--dark-4:before, .outline-border.section__bg--dark-5:before, .outline-border.section__bg--dark-6:before, .outline-border.section__bg--dark-7:before, .outline-border.section__bg--dark-8:before {
+  outline: none;
+  outline-offset: -20px;
+  border-bottom: 20px solid rgba(255, 255, 255, 0.2);
+}
+.outline-border.section__bg--light-1, .outline-border.section__bg--light-2 {
+  padding-bottom: 19px;
+}
+.outline-border.section__bg--light-1:before, .outline-border.section__bg--light-2:before {
+  outline: none;
+  outline-offset: -20px;
+  border-bottom: 20px solid var(--color2);
+}
+
+.phone__wrapper a {
+  text-decoration: none;
+}
+.phone__wrapper a .phone__number {
+  font: bold 30px/36px "Heebo", sans-serif;
+  color: var(--phone__light-color);
+}
+.phone__wrapper a:hover {
+  text-decoration: none;
+}
+.phone__wrapper a:hover .phone__number {
+  color: var(--phone__light-color--hover);
+}
+
+.section--dark .phone__wrapper a .phone__number {
+  color: var(--phone__dark-color);
+}
+.section--dark .phone__wrapper a:hover .phone__number {
+  color: var(--phone__dark-color--hover);
+}
+
+.form-wrap__submit input,
+html .editable__container [type=button],
+.editable__container [type=reset],
+.editable__container [type=submit],
+.editable__container button,
+.section--dark .banner .component__button--3.cta__button,
+.section--dark .banner .component__button--2.cta__button,
+.section--dark .banner .component__button--1.cta__button,
+.section--light .banner .component__button--3.cta__button,
+.section--light .banner .component__button--2.cta__button,
+.section--light .banner .component__button--1.cta__button,
+.section--dark .cta__button.component__button--2,
+.section--light .cta__button.component__button--2,
+.section--dark .cta__button.component__button--3,
+.section--dark .component__button-3,
+.section--light .component__button--3,
+.section--dark .component__button-2,
+.section--light .component__button--2,
+.section--dark .component__button--1,
+.section--light .component__button--1 {
+  font: bold 18px/22px "Heebo", sans-serif !important;
+  border: 4px solid var(--cbutton__light-color-1) !important;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+  color: var(--cbutton__light-color-1) !important;
+  border-radius: 4px 4px 0 0 !important;
+  background-color: transparent;
+  min-height: 50px;
+  width: auto;
+  min-width: 147px;
+  padding: 12px 10px 7px !important;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.form-wrap__submit input:after,
+html .editable__container [type=button]:after,
+.editable__container [type=reset]:after,
+.editable__container [type=submit]:after,
+.editable__container button:after,
+.section--dark .banner .component__button--3.cta__button:after,
+.section--dark .banner .component__button--2.cta__button:after,
+.section--dark .banner .component__button--1.cta__button:after,
+.section--light .banner .component__button--3.cta__button:after,
+.section--light .banner .component__button--2.cta__button:after,
+.section--light .banner .component__button--1.cta__button:after,
+.section--dark .cta__button.component__button--2:after,
+.section--light .cta__button.component__button--2:after,
+.section--dark .cta__button.component__button--3:after,
+.section--dark .component__button-3:after,
+.section--light .component__button--3:after,
+.section--dark .component__button-2:after,
+.section--light .component__button--2:after,
+.section--dark .component__button--1:after,
+.section--light .component__button--1:after {
+  position: absolute;
+  transition: 0.3s;
+  content: "";
+  width: 0;
+  left: 0;
+  bottom: -4px;
+  height: 8px;
+  background: var(--cbutton__light-color-1);
+}
+.form-wrap__submit input:hover,
+html .editable__container [type=button]:hover,
+.editable__container [type=reset]:hover,
+.editable__container [type=submit]:hover,
+.editable__container button:hover,
+.section--dark .banner .component__button--3.cta__button:hover,
+.section--dark .banner .component__button--2.cta__button:hover,
+.section--dark .banner .component__button--1.cta__button:hover,
+.section--light .banner .component__button--3.cta__button:hover,
+.section--light .banner .component__button--2.cta__button:hover,
+.section--light .banner .component__button--1.cta__button:hover,
+.section--dark .cta__button.component__button--2:hover,
+.section--light .cta__button.component__button--2:hover,
+.section--dark .cta__button.component__button--3:hover,
+.section--dark .component__button-3:hover,
+.section--light .component__button--3:hover,
+.section--dark .component__button-2:hover,
+.section--light .component__button--2:hover,
+.section--dark .component__button--1:hover,
+.section--light .component__button--1:hover {
+  cursor: pointer;
+}
+.form-wrap__submit input:hover:after,
+html .editable__container [type=button]:hover:after,
+.editable__container [type=reset]:hover:after,
+.editable__container [type=submit]:hover:after,
+.editable__container button:hover:after,
+.section--dark .banner .component__button--3.cta__button:hover:after,
+.section--dark .banner .component__button--2.cta__button:hover:after,
+.section--dark .banner .component__button--1.cta__button:hover:after,
+.section--light .banner .component__button--3.cta__button:hover:after,
+.section--light .banner .component__button--2.cta__button:hover:after,
+.section--light .banner .component__button--1.cta__button:hover:after,
+.section--dark .cta__button.component__button--2:hover:after,
+.section--light .cta__button.component__button--2:hover:after,
+.section--dark .cta__button.component__button--3:hover:after,
+.section--dark .component__button-3:hover:after,
+.section--light .component__button--3:hover:after,
+.section--dark .component__button-2:hover:after,
+.section--light .component__button--2:hover:after,
+.section--dark .component__button--1:hover:after,
+.section--light .component__button--1:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.featuredblocks-grid-a .featuredblock__icon .icon,
+.featuredblocks-grid-b .featuredblock__icon .icon,
+.featuredblocks-grid-c .featuredblock__icon .icon,
+.featuredblocks-grid-d .featuredblock__icon .icon,
+.featuredblocks-grid-e .featuredblock__icon .icon,
+.featuredblocks-grid-f .featuredblock__icon .icon {
+  font-size: 35px;
+}
+
+.section--light .featuredblocks-grid-a .featuredblocks__container,
+.section--light .featuredblocks-grid-b .featuredblocks__container,
+.section--light .featuredblocks-grid-c .featuredblocks__container,
+.section--light .featuredblocks-grid-d .featuredblocks__container,
+.section--light .featuredblocks-grid-e .featuredblocks__container,
+.section--light .featuredblocks-grid-f .featuredblocks__container,
+.section--dark .featuredblocks-grid-a .featuredblocks__container,
+.section--dark .featuredblocks-grid-b .featuredblocks__container,
+.section--dark .featuredblocks-grid-c .featuredblocks__container,
+.section--dark .featuredblocks-grid-d .featuredblocks__container,
+.section--dark .featuredblocks-grid-e .featuredblocks__container,
+.section--dark .featuredblocks-grid-f .featuredblocks__container {
+  padding: 0;
+}
+.section--light .featuredblocks-grid-a .featuredblock__cta .component__link--3, .section--light .featuredblocks-grid-a .featuredblock__cta .component__link--2, .section--light .featuredblocks-grid-a .featuredblock__cta .component__link--1,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__link--3,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__link--2,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__link--1,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__link--3,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__link--2,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__link--1,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__link--3,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__link--2,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__link--1,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__link--3,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__link--2,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__link--1,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__link--3,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__link--2,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__link--1,
+.section--dark .featuredblocks-grid-a .featuredblock__cta .component__link--3,
+.section--dark .featuredblocks-grid-a .featuredblock__cta .component__link--2,
+.section--dark .featuredblocks-grid-a .featuredblock__cta .component__link--1,
+.section--dark .featuredblocks-grid-b .featuredblock__cta .component__link--3,
+.section--dark .featuredblocks-grid-b .featuredblock__cta .component__link--2,
+.section--dark .featuredblocks-grid-b .featuredblock__cta .component__link--1,
+.section--dark .featuredblocks-grid-c .featuredblock__cta .component__link--3,
+.section--dark .featuredblocks-grid-c .featuredblock__cta .component__link--2,
+.section--dark .featuredblocks-grid-c .featuredblock__cta .component__link--1,
+.section--dark .featuredblocks-grid-d .featuredblock__cta .component__link--3,
+.section--dark .featuredblocks-grid-d .featuredblock__cta .component__link--2,
+.section--dark .featuredblocks-grid-d .featuredblock__cta .component__link--1,
+.section--dark .featuredblocks-grid-e .featuredblock__cta .component__link--3,
+.section--dark .featuredblocks-grid-e .featuredblock__cta .component__link--2,
+.section--dark .featuredblocks-grid-e .featuredblock__cta .component__link--1,
+.section--dark .featuredblocks-grid-f .featuredblock__cta .component__link--3,
+.section--dark .featuredblocks-grid-f .featuredblock__cta .component__link--2,
+.section--dark .featuredblocks-grid-f .featuredblock__cta .component__link--1 {
+  color: var(--clink--text__light);
+}
+.section--light .featuredblocks-grid-a .featuredblock__cta .component__link--3:hover, .section--light .featuredblocks-grid-a .featuredblock__cta .component__link--2:hover, .section--light .featuredblocks-grid-a .featuredblock__cta .component__link--1:hover,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__link--3:hover,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__link--2:hover,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__link--1:hover,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__link--3:hover,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__link--2:hover,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__link--1:hover,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__link--3:hover,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__link--2:hover,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__link--1:hover,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__link--3:hover,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__link--2:hover,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__link--1:hover,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__link--3:hover,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__link--2:hover,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__link--1:hover,
+.section--dark .featuredblocks-grid-a .featuredblock__cta .component__link--3:hover,
+.section--dark .featuredblocks-grid-a .featuredblock__cta .component__link--2:hover,
+.section--dark .featuredblocks-grid-a .featuredblock__cta .component__link--1:hover,
+.section--dark .featuredblocks-grid-b .featuredblock__cta .component__link--3:hover,
+.section--dark .featuredblocks-grid-b .featuredblock__cta .component__link--2:hover,
+.section--dark .featuredblocks-grid-b .featuredblock__cta .component__link--1:hover,
+.section--dark .featuredblocks-grid-c .featuredblock__cta .component__link--3:hover,
+.section--dark .featuredblocks-grid-c .featuredblock__cta .component__link--2:hover,
+.section--dark .featuredblocks-grid-c .featuredblock__cta .component__link--1:hover,
+.section--dark .featuredblocks-grid-d .featuredblock__cta .component__link--3:hover,
+.section--dark .featuredblocks-grid-d .featuredblock__cta .component__link--2:hover,
+.section--dark .featuredblocks-grid-d .featuredblock__cta .component__link--1:hover,
+.section--dark .featuredblocks-grid-e .featuredblock__cta .component__link--3:hover,
+.section--dark .featuredblocks-grid-e .featuredblock__cta .component__link--2:hover,
+.section--dark .featuredblocks-grid-e .featuredblock__cta .component__link--1:hover,
+.section--dark .featuredblocks-grid-f .featuredblock__cta .component__link--3:hover,
+.section--dark .featuredblocks-grid-f .featuredblock__cta .component__link--2:hover,
+.section--dark .featuredblocks-grid-f .featuredblock__cta .component__link--1:hover {
+  color: var(--clink--text__light--hover);
+}
+.section--light .featuredblocks-grid-a .featuredblock__cta .component__button--icon-text-button, .section--light .featuredblocks-grid-a .featuredblock__cta .component__button--3, .section--light .featuredblocks-grid-a .featuredblock__cta .component__button--2, .section--light .featuredblocks-grid-a .featuredblock__cta .component__button--1,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__button--icon-text-button,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__button--3,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__button--2,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__button--1,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__button--icon-text-button,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__button--3,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__button--2,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__button--1,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__button--icon-text-button,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__button--3,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__button--2,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__button--1,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__button--icon-text-button,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__button--3,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__button--2,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__button--1,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__button--icon-text-button,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__button--3,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__button--2,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__button--1,
+.section--dark .featuredblocks-grid-a .featuredblock__cta .component__button--icon-text-button,
+.section--dark .featuredblocks-grid-a .featuredblock__cta .component__button--3,
+.section--dark .featuredblocks-grid-a .featuredblock__cta .component__button--2,
+.section--dark .featuredblocks-grid-a .featuredblock__cta .component__button--1,
+.section--dark .featuredblocks-grid-b .featuredblock__cta .component__button--icon-text-button,
+.section--dark .featuredblocks-grid-b .featuredblock__cta .component__button--3,
+.section--dark .featuredblocks-grid-b .featuredblock__cta .component__button--2,
+.section--dark .featuredblocks-grid-b .featuredblock__cta .component__button--1,
+.section--dark .featuredblocks-grid-c .featuredblock__cta .component__button--icon-text-button,
+.section--dark .featuredblocks-grid-c .featuredblock__cta .component__button--3,
+.section--dark .featuredblocks-grid-c .featuredblock__cta .component__button--2,
+.section--dark .featuredblocks-grid-c .featuredblock__cta .component__button--1,
+.section--dark .featuredblocks-grid-d .featuredblock__cta .component__button--icon-text-button,
+.section--dark .featuredblocks-grid-d .featuredblock__cta .component__button--3,
+.section--dark .featuredblocks-grid-d .featuredblock__cta .component__button--2,
+.section--dark .featuredblocks-grid-d .featuredblock__cta .component__button--1,
+.section--dark .featuredblocks-grid-e .featuredblock__cta .component__button--icon-text-button,
+.section--dark .featuredblocks-grid-e .featuredblock__cta .component__button--3,
+.section--dark .featuredblocks-grid-e .featuredblock__cta .component__button--2,
+.section--dark .featuredblocks-grid-e .featuredblock__cta .component__button--1,
+.section--dark .featuredblocks-grid-f .featuredblock__cta .component__button--icon-text-button,
+.section--dark .featuredblocks-grid-f .featuredblock__cta .component__button--3,
+.section--dark .featuredblocks-grid-f .featuredblock__cta .component__button--2,
+.section--dark .featuredblocks-grid-f .featuredblock__cta .component__button--1 {
+  border: 4px solid var(--cbutton__light-color-1) !important;
+  font-family: "Heebo", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.122;
+  letter-spacing: 1px;
+  padding: 12px 10px 7px;
+  border-radius: 4px 4px 0 0 !important;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.section--light .featuredblocks-grid-a .featuredblock__cta .component__button--icon-text-button:after, .section--light .featuredblocks-grid-a .featuredblock__cta .component__button--3:after, .section--light .featuredblocks-grid-a .featuredblock__cta .component__button--2:after, .section--light .featuredblocks-grid-a .featuredblock__cta .component__button--1:after,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__button--icon-text-button:after,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__button--3:after,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__button--2:after,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__button--1:after,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__button--icon-text-button:after,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__button--3:after,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__button--2:after,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__button--1:after,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__button--icon-text-button:after,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__button--3:after,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__button--2:after,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__button--1:after,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__button--icon-text-button:after,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__button--3:after,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__button--2:after,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__button--1:after,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__button--icon-text-button:after,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__button--3:after,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__button--2:after,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__button--1:after,
+.section--dark .featuredblocks-grid-a .featuredblock__cta .component__button--icon-text-button:after,
+.section--dark .featuredblocks-grid-a .featuredblock__cta .component__button--3:after,
+.section--dark .featuredblocks-grid-a .featuredblock__cta .component__button--2:after,
+.section--dark .featuredblocks-grid-a .featuredblock__cta .component__button--1:after,
+.section--dark .featuredblocks-grid-b .featuredblock__cta .component__button--icon-text-button:after,
+.section--dark .featuredblocks-grid-b .featuredblock__cta .component__button--3:after,
+.section--dark .featuredblocks-grid-b .featuredblock__cta .component__button--2:after,
+.section--dark .featuredblocks-grid-b .featuredblock__cta .component__button--1:after,
+.section--dark .featuredblocks-grid-c .featuredblock__cta .component__button--icon-text-button:after,
+.section--dark .featuredblocks-grid-c .featuredblock__cta .component__button--3:after,
+.section--dark .featuredblocks-grid-c .featuredblock__cta .component__button--2:after,
+.section--dark .featuredblocks-grid-c .featuredblock__cta .component__button--1:after,
+.section--dark .featuredblocks-grid-d .featuredblock__cta .component__button--icon-text-button:after,
+.section--dark .featuredblocks-grid-d .featuredblock__cta .component__button--3:after,
+.section--dark .featuredblocks-grid-d .featuredblock__cta .component__button--2:after,
+.section--dark .featuredblocks-grid-d .featuredblock__cta .component__button--1:after,
+.section--dark .featuredblocks-grid-e .featuredblock__cta .component__button--icon-text-button:after,
+.section--dark .featuredblocks-grid-e .featuredblock__cta .component__button--3:after,
+.section--dark .featuredblocks-grid-e .featuredblock__cta .component__button--2:after,
+.section--dark .featuredblocks-grid-e .featuredblock__cta .component__button--1:after,
+.section--dark .featuredblocks-grid-f .featuredblock__cta .component__button--icon-text-button:after,
+.section--dark .featuredblocks-grid-f .featuredblock__cta .component__button--3:after,
+.section--dark .featuredblocks-grid-f .featuredblock__cta .component__button--2:after,
+.section--dark .featuredblocks-grid-f .featuredblock__cta .component__button--1:after {
+  position: absolute;
+  transition: 0.3s;
+  content: "";
+  width: 0;
+  left: 0;
+  bottom: -4px;
+  height: 8px;
+  background: var(--cbutton__light-color-1);
+}
+.section--light .featuredblocks-grid-a .featuredblock__cta .component__button--icon-text-button:hover, .section--light .featuredblocks-grid-a .featuredblock__cta .component__button--3:hover, .section--light .featuredblocks-grid-a .featuredblock__cta .component__button--2:hover, .section--light .featuredblocks-grid-a .featuredblock__cta .component__button--1:hover,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__button--icon-text-button:hover,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__button--3:hover,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__button--2:hover,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__button--1:hover,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__button--icon-text-button:hover,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__button--3:hover,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__button--2:hover,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__button--1:hover,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__button--icon-text-button:hover,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__button--3:hover,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__button--2:hover,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__button--1:hover,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__button--icon-text-button:hover,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__button--3:hover,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__button--2:hover,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__button--1:hover,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__button--icon-text-button:hover,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__button--3:hover,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__button--2:hover,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__button--1:hover,
+.section--dark .featuredblocks-grid-a .featuredblock__cta .component__button--icon-text-button:hover,
+.section--dark .featuredblocks-grid-a .featuredblock__cta .component__button--3:hover,
+.section--dark .featuredblocks-grid-a .featuredblock__cta .component__button--2:hover,
+.section--dark .featuredblocks-grid-a .featuredblock__cta .component__button--1:hover,
+.section--dark .featuredblocks-grid-b .featuredblock__cta .component__button--icon-text-button:hover,
+.section--dark .featuredblocks-grid-b .featuredblock__cta .component__button--3:hover,
+.section--dark .featuredblocks-grid-b .featuredblock__cta .component__button--2:hover,
+.section--dark .featuredblocks-grid-b .featuredblock__cta .component__button--1:hover,
+.section--dark .featuredblocks-grid-c .featuredblock__cta .component__button--icon-text-button:hover,
+.section--dark .featuredblocks-grid-c .featuredblock__cta .component__button--3:hover,
+.section--dark .featuredblocks-grid-c .featuredblock__cta .component__button--2:hover,
+.section--dark .featuredblocks-grid-c .featuredblock__cta .component__button--1:hover,
+.section--dark .featuredblocks-grid-d .featuredblock__cta .component__button--icon-text-button:hover,
+.section--dark .featuredblocks-grid-d .featuredblock__cta .component__button--3:hover,
+.section--dark .featuredblocks-grid-d .featuredblock__cta .component__button--2:hover,
+.section--dark .featuredblocks-grid-d .featuredblock__cta .component__button--1:hover,
+.section--dark .featuredblocks-grid-e .featuredblock__cta .component__button--icon-text-button:hover,
+.section--dark .featuredblocks-grid-e .featuredblock__cta .component__button--3:hover,
+.section--dark .featuredblocks-grid-e .featuredblock__cta .component__button--2:hover,
+.section--dark .featuredblocks-grid-e .featuredblock__cta .component__button--1:hover,
+.section--dark .featuredblocks-grid-f .featuredblock__cta .component__button--icon-text-button:hover,
+.section--dark .featuredblocks-grid-f .featuredblock__cta .component__button--3:hover,
+.section--dark .featuredblocks-grid-f .featuredblock__cta .component__button--2:hover,
+.section--dark .featuredblocks-grid-f .featuredblock__cta .component__button--1:hover {
+  cursor: pointer;
+}
+.section--light .featuredblocks-grid-a .featuredblock__cta .component__button--icon-text-button:hover:after, .section--light .featuredblocks-grid-a .featuredblock__cta .component__button--3:hover:after, .section--light .featuredblocks-grid-a .featuredblock__cta .component__button--2:hover:after, .section--light .featuredblocks-grid-a .featuredblock__cta .component__button--1:hover:after,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__button--icon-text-button:hover:after,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__button--3:hover:after,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__button--2:hover:after,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__button--1:hover:after,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__button--icon-text-button:hover:after,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__button--3:hover:after,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__button--2:hover:after,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__button--1:hover:after,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__button--icon-text-button:hover:after,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__button--3:hover:after,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__button--2:hover:after,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__button--1:hover:after,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__button--icon-text-button:hover:after,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__button--3:hover:after,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__button--2:hover:after,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__button--1:hover:after,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__button--icon-text-button:hover:after,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__button--3:hover:after,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__button--2:hover:after,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__button--1:hover:after,
+.section--dark .featuredblocks-grid-a .featuredblock__cta .component__button--icon-text-button:hover:after,
+.section--dark .featuredblocks-grid-a .featuredblock__cta .component__button--3:hover:after,
+.section--dark .featuredblocks-grid-a .featuredblock__cta .component__button--2:hover:after,
+.section--dark .featuredblocks-grid-a .featuredblock__cta .component__button--1:hover:after,
+.section--dark .featuredblocks-grid-b .featuredblock__cta .component__button--icon-text-button:hover:after,
+.section--dark .featuredblocks-grid-b .featuredblock__cta .component__button--3:hover:after,
+.section--dark .featuredblocks-grid-b .featuredblock__cta .component__button--2:hover:after,
+.section--dark .featuredblocks-grid-b .featuredblock__cta .component__button--1:hover:after,
+.section--dark .featuredblocks-grid-c .featuredblock__cta .component__button--icon-text-button:hover:after,
+.section--dark .featuredblocks-grid-c .featuredblock__cta .component__button--3:hover:after,
+.section--dark .featuredblocks-grid-c .featuredblock__cta .component__button--2:hover:after,
+.section--dark .featuredblocks-grid-c .featuredblock__cta .component__button--1:hover:after,
+.section--dark .featuredblocks-grid-d .featuredblock__cta .component__button--icon-text-button:hover:after,
+.section--dark .featuredblocks-grid-d .featuredblock__cta .component__button--3:hover:after,
+.section--dark .featuredblocks-grid-d .featuredblock__cta .component__button--2:hover:after,
+.section--dark .featuredblocks-grid-d .featuredblock__cta .component__button--1:hover:after,
+.section--dark .featuredblocks-grid-e .featuredblock__cta .component__button--icon-text-button:hover:after,
+.section--dark .featuredblocks-grid-e .featuredblock__cta .component__button--3:hover:after,
+.section--dark .featuredblocks-grid-e .featuredblock__cta .component__button--2:hover:after,
+.section--dark .featuredblocks-grid-e .featuredblock__cta .component__button--1:hover:after,
+.section--dark .featuredblocks-grid-f .featuredblock__cta .component__button--icon-text-button:hover:after,
+.section--dark .featuredblocks-grid-f .featuredblock__cta .component__button--3:hover:after,
+.section--dark .featuredblocks-grid-f .featuredblock__cta .component__button--2:hover:after,
+.section--dark .featuredblocks-grid-f .featuredblock__cta .component__button--1:hover:after {
+  width: 100%;
+  left: 0;
+}
+.section--light .featuredblocks-grid-a .featuredblock__cta .component__button--1,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__button--1,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__button--1,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__button--1,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__button--1,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__button--1,
+.section--dark .featuredblocks-grid-a .featuredblock__cta .component__button--1,
+.section--dark .featuredblocks-grid-b .featuredblock__cta .component__button--1,
+.section--dark .featuredblocks-grid-c .featuredblock__cta .component__button--1,
+.section--dark .featuredblocks-grid-d .featuredblock__cta .component__button--1,
+.section--dark .featuredblocks-grid-e .featuredblock__cta .component__button--1,
+.section--dark .featuredblocks-grid-f .featuredblock__cta .component__button--1 {
+  color: var(--cbutton__light-color-1) !important;
+  background-color: var(--cbutton__light-bg-1) !important;
+}
+.section--light .featuredblocks-grid-a .featuredblock__cta .component__button--1:hover,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__button--1:hover,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__button--1:hover,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__button--1:hover,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__button--1:hover,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__button--1:hover,
+.section--dark .featuredblocks-grid-a .featuredblock__cta .component__button--1:hover,
+.section--dark .featuredblocks-grid-b .featuredblock__cta .component__button--1:hover,
+.section--dark .featuredblocks-grid-c .featuredblock__cta .component__button--1:hover,
+.section--dark .featuredblocks-grid-d .featuredblock__cta .component__button--1:hover,
+.section--dark .featuredblocks-grid-e .featuredblock__cta .component__button--1:hover,
+.section--dark .featuredblocks-grid-f .featuredblock__cta .component__button--1:hover {
+  color: var(--cbutton__light-color-1--hover) !important;
+  background-color: var(--cbutton__light-bg-1--hover) !important;
+}
+.section--light .featuredblocks-grid-a .featuredblock__cta .component__button--2,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__button--2,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__button--2,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__button--2,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__button--2,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__button--2,
+.section--dark .featuredblocks-grid-a .featuredblock__cta .component__button--2,
+.section--dark .featuredblocks-grid-b .featuredblock__cta .component__button--2,
+.section--dark .featuredblocks-grid-c .featuredblock__cta .component__button--2,
+.section--dark .featuredblocks-grid-d .featuredblock__cta .component__button--2,
+.section--dark .featuredblocks-grid-e .featuredblock__cta .component__button--2,
+.section--dark .featuredblocks-grid-f .featuredblock__cta .component__button--2 {
+  color: var(--cbutton__light-color-2) !important;
+  background-color: var(--cbutton__light-bg-2);
+}
+.section--light .featuredblocks-grid-a .featuredblock__cta .component__button--2:after,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__button--2:after,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__button--2:after,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__button--2:after,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__button--2:after,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__button--2:after,
+.section--dark .featuredblocks-grid-a .featuredblock__cta .component__button--2:after,
+.section--dark .featuredblocks-grid-b .featuredblock__cta .component__button--2:after,
+.section--dark .featuredblocks-grid-c .featuredblock__cta .component__button--2:after,
+.section--dark .featuredblocks-grid-d .featuredblock__cta .component__button--2:after,
+.section--dark .featuredblocks-grid-e .featuredblock__cta .component__button--2:after,
+.section--dark .featuredblocks-grid-f .featuredblock__cta .component__button--2:after {
+  background: var(--cbutton__light-color-1);
+}
+.section--light .featuredblocks-grid-a .featuredblock__cta .component__button--2:hover,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__button--2:hover,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__button--2:hover,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__button--2:hover,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__button--2:hover,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__button--2:hover,
+.section--dark .featuredblocks-grid-a .featuredblock__cta .component__button--2:hover,
+.section--dark .featuredblocks-grid-b .featuredblock__cta .component__button--2:hover,
+.section--dark .featuredblocks-grid-c .featuredblock__cta .component__button--2:hover,
+.section--dark .featuredblocks-grid-d .featuredblock__cta .component__button--2:hover,
+.section--dark .featuredblocks-grid-e .featuredblock__cta .component__button--2:hover,
+.section--dark .featuredblocks-grid-f .featuredblock__cta .component__button--2:hover {
+  color: var(--cbutton__light-color-2--hover);
+  background-color: var(--cbutton__light-bg-2--hover) !important;
+}
+.section--light .featuredblocks-grid-a .featuredblock__cta .component__button--3,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__button--3,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__button--3,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__button--3,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__button--3,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__button--3,
+.section--dark .featuredblocks-grid-a .featuredblock__cta .component__button--3,
+.section--dark .featuredblocks-grid-b .featuredblock__cta .component__button--3,
+.section--dark .featuredblocks-grid-c .featuredblock__cta .component__button--3,
+.section--dark .featuredblocks-grid-d .featuredblock__cta .component__button--3,
+.section--dark .featuredblocks-grid-e .featuredblock__cta .component__button--3,
+.section--dark .featuredblocks-grid-f .featuredblock__cta .component__button--3 {
+  color: var(--cbutton__light-color-3) !important;
+  background-color: var(--cbutton__light-bg-3) !important;
+}
+.section--light .featuredblocks-grid-a .featuredblock__cta .component__button--3:hover,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__button--3:hover,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__button--3:hover,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__button--3:hover,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__button--3:hover,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__button--3:hover,
+.section--dark .featuredblocks-grid-a .featuredblock__cta .component__button--3:hover,
+.section--dark .featuredblocks-grid-b .featuredblock__cta .component__button--3:hover,
+.section--dark .featuredblocks-grid-c .featuredblock__cta .component__button--3:hover,
+.section--dark .featuredblocks-grid-d .featuredblock__cta .component__button--3:hover,
+.section--dark .featuredblocks-grid-e .featuredblock__cta .component__button--3:hover,
+.section--dark .featuredblocks-grid-f .featuredblock__cta .component__button--3:hover {
+  color: var(--cbutton__light-color-3--hover);
+  background-color: var(--cbutton__light-bg-3--hover);
+}
+.section--light .featuredblocks-grid-a .featuredblock__cta .component__button--icon-text-button,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__button--icon-text-button,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__button--icon-text-button,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__button--icon-text-button,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__button--icon-text-button,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__button--icon-text-button,
+.section--dark .featuredblocks-grid-a .featuredblock__cta .component__button--icon-text-button,
+.section--dark .featuredblocks-grid-b .featuredblock__cta .component__button--icon-text-button,
+.section--dark .featuredblocks-grid-c .featuredblock__cta .component__button--icon-text-button,
+.section--dark .featuredblocks-grid-d .featuredblock__cta .component__button--icon-text-button,
+.section--dark .featuredblocks-grid-e .featuredblock__cta .component__button--icon-text-button,
+.section--dark .featuredblocks-grid-f .featuredblock__cta .component__button--icon-text-button {
+  color: var(--cbutton__light-color-1);
+  text-decoration: none;
+  background-color: var(--cbutton__light-bg-1) !important;
+}
+.section--light .featuredblocks-grid-a .featuredblock__cta .component__button--icon-text-button:hover,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__button--icon-text-button:hover,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__button--icon-text-button:hover,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__button--icon-text-button:hover,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__button--icon-text-button:hover,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__button--icon-text-button:hover,
+.section--dark .featuredblocks-grid-a .featuredblock__cta .component__button--icon-text-button:hover,
+.section--dark .featuredblocks-grid-b .featuredblock__cta .component__button--icon-text-button:hover,
+.section--dark .featuredblocks-grid-c .featuredblock__cta .component__button--icon-text-button:hover,
+.section--dark .featuredblocks-grid-d .featuredblock__cta .component__button--icon-text-button:hover,
+.section--dark .featuredblocks-grid-e .featuredblock__cta .component__button--icon-text-button:hover,
+.section--dark .featuredblocks-grid-f .featuredblock__cta .component__button--icon-text-button:hover {
+  color: var(--cbutton__light-color-1--hover);
+  background-color: var(--cbutton__light-bg-1--hover) !important;
+}
+.section--light .featuredblocks-grid-a .featuredblock__cta .component__button--icon-button,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__button--icon-button,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__button--icon-button,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__button--icon-button,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__button--icon-button,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__button--icon-button,
+.section--dark .featuredblocks-grid-a .featuredblock__cta .component__button--icon-button,
+.section--dark .featuredblocks-grid-b .featuredblock__cta .component__button--icon-button,
+.section--dark .featuredblocks-grid-c .featuredblock__cta .component__button--icon-button,
+.section--dark .featuredblocks-grid-d .featuredblock__cta .component__button--icon-button,
+.section--dark .featuredblocks-grid-e .featuredblock__cta .component__button--icon-button,
+.section--dark .featuredblocks-grid-f .featuredblock__cta .component__button--icon-button {
+  color: var(--cbutton__light-color-1);
+  border: none !important;
+  background: none !important;
+  padding: 0;
+  font-size: 23px;
+}
+.section--light .featuredblocks-grid-a .featuredblock__cta .component__button--icon-button:hover,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__button--icon-button:hover,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__button--icon-button:hover,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__button--icon-button:hover,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__button--icon-button:hover,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__button--icon-button:hover,
+.section--dark .featuredblocks-grid-a .featuredblock__cta .component__button--icon-button:hover,
+.section--dark .featuredblocks-grid-b .featuredblock__cta .component__button--icon-button:hover,
+.section--dark .featuredblocks-grid-c .featuredblock__cta .component__button--icon-button:hover,
+.section--dark .featuredblocks-grid-d .featuredblock__cta .component__button--icon-button:hover,
+.section--dark .featuredblocks-grid-e .featuredblock__cta .component__button--icon-button:hover,
+.section--dark .featuredblocks-grid-f .featuredblock__cta .component__button--icon-button:hover {
+  color: var(--cbutton__light-bg-1--hover);
+}
+
+.section--light .featuredblocks-grid-a .featuredblock__cta .component__link--3, .section--light .featuredblocks-grid-a .featuredblock__cta .component__link--2, .section--light .featuredblocks-grid-a .featuredblock__cta .component__link--1,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__link--3,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__link--2,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__link--1,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__link--3,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__link--2,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__link--1,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__link--3,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__link--2,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__link--1,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__link--3,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__link--2,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__link--1,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__link--3,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__link--2,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__link--1 {
+  color: var(--clink--text__dark);
+}
+.section--light .featuredblocks-grid-a .featuredblock__cta .component__link--3:hover, .section--light .featuredblocks-grid-a .featuredblock__cta .component__link--2:hover, .section--light .featuredblocks-grid-a .featuredblock__cta .component__link--1:hover,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__link--3:hover,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__link--2:hover,
+.section--light .featuredblocks-grid-b .featuredblock__cta .component__link--1:hover,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__link--3:hover,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__link--2:hover,
+.section--light .featuredblocks-grid-c .featuredblock__cta .component__link--1:hover,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__link--3:hover,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__link--2:hover,
+.section--light .featuredblocks-grid-d .featuredblock__cta .component__link--1:hover,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__link--3:hover,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__link--2:hover,
+.section--light .featuredblocks-grid-e .featuredblock__cta .component__link--1:hover,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__link--3:hover,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__link--2:hover,
+.section--light .featuredblocks-grid-f .featuredblock__cta .component__link--1:hover {
+  color: var(--clink--text__dark--hover);
+}
+
+.section--light .banner .component__button--2.cta__button,
+.section--light .component__button--2,
+.section--light .cta__button.component__button--2 {
+  background-color: var(--cbutton__light-bg-2) !important;
+  color: var(--cbutton__light-color-2) !important;
+}
+
+.section--light .banner .component__button--3.cta__button,
+.section--light .component__button--3,
+.section--light .cta__button.component__button--3 {
+  border-color: var(--cbutton__light-bg-3) !important;
+  background-color: var(--cbutton__light-bg-3) !important;
+  color: var(--cbutton__light-color-3) !important;
+}
+.section--light .banner .component__button--3.cta__button:after,
+.section--light .component__button--3:after,
+.section--light .cta__button.component__button--3:after {
+  background: var(--cbutton__light-bg-3);
+}
+
+.section--light .form-wrap__submit input:hover,
+.section--light .editable__container button:hover,
+html .section--light .editable__container [type=button]:hover,
+.section--light .editable__container [type=reset]:hover,
+.section--light .editable__container [type=submit]:hover,
+.section--light .banner .component__button--1.cta__button:hover,
+.section--light .cta__button.component__button--2:hover,
+.section--light .component__button--3:hover,
+.section--light .component__button--2:hover,
+.section--light .component__button--1:hover {
+  background-color: var(--cbutton__light-bg-1--hover) !important;
+  color: var(--cbutton__light-color-1--hover) !important;
+  border-color: var(--cbutton__light-bg--hover) !important;
+  border-width: 4px !important;
+  text-decoration: none;
+}
+
+.section--light .form-wrap__submit input:hover,
+.section--light .banner .component__button--2.cta__button:hover,
+.section--light .component__button--2:hover,
+.section--light .cta__button.component__button--2:hover {
+  background-color: var(--cbutton__light-bg-2--hover) !important;
+  color: var(--cbutton__light-color-2--hover) !important;
+}
+
+.section--light .banner .component__button--3.cta__button:hover,
+.section--light .component__button--3:hover,
+.section--light .cta__button.component__button--3:hover {
+  background-color: var(--cbutton__light-bg-3--hover) !important;
+  border-color: var(--cbutton__light-bg-3) !important;
+  color: var(--cbutton__light-color-3--hover) !important;
+}
+.section--light .banner .component__button--3.cta__button:hover:after,
+.section--light .component__button--3:hover:after,
+.section--light .cta__button.component__button--3:hover:after {
+  background: var(--cbutton__light-bg-3);
+}
+
+.section--dark .form-wrap__submit input,
+.section--dark .editable__container button,
+html .section--dark .editable__container [type=button],
+.section--dark .editable__container [type=reset],
+.section--dark .editable__container [type=submit],
+.section--dark .banner .component__button--1.cta__button,
+.section--dark .cta__button.component__button--2,
+.section--dark .component__button-3,
+.section--dark .component__button-2,
+.section--dark .component__button--1 {
+  border-color: var(--cbutton__dark-color-1) !important;
+  background: var(--cbutton__dark-bg-1) !important;
+  color: var(--cbutton__dark-color-1) !important;
+}
+.section--dark .form-wrap__submit input:after,
+.section--dark .editable__container button:after,
+html .section--dark .editable__container [type=button]:after,
+.section--dark .editable__container [type=reset]:after,
+.section--dark .editable__container [type=submit]:after,
+.section--dark .banner .component__button--1.cta__button:after,
+.section--dark .cta__button.component__button--2:after,
+.section--dark .component__button-3:after,
+.section--dark .component__button-2:after,
+.section--dark .component__button--1:after {
+  background: var(--cbutton__dark-color-1);
+}
+
+.section--dark .banner .component__button--2.cta__button,
+.section--dark .component__button--2,
+.section--dark .cta__button.component__button--2 {
+  background-color: var(--cbutton__dark-color-2) !important;
+  border-color: var(--cbutton__dark-color-2) !important;
+  color: var(--cbutton__dark-bg-2) !important;
+}
+.section--dark .banner .component__button--2.cta__button:after,
+.section--dark .component__button--2:after,
+.section--dark .cta__button.component__button--2:after {
+  background: var(--cbutton__dark-color-2);
+}
+
+.section--dark .banner .component__button--3.cta__button,
+.section--dark .component__button--3,
+.section--dark .cta__button.component__button--3 {
+  border-color: var(--cbutton__dark-bg-3) !important;
+  background-color: var(--cbutton__dark-bg-3) !important;
+  color: var(--cbutton__dark-color-3) !important;
+  padding: 12px 10px 8px;
+  border-width: 4px !important;
+  border-radius: 4px 4px 0 0 !important;
+}
+.section--dark .banner .component__button--3.cta__button:after,
+.section--dark .component__button--3:after,
+.section--dark .cta__button.component__button--3:after {
+  background: var(--cbutton__dark-color-3);
+}
+
+.section--dark .form-wrap__submit input:hover,
+.section--dark .editable__container button:hover,
+html .section--dark .editable__container [type=button]:hover,
+.section--dark .editable__container [type=reset]:hover,
+.section--dark .editable__container [type=submit]:hover,
+.section--dark .banner .component__button--1.cta__button:hover,
+.section--dark .cta__button.component__button--2:hover,
+.section--dark .component__button--3:hover,
+.section--dark .component__button--2:hover,
+.section--dark .component__button--1:hover {
+  background-color: var(--cbutton__dark-bg-1--hover) !important;
+  color: var(--cbutton__dark-color-1--hover) !important;
+}
+
+.section--dark .banner .component__button--2.cta__button:hover,
+.section--dark .component__button--2:hover,
+.section--dark .cta__button.component__button--2:hover {
+  background-color: var(--cbutton__dark-bg-2--hover) !important;
+  color: var(--cbutton__dark-color-2--hover) !important;
+}
+
+.section--dark .banner .component__button--3.cta__button:hover,
+.section--dark .component__button--3:hover,
+.section--dark .cta__button.component__button--3:hover {
+  background-color: var(--cbutton__dark-bg-3--hover) !important;
+  color: var(--cbutton__dark-color-3) !important;
+  border-color: var(--cbutton__dark-bg-3) !important;
+  border-width: 4px !important;
+}
+.section--dark .banner .component__button--3.cta__button:hover:after,
+.section--dark .component__button--3:hover:after,
+.section--dark .cta__button.component__button--3:hover:after {
+  background: var(--cbutton__dark-bg-3);
+}
+
+.section .component__link--1,
+.section .component__link--2,
+.section .component__link--3 {
+  font-family: "Heebo", sans-serif !important;
+  font-weight: bold;
+  font-size: 18px !important;
+  letter-spacing: 2px;
+}
+
+.wrap__where_is_your_pain .component__button--1,
+.wrap__where_is_your_pain .component__button--2,
+.wrap__where_is_your_pain .component__button--3 {
+  border-width: 2px !important;
+  border-radius: 4px !important;
+  width: 100%;
+  max-width: 355px;
+  margin: 0 0 5px;
+  text-decoration: none;
+}
+.wrap__where_is_your_pain .component__link--1,
+.wrap__where_is_your_pain .component__link--2,
+.wrap__where_is_your_pain .component__link--3 {
+  margin-top: -2px;
+  max-width: 68%;
+}
+
+.navigation-c,
+.navigation-b {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  margin-top: -27px;
+}
+.navigation-c .navigation__list .navigation__item,
+.navigation-b .navigation__list .navigation__item {
+  font: bold 16px/22px "Heebo", sans-serif;
+}
+.navigation-c .navigation__item--link,
+.navigation-b .navigation__item--link {
+  text-decoration: none;
+}
+.navigation-c .navigation__menu--list > .navigation__item > .navigation__item--link,
+.navigation-b .navigation__menu--list > .navigation__item > .navigation__item--link {
+  font: bold 18px/22px "Heebo", sans-serif;
+}
+
+.navigation-a .navigation__item--link {
+  font-family: "Heebo", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+}
+.navigation-a .navigation__item--link:hover {
+  text-decoration: none;
+}
+.navigation-a .navigation__item.has-drop-down > .navigation__item--link {
+  padding-right: 1.1rem;
+}
+.navigation-a .navigation__list--sub {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.navigation-a .navigation__list--sub .navigation__item--link {
+  padding: 17px 12px;
+  text-align: left;
+}
+
+.mm-menu .mm-navbar a,
+.mm-menu .mm-navbar > * {
+  color: white;
+}
+
+.section-banner .banner .banner-text__title--extraLarge {
+  font-size: 46px;
+  line-height: 50px;
+}
+.section-banner .banner .banner-text__title--large {
+  font-size: 40px;
+  line-height: 46px;
+}
+.section-banner .banner .banner-text__subtitle--medium {
+  font: bold 28px/34px "Heebo", sans-serif;
+}
+.section-banner .banner .banner-text__subtitle--small {
+  font-size: 26px;
+  line-height: 30px;
+}
+
+.section-banner .banner .banner-text__title--large {
+  font-size: 46px;
+}
+
+.section-banner .banner .banner-text__subtitle--medium {
+  font-size: 28px;
+}
+
+.banner .flexslider .flex-control-nav {
+  bottom: 40px;
+}
+.banner .flexslider .flex-control-paging li a {
+  height: 12px;
+  width: 12px;
+  box-shadow: none;
+}
+
+.section--dark .flex-control-paging li a,
+.section.section__bg--dark-4 .flex-control-paging li a {
+  background: rgba(255, 255, 255, 0.5);
+}
+.section--dark .flex-control-paging li a:hover,
+.section--dark .flex-control-paging li a.flex-active,
+.section.section__bg--dark-4 .flex-control-paging li a:hover,
+.section.section__bg--dark-4 .flex-control-paging li a.flex-active {
+  background: white;
+}
+
+.section--light .flex-control-paging li a {
+  background: var(--color2);
+}
+.section--light .flex-control-paging li a:hover,
+.section--light .flex-control-paging li a.flex-active {
+  background: var(--rgb-color-2-alpha5);
+}
+
+.outline-border.section-banner .section--dark .banner-img__wrapper,
+.outline-border.section-banner .section--light .banner-img__wrapper {
+  outline: 0;
+}
+
+.bx-wrapper .bx-controls.bx-has-controls-direction {
+  min-height: 28px;
+  position: relative;
+  padding: 0 22px;
+}
+.bx-wrapper .bx-controls-buttons {
+  padding: 0 !important;
+  display: flex;
+  justify-content: center;
+}
+.bx-wrapper .bx-controls-buttons [class$=_pause-play],
+.bx-wrapper .bx-controls-buttons [class$=_on-off] {
+  background: none !important;
+}
+.bx-wrapper .bx-controls .bx-pager {
+  padding: 0;
+  margin: 0 !important;
+  font-size: inherit;
+  line-height: 1;
+  order: 1;
+}
+.bx-wrapper .bx-controls .bx-pager-item {
+  margin: 0 6px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.bx-wrapper .bx-controls .bx-pager.bx-default-pager a {
+  float: left;
+  height: 12px;
+  width: 12px;
+  margin: 0;
+  border-radius: 50%;
+  background: var(--rgb-color-2-alpha5);
+}
+.bx-wrapper .bx-controls .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-controls .bx-pager.bx-default-pager a.active {
+  background: var(--color2);
+}
+.bx-wrapper .bx-controls-direction {
+  max-width: 100%;
+  margin: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: auto;
+  transform: none;
+}
+.bx-wrapper .bx-controls-direction a {
+  margin: 0;
+  z-index: 3;
+  top: 3px;
+  background: none;
+  height: 26px;
+  width: 26px;
+  overflow: hidden;
+  text-decoration: none;
+  text-indent: 0;
+  line-height: 2.26;
+}
+.bx-wrapper .bx-controls-direction a:before {
+  font: normal normal normal 18px/1.2 font-awesome;
+  margin-top: -5px;
+  display: block;
+}
+.bx-wrapper .bx-controls-direction a.bx-prev {
+  left: 0;
+  text-align: left;
+}
+.bx-wrapper .bx-controls-direction a.bx-prev:before {
+  content: "\f104";
+}
+.bx-wrapper .bx-controls-direction a.bx-next {
+  right: 0;
+  text-align: right;
+}
+.bx-wrapper .bx-controls-direction a.bx-next:before {
+  content: "\f105";
+}
+
+.section--dark .bx-wrapper .bx-controls .bx-pager.bx-default-pager a {
+  background: rgba(255, 255, 255, 0.5);
+}
+.section--dark .bx-wrapper .bx-controls .bx-pager.bx-default-pager a.active, .section--dark .bx-wrapper .bx-controls .bx-pager.bx-default-pager a:hover {
+  background: white;
+}
+
+.featuredblock__wrap {
+  min-height: 210px;
+  justify-content: center;
+}
+.featuredblock__wrap .featuredblock__title {
+  font-family: "Heebo", sans-serif !important;
+  font-weight: bold !important;
+  font-size: 18px !important;
+  padding: 0 10px;
+}
+.featuredblock__wrap .featuredblock__cta {
+  margin: 0 10px;
+}
+.featuredblock__wrap .featuredblock__content p {
+  font-size: 14px;
+}
+.featuredblock__wrap a {
+  text-decoration: none;
+}
+.featuredblock__wrap a:hover {
+  text-decoration: underline;
+}
+
+.featuredblock.row {
+  margin-bottom: 0;
+}
+
+.section--dark .featuredblocks-grid-a .featuredblock__title {
+  color: var(--color3);
+}
+
+.section--light .featuredblocks-grid-a .featuredblock__icon .icon {
+  color: white;
+}
+
+.blade-a__title-subtitle {
+  position: relative;
+}
+.blade-a__title-subtitle:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 8px;
+  margin: 20px 0;
+  background-color: var(--rgb-color-2-alpha3);
+}
+.section--dark .blade-a__title-subtitle:after {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.section-blade .blade-a__readmore a {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+.section-blade .section--dark .blade-a__readmore .cta__link {
+  color: var(--clink--text__dark);
+  text-decoration: none;
+}
+.section-blade .section--dark .blade-a__readmore .cta__link:hover {
+  color: var(--clink--text__dark--hover);
+  text-decoration: underline;
+}
+.section-blade .section--light .blade-a__readmore .cta__link {
+  color: var(--clink--text__light);
+  text-decoration: none;
+}
+.section-blade .section--light .blade-a__readmore .cta__link:hover {
+  color: var(--clink--text__light--hover);
+  text-decoration: underline;
+}
+
+.section-form .component__title-caption-wrap {
+  text-align: center;
+}
+.section-form .form__caption,
+.section-form .form__title {
+  font: bold 30px/36px "Heebo", sans-serif;
+}
+.section-form .form__caption {
+  font-size: 24px;
+  line-height: 30px;
+}
+.section-form .leadForm {
+  text-align: left;
+}
+
+.form__name {
+  font: 20px/1.222 "Nunito Sans", sans-serif;
+}
+
+.contact-us-im,
+.form__group {
+  overflow: hidden;
+}
+
+.error_container {
+  clear: both;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.form__group.form-input-comments,
+.form__group.form-input-message {
+  flex-direction: column;
+}
+
+.form-input-uploadFile span.status-label:before {
+  width: 4px;
+}
+
+.form-input-uploadFile .fileUpload + label span span i:before {
+  margin-left: 2px;
+}
+
+.form__group .input_container select {
+  padding-right: 44px !important;
+}
+.form__group .input_container select option {
+  padding: 0 0 1px;
+}
+.form .component__title-caption-wrap {
+  padding-top: 0;
+}
+.form .input_container.select_wrapper {
+  position: relative;
+}
+.form .input_container.select_wrapper:before {
+  width: 40px;
+  height: 43px;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  bottom: 4px;
+  content: "\f078";
+  background: var(--input-field-border);
+  font: normal normal normal 18px/2.25 font-awesome;
+  text-align: center;
+  pointer-events: none;
+  cursor: pointer;
+  color: var(--input-select-field-color);
+  z-index: 6;
+  padding-left: 4px;
+}
+
+.section--light .section-form .form__title,
+.section--light .form__name {
+  color: var(--component__title);
+}
+.section--light .section-form .leadForm,
+.section--light .form-input-uploadFile .form-input-info,
+.section--light .form .leadFormInfo {
+  color: var(--regular__color);
+}
+
+.section--dark .form__name {
+  color: var(--component__title__dark);
+}
+.section--dark form,
+.section--dark .help_text,
+.section--dark .section-form .leadForm,
+.section--dark .form-input-uploadFile .form-input-info,
+.section--dark .form .leadFormInfo {
+  color: var(--regular__color__dark);
+}
+
+.form .error_container label {
+  color: var(--error);
+  font-weight: bold;
+}
+.form .help_text {
+  display: block;
+  margin: 0 0 10px;
+}
+.form .leadFormInfo {
+  padding-top: 1rem;
+}
+
+.section--dark .form .error_container label {
+  color: var(--regular__color__dark);
+}
+.section--dark .form-wrap__submit:after {
+  background: var(--cbutton__dark-bg-1--hover);
+}
+
+.contact-us-im .form-wrap__submit,
+.newsletter-3-fields .form-wrap__submit,
+.exclusive-offer .form-wrap__submit,
+.form-wrap__submit {
+  position: relative;
+  overflow: hidden;
+  width: auto;
+  min-width: 230px;
+  display: table;
+  margin: 0 auto 20px;
+}
+.contact-us-im .form-wrap__submit input,
+.newsletter-3-fields .form-wrap__submit input,
+.exclusive-offer .form-wrap__submit input,
+.form-wrap__submit input {
+  width: 100%;
+}
+.contact-us-im .form-wrap__submit:after,
+.newsletter-3-fields .form-wrap__submit:after,
+.exclusive-offer .form-wrap__submit:after,
+.form-wrap__submit:after {
+  position: absolute;
+  transition: 0.3s;
+  content: "";
+  width: 0;
+  left: 0;
+  bottom: 0;
+  height: 8px;
+}
+.contact-us-im .form-wrap__submit:hover:after,
+.newsletter-3-fields .form-wrap__submit:hover:after,
+.exclusive-offer .form-wrap__submit:hover:after,
+.form-wrap__submit:hover:after {
+  width: 100%;
+  left: 0;
+}
+.contact-us-im .form-input-uploadFile .fileUpload,
+.newsletter-3-fields .form-input-uploadFile .fileUpload,
+.exclusive-offer .form-input-uploadFile .fileUpload,
+.form-input-uploadFile .fileUpload {
+  display: none;
+}
+.contact-us-im .form-input-uploadFile .fileUpload + label,
+.newsletter-3-fields .form-input-uploadFile .fileUpload + label,
+.exclusive-offer .form-input-uploadFile .fileUpload + label,
+.form-input-uploadFile .fileUpload + label {
+  padding: 11px;
+  height: 44px;
+  z-index: 10;
+}
+.contact-us-im .form-input-uploadFile .fileUpload + label.has-error,
+.newsletter-3-fields .form-input-uploadFile .fileUpload + label.has-error,
+.exclusive-offer .form-input-uploadFile .fileUpload + label.has-error,
+.form-input-uploadFile .fileUpload + label.has-error {
+  border-color: var(--error);
+}
+.contact-us-im .form-input-uploadFile .fileUpload + label .labelHolder,
+.newsletter-3-fields .form-input-uploadFile .fileUpload + label .labelHolder,
+.exclusive-offer .form-input-uploadFile .fileUpload + label .labelHolder,
+.form-input-uploadFile .fileUpload + label .labelHolder {
+  padding: 0;
+}
+.contact-us-im .form-input-uploadFile .fileUpload + label .labelHolder .error,
+.newsletter-3-fields .form-input-uploadFile .fileUpload + label .labelHolder .error,
+.exclusive-offer .form-input-uploadFile .fileUpload + label .labelHolder .error,
+.form-input-uploadFile .fileUpload + label .labelHolder .error {
+  font-size: inherit;
+  line-height: inherit;
+  padding: 0;
+}
+.contact-us-im .form-input-uploadFile .fileUpload + label > span,
+.newsletter-3-fields .form-input-uploadFile .fileUpload + label > span,
+.exclusive-offer .form-input-uploadFile .fileUpload + label > span,
+.form-input-uploadFile .fileUpload + label > span {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px 11px;
+}
+.contact-us-im .form-input-uploadFile .fileUpload + label > span.btnS,
+.newsletter-3-fields .form-input-uploadFile .fileUpload + label > span.btnS,
+.exclusive-offer .form-input-uploadFile .fileUpload + label > span.btnS,
+.form-input-uploadFile .fileUpload + label > span.btnS {
+  min-width: 34px;
+  padding: 0 3px 0 10px;
+}
+.contact-us-im .form-input-uploadFile .fileUpload + label > span.btnS span:first-child,
+.newsletter-3-fields .form-input-uploadFile .fileUpload + label > span.btnS span:first-child,
+.exclusive-offer .form-input-uploadFile .fileUpload + label > span.btnS span:first-child,
+.form-input-uploadFile .fileUpload + label > span.btnS span:first-child {
+  flex: 1 0 auto;
+}
+.contact-us-im .form-input-uploadFile .form-input-info,
+.newsletter-3-fields .form-input-uploadFile .form-input-info,
+.exclusive-offer .form-input-uploadFile .form-input-info,
+.form-input-uploadFile .form-input-info {
+  display: block;
+  clear: both;
+  padding: 6px 0 5px;
+}
+.contact-us-im .form-input-uploadFile span.status-label:before,
+.newsletter-3-fields .form-input-uploadFile span.status-label:before,
+.exclusive-offer .form-input-uploadFile span.status-label:before,
+.form-input-uploadFile span.status-label:before {
+  display: none;
+}
+.contact-us-im .form .input_container.checkbox_wrapper, .contact-us-im .form .input_container.radio_wrapper,
+.newsletter-3-fields .form .input_container.checkbox_wrapper,
+.newsletter-3-fields .form .input_container.radio_wrapper,
+.exclusive-offer .form .input_container.checkbox_wrapper,
+.exclusive-offer .form .input_container.radio_wrapper,
+.form .input_container.checkbox_wrapper,
+.form .input_container.radio_wrapper {
+  position: relative;
+  overflow: hidden;
+  border-style: none;
+}
+.contact-us-im .form .input_container.checkbox_wrapper input, .contact-us-im .form .input_container.radio_wrapper input,
+.newsletter-3-fields .form .input_container.checkbox_wrapper input,
+.newsletter-3-fields .form .input_container.radio_wrapper input,
+.exclusive-offer .form .input_container.checkbox_wrapper input,
+.exclusive-offer .form .input_container.radio_wrapper input,
+.form .input_container.checkbox_wrapper input,
+.form .input_container.radio_wrapper input {
+  position: absolute;
+  top: 0;
+  left: -9999px;
+}
+.contact-us-im .form .input_container.checkbox_wrapper input + label, .contact-us-im .form .input_container.radio_wrapper input + label,
+.newsletter-3-fields .form .input_container.checkbox_wrapper input + label,
+.newsletter-3-fields .form .input_container.radio_wrapper input + label,
+.exclusive-offer .form .input_container.checkbox_wrapper input + label,
+.exclusive-offer .form .input_container.radio_wrapper input + label,
+.form .input_container.checkbox_wrapper input + label,
+.form .input_container.radio_wrapper input + label {
+  position: relative;
+  margin-bottom: 4px;
+  padding: 5px 0 0 50px;
+  min-height: 30px;
+  font: 18px/1.375 "Heebo", sans-serif;
+}
+.contact-us-im .form .input_container.checkbox_wrapper input + label:before, .contact-us-im .form .input_container.radio_wrapper input + label:before,
+.newsletter-3-fields .form .input_container.checkbox_wrapper input + label:before,
+.newsletter-3-fields .form .input_container.radio_wrapper input + label:before,
+.exclusive-offer .form .input_container.checkbox_wrapper input + label:before,
+.exclusive-offer .form .input_container.radio_wrapper input + label:before,
+.form .input_container.checkbox_wrapper input + label:before,
+.form .input_container.radio_wrapper input + label:before {
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  background: var(--input-field-bg);
+  border: 4px solid var(--input-field-border) !important;
+  border-radius: 4px;
+  color: var(--input-checkbox-color);
+  font: normal normal normal 18px/1.2 font-awesome;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.contact-us-im .form .input_container.checkbox_wrapper .has-error + label:before, .contact-us-im .form .input_container.radio_wrapper .has-error + label:before,
+.newsletter-3-fields .form .input_container.checkbox_wrapper .has-error + label:before,
+.newsletter-3-fields .form .input_container.radio_wrapper .has-error + label:before,
+.exclusive-offer .form .input_container.checkbox_wrapper .has-error + label:before,
+.exclusive-offer .form .input_container.radio_wrapper .has-error + label:before,
+.form .input_container.checkbox_wrapper .has-error + label:before,
+.form .input_container.radio_wrapper .has-error + label:before {
+  border-color: var(--error) !important;
+}
+.contact-us-im .form .input_container.checkbox_wrapper input:checked + label:before,
+.newsletter-3-fields .form .input_container.checkbox_wrapper input:checked + label:before,
+.exclusive-offer .form .input_container.checkbox_wrapper input:checked + label:before,
+.form .input_container.checkbox_wrapper input:checked + label:before {
+  content: "\f00c";
+}
+.contact-us-im .form .input_container.radio_wrapper input + label:before,
+.newsletter-3-fields .form .input_container.radio_wrapper input + label:before,
+.exclusive-offer .form .input_container.radio_wrapper input + label:before,
+.form .input_container.radio_wrapper input + label:before {
+  border-radius: 50%;
+}
+.contact-us-im .form .input_container.radio_wrapper input:checked + label:before,
+.newsletter-3-fields .form .input_container.radio_wrapper input:checked + label:before,
+.exclusive-offer .form .input_container.radio_wrapper input:checked + label:before,
+.form .input_container.radio_wrapper input:checked + label:before {
+  content: "\f111";
+  font-size: 17px;
+  line-height: 1.3;
+  letter-spacing: -0.5px;
+}
+.contact-us-im .form .input_container.checkbox_wrapper div[class$=__label-input-container], .contact-us-im .form .input_container.radio_wrapper div[class$=__label-input-container],
+.newsletter-3-fields .form .input_container.checkbox_wrapper div[class$=__label-input-container],
+.newsletter-3-fields .form .input_container.radio_wrapper div[class$=__label-input-container],
+.exclusive-offer .form .input_container.checkbox_wrapper div[class$=__label-input-container],
+.exclusive-offer .form .input_container.radio_wrapper div[class$=__label-input-container],
+.form .input_container.checkbox_wrapper div[class$=__label-input-container],
+.form .input_container.radio_wrapper div[class$=__label-input-container] {
+  position: relative;
+  padding: 0 0 5px;
+}
+.contact-us-im .form .input_container input[type=checkbox],
+.contact-us-im .form .input_container input[type=radio],
+.newsletter-3-fields .form .input_container input[type=checkbox],
+.newsletter-3-fields .form .input_container input[type=radio],
+.exclusive-offer .form .input_container input[type=checkbox],
+.exclusive-offer .form .input_container input[type=radio],
+.form .input_container input[type=checkbox],
+.form .input_container input[type=radio] {
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  top: 2;
+  left: 2;
+  outline: none;
+}
+
+.contact-us-im .form__group .input_container .form-input-uploadFile .fileUpload + label,
+.contact-us-im .form__group .input_container select,
+.contact-us-im .form__group .input_container textarea,
+.contact-us-im .form__group .input_container input,
+.newsletter-3-fields .form__group .input_container .form-input-uploadFile .fileUpload + label,
+.newsletter-3-fields .form__group .input_container select,
+.newsletter-3-fields .form__group .input_container textarea,
+.newsletter-3-fields .form__group .input_container input,
+.exclusive-offer .form__group .input_container .form-input-uploadFile .fileUpload + label,
+.exclusive-offer .form__group .input_container select,
+.exclusive-offer .form__group .input_container textarea,
+.exclusive-offer .form__group .input_container input,
+.form__group .input_container .form-input-uploadFile .fileUpload + label,
+.form__group .input_container select,
+.form__group .input_container textarea,
+.form__group .input_container input {
+  border: 4px solid var(--input-field-border) !important;
+  width: 100%;
+  padding: 0.3125rem 0.9375rem;
+  height: 3.125rem;
+}
+.contact-us-im .form__group .input_container .form-input-uploadFile .fileUpload + label::placeholder,
+.contact-us-im .form__group .input_container select::placeholder,
+.contact-us-im .form__group .input_container textarea::placeholder,
+.contact-us-im .form__group .input_container input::placeholder,
+.newsletter-3-fields .form__group .input_container .form-input-uploadFile .fileUpload + label::placeholder,
+.newsletter-3-fields .form__group .input_container select::placeholder,
+.newsletter-3-fields .form__group .input_container textarea::placeholder,
+.newsletter-3-fields .form__group .input_container input::placeholder,
+.exclusive-offer .form__group .input_container .form-input-uploadFile .fileUpload + label::placeholder,
+.exclusive-offer .form__group .input_container select::placeholder,
+.exclusive-offer .form__group .input_container textarea::placeholder,
+.exclusive-offer .form__group .input_container input::placeholder,
+.form__group .input_container .form-input-uploadFile .fileUpload + label::placeholder,
+.form__group .input_container select::placeholder,
+.form__group .input_container textarea::placeholder,
+.form__group .input_container input::placeholder {
+  color: var(--input-field-color);
+}
+.contact-us-im .form__group .input_container .form-input-uploadFile .fileUpload + label.has-error,
+.contact-us-im .form__group .input_container select.has-error,
+.contact-us-im .form__group .input_container textarea.has-error,
+.contact-us-im .form__group .input_container input.has-error,
+.newsletter-3-fields .form__group .input_container .form-input-uploadFile .fileUpload + label.has-error,
+.newsletter-3-fields .form__group .input_container select.has-error,
+.newsletter-3-fields .form__group .input_container textarea.has-error,
+.newsletter-3-fields .form__group .input_container input.has-error,
+.exclusive-offer .form__group .input_container .form-input-uploadFile .fileUpload + label.has-error,
+.exclusive-offer .form__group .input_container select.has-error,
+.exclusive-offer .form__group .input_container textarea.has-error,
+.exclusive-offer .form__group .input_container input.has-error,
+.form__group .input_container .form-input-uploadFile .fileUpload + label.has-error,
+.form__group .input_container select.has-error,
+.form__group .input_container textarea.has-error,
+.form__group .input_container input.has-error {
+  border: 4px solid var(--error) !important;
+}
+.contact-us-im .form__group .input_container .form-input-uploadFile .fileUpload + label.has-error::placeholder,
+.contact-us-im .form__group .input_container select.has-error::placeholder,
+.contact-us-im .form__group .input_container textarea.has-error::placeholder,
+.contact-us-im .form__group .input_container input.has-error::placeholder,
+.newsletter-3-fields .form__group .input_container .form-input-uploadFile .fileUpload + label.has-error::placeholder,
+.newsletter-3-fields .form__group .input_container select.has-error::placeholder,
+.newsletter-3-fields .form__group .input_container textarea.has-error::placeholder,
+.newsletter-3-fields .form__group .input_container input.has-error::placeholder,
+.exclusive-offer .form__group .input_container .form-input-uploadFile .fileUpload + label.has-error::placeholder,
+.exclusive-offer .form__group .input_container select.has-error::placeholder,
+.exclusive-offer .form__group .input_container textarea.has-error::placeholder,
+.exclusive-offer .form__group .input_container input.has-error::placeholder,
+.form__group .input_container .form-input-uploadFile .fileUpload + label.has-error::placeholder,
+.form__group .input_container select.has-error::placeholder,
+.form__group .input_container textarea.has-error::placeholder,
+.form__group .input_container input.has-error::placeholder {
+  color: var(--error);
+}
+.contact-us-im .form__group .input_container .form-input-uploadFile span.status-label:before,
+.newsletter-3-fields .form__group .input_container .form-input-uploadFile span.status-label:before,
+.exclusive-offer .form__group .input_container .form-input-uploadFile span.status-label:before,
+.form__group .input_container .form-input-uploadFile span.status-label:before {
+  background-color: var(--input-field-border);
+}
+.contact-us-im .form__group .input_container textarea,
+.newsletter-3-fields .form__group .input_container textarea,
+.exclusive-offer .form__group .input_container textarea,
+.form__group .input_container textarea {
+  height: 140px;
+  resize: vertical;
+}
+
+.contact-us-im .form__group .input_container,
+.newsletter-3-fields .form__group .input_container,
+.exclusive-offer .form__group .input_container {
+  padding: 0;
+  margin-right: 1.875rem;
+}
+
+.contact-us-im .section--light .form-wrap__submit:after,
+.newsletter-3-fields .section--light .form-wrap__submit:after,
+.exclusive-offer .section--light .form-wrap__submit:after,
+.section--light .form-wrap__submit:after {
+  background: var(--cbutton__light-bg-1--hover);
+}
+.contact-us-im .section--light .form-wrap__submit input,
+.newsletter-3-fields .section--light .form-wrap__submit input,
+.exclusive-offer .section--light .form-wrap__submit input,
+.section--light .form-wrap__submit input {
+  border-width: 4px !important;
+}
+.contact-us-im .section--light .form-wrap__submit input:hover,
+.newsletter-3-fields .section--light .form-wrap__submit input:hover,
+.exclusive-offer .section--light .form-wrap__submit input:hover,
+.section--light .form-wrap__submit input:hover {
+  background-color: var(--cbutton__light-bg-1--hover) !important;
+  color: var(--cbutton__light-color-1--hover) !important;
+  border-color: var(--cbutton__light-bg-1--hover) !important;
+  border-width: 4px !important;
+}
+.contact-us-im .section--light .form__title,
+.newsletter-3-fields .section--light .form__title,
+.exclusive-offer .section--light .form__title,
+.section--light .form__title {
+  color: var(--component__title);
+}
+.contact-us-im .section--light .form__caption,
+.newsletter-3-fields .section--light .form__caption,
+.exclusive-offer .section--light .form__caption,
+.section--light .form__caption {
+  color: var(--component__subtitle);
+}
+
+.section--dark .form__caption, .section--dark .form__title {
+  color: var(--regular__color__dark);
+}
+
+.contact-us-im .section--dark .form-wrap__submit input,
+.newsletter-3-fields .section--dark .form-wrap__submit input,
+.exclusive-offer .section--dark .form-wrap__submit input {
+  border-width: 4px !important;
+}
+
+.contact-us-im .form__group,
+.newsletter-3-fields .form__group,
+.exclusive-offer .form__group,
+.form__group {
+  padding-top: 8px;
+}
+.contact-us-im .form__group .input_container .form-input-uploadFile .fileUpload + label,
+.contact-us-im .form__group .input_container select,
+.contact-us-im .form__group .input_container textarea,
+.contact-us-im .form__group .input_container input,
+.newsletter-3-fields .form__group .input_container .form-input-uploadFile .fileUpload + label,
+.newsletter-3-fields .form__group .input_container select,
+.newsletter-3-fields .form__group .input_container textarea,
+.newsletter-3-fields .form__group .input_container input,
+.exclusive-offer .form__group .input_container .form-input-uploadFile .fileUpload + label,
+.exclusive-offer .form__group .input_container select,
+.exclusive-offer .form__group .input_container textarea,
+.exclusive-offer .form__group .input_container input,
+.form__group .input_container .form-input-uploadFile .fileUpload + label,
+.form__group .input_container select,
+.form__group .input_container textarea,
+.form__group .input_container input {
+  border-radius: 4px;
+  font: 500 18px/1.222 "Roboto", sans-serif !important;
+  color: var(--input-field-color);
+  background-color: rgb(255, 255, 255) !important;
+}
+.contact-us-im .form__group .input_container .form-input-uploadFile .fileUpload + label:focus, .contact-us-im .form__group .input_container .form-input-uploadFile .fileUpload + label:hover,
+.contact-us-im .form__group .input_container select:focus,
+.contact-us-im .form__group .input_container select:hover,
+.contact-us-im .form__group .input_container textarea:focus,
+.contact-us-im .form__group .input_container textarea:hover,
+.contact-us-im .form__group .input_container input:focus,
+.contact-us-im .form__group .input_container input:hover,
+.newsletter-3-fields .form__group .input_container .form-input-uploadFile .fileUpload + label:focus,
+.newsletter-3-fields .form__group .input_container .form-input-uploadFile .fileUpload + label:hover,
+.newsletter-3-fields .form__group .input_container select:focus,
+.newsletter-3-fields .form__group .input_container select:hover,
+.newsletter-3-fields .form__group .input_container textarea:focus,
+.newsletter-3-fields .form__group .input_container textarea:hover,
+.newsletter-3-fields .form__group .input_container input:focus,
+.newsletter-3-fields .form__group .input_container input:hover,
+.exclusive-offer .form__group .input_container .form-input-uploadFile .fileUpload + label:focus,
+.exclusive-offer .form__group .input_container .form-input-uploadFile .fileUpload + label:hover,
+.exclusive-offer .form__group .input_container select:focus,
+.exclusive-offer .form__group .input_container select:hover,
+.exclusive-offer .form__group .input_container textarea:focus,
+.exclusive-offer .form__group .input_container textarea:hover,
+.exclusive-offer .form__group .input_container input:focus,
+.exclusive-offer .form__group .input_container input:hover,
+.form__group .input_container .form-input-uploadFile .fileUpload + label:focus,
+.form__group .input_container .form-input-uploadFile .fileUpload + label:hover,
+.form__group .input_container select:focus,
+.form__group .input_container select:hover,
+.form__group .input_container textarea:focus,
+.form__group .input_container textarea:hover,
+.form__group .input_container input:focus,
+.form__group .input_container input:hover {
+  outline: none;
+  color: var(--input-field-color--active) !important;
+}
+.contact-us-im .form__group .input_container .form-input-uploadFile .fileUpload + label:disabled,
+.contact-us-im .form__group .input_container select:disabled,
+.contact-us-im .form__group .input_container textarea:disabled,
+.contact-us-im .form__group .input_container input:disabled,
+.newsletter-3-fields .form__group .input_container .form-input-uploadFile .fileUpload + label:disabled,
+.newsletter-3-fields .form__group .input_container select:disabled,
+.newsletter-3-fields .form__group .input_container textarea:disabled,
+.newsletter-3-fields .form__group .input_container input:disabled,
+.exclusive-offer .form__group .input_container .form-input-uploadFile .fileUpload + label:disabled,
+.exclusive-offer .form__group .input_container select:disabled,
+.exclusive-offer .form__group .input_container textarea:disabled,
+.exclusive-offer .form__group .input_container input:disabled,
+.form__group .input_container .form-input-uploadFile .fileUpload + label:disabled,
+.form__group .input_container select:disabled,
+.form__group .input_container textarea:disabled,
+.form__group .input_container input:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.contact-us-im .form__group .input_container select,
+.newsletter-3-fields .form__group .input_container select,
+.exclusive-offer .form__group .input_container select,
+.form__group .input_container select {
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.contact-us-im .form__group,
+.newsletter-3-fields .form__group,
+.exclusive-offer .form__group {
+  padding-top: 0;
+}
+
+.section--light .map__wrap .component__link--1,
+.section--light .map__wrap .map-search__location-directions a,
+.section--dark .map__wrap .component__link--1,
+.section--dark .map__wrap .map-search__location-directions a {
+  text-decoration: none;
+}
+.section--light .map__wrap .component__link--1:hover,
+.section--light .map__wrap .map-search__location-directions a:hover,
+.section--dark .map__wrap .component__link--1:hover,
+.section--dark .map__wrap .map-search__location-directions a:hover {
+  text-decoration: underline;
+}
+.section--light .map-a .map-search__zip,
+.section--dark .map-a .map-search__zip {
+  border: 4px solid var(--input-field-border) !important;
+  border-width: 4px 0 4px 4px !important;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+.section--light .map-a .map-search__submit,
+.section--dark .map-a .map-search__submit {
+  outline: none;
+  background: var(--input-field-border);
+}
+
+.map-a .map-search__zip {
+  font: 500 18px/1.222 "Roboto", sans-serif !important;
+  color: var(--input-field-color);
+}
+.map-a .map-search__zip:focus, .map-a .map-search__zip:hover {
+  color: var(--input-field-color--active) !important;
+}
+.map-a .map-search__submit {
+  font: bold 18px/22px "Heebo", sans-serif !important;
+}
+
+.map__title-caption-wrap,
+.featuredblocks__caption-wrap,
+.component__title-caption-wrap {
+  position: relative;
+}
+.map__title-caption-wrap:after,
+.featuredblocks__caption-wrap:after,
+.component__title-caption-wrap:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 10px;
+  margin: 20px auto;
+  background-color: var(--rgb-color-2-alpha3);
+}
+
+.locations__container .component__title-caption-wrap:after,
+.map__title-caption-wrap:after {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.section--dark .map__title-caption-wrap:after,
+.section--dark .featuredblocks__caption-wrap:after,
+.section--dark .component__title-caption-wrap:after {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.section-testimonials .testimonials .expand {
+  font: bold 18px/1.2 "Heebo", sans-serif !important;
+  color: var(--clink__light);
+  text-transform: none;
+}
+.section-testimonials .testimonials .expand:hover {
+  color: var(--clink__light--hover);
+}
+
+.section--dark .section-testimonials .testimonials .expand {
+  color: var(--clink__dark);
+}
+.section--dark .section-testimonials .testimonials .expand:hover {
+  color: var(--clink__dark--hover);
+}
+
+.mobileHeader-container {
+  background: white;
+  color: var(--color1);
+}
+
+#mobileHeaderNav {
+  background: var(--color1);
+}
+
+.section--light .socialmedia__item a {
+  text-decoration: none;
+}
+.section--light .socialmedia__link {
+  background: var(--socialmedia-color);
+}
+.section--light .socialmedia .socialmedia__link-wrapper:hover .socialmedia__link {
+  background: var(--socialmedia-color--hover);
+}
+.section--light .copyright__item:after {
+  color: var(--clink__light);
+}
+.section-copyright .section--light .copyright__link,
+.section-copyright .section--light #copyright__link {
+  color: var(--clink__light);
+}
+.section-copyright .section--light .copyright__link:hover,
+.section-copyright .section--light #copyright__link:hover {
+  color: var(--clink__light--hover);
+}
+
+.section--dark .copyright__item:after {
+  color: var(--clink__dark);
+}
+.section-copyright .section--dark .copyright__link,
+.section-copyright .section--dark #copyright__link {
+  color: var(--clink__dark);
+}
+.section-copyright .section--dark .copyright__link:hover,
+.section-copyright .section--dark #copyright__link:hover {
+  color: var(--clink__dark--hover);
+}
+
+.articles__categories-list li a {
+  font: 16px/1.375 "Roboto", sans-serif;
+}
+
+.articles__categories .mm-opened .mm-title {
+  font-family: "Heebo", sans-serif;
+}
+
+.article__post-permalink,
+.article__post-title {
+  font-family: "Heebo", sans-serif;
+}
+
+@media (max-width: 1199px) {
+  .contact-us-im .form__group .input_container,
+  .newsletter-3-fields .form__group .input_container,
+  .exclusive-offer .form__group .input_container {
+    margin-right: 0;
+  }
+  .contact-us-im .form-wrap__submit,
+  .newsletter-3-fields .form-wrap__submit,
+  .exclusive-offer .form-wrap__submit {
+    display: table;
+    margin: 0 auto 10px;
+  }
+  .contact-us-im .form-wrap__submit .btn,
+  .newsletter-3-fields .form-wrap__submit .btn,
+  .exclusive-offer .form-wrap__submit .btn {
+    height: auto;
+    white-space: normal;
+  }
+}
+@media (max-width: 991px) {
+  .logo__container {
+    width: 100%;
+  }
+  .navigation-c,
+  .navigation-b {
+    position: static;
+    margin-top: 0;
+  }
+  .banner .flexslider .flex-control-nav {
+    bottom: 5px;
+  }
+  .banner .cta__button:after {
+    display: none;
+  }
+  .contact-us-im .form__group .input_container,
+  .newsletter-3-fields .form__group .input_container,
+  .exclusive-offer .form__group .input_container {
+    margin-right: 0;
+  }
+  .wrap__where_is_your_pain .component__button--1,
+  .wrap__where_is_your_pain .component__button--2,
+  .wrap__where_is_your_pain .component__button--3 {
+    max-width: 100%;
+  }
+  .wrap__where_is_your_pain .component__link--1,
+  .wrap__where_is_your_pain .component__link--2,
+  .wrap__where_is_your_pain .component__link--3 {
+    max-width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  h1,
+  .editable__container h1 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  h2,
+  .editable__container h2,
+  h3,
+  .editable__container h3 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  h4,
+  .editable__container h4 {
+    font-size: 17px;
+  }
+  h5,
+  .editable__container h5 {
+    font-size: 16px;
+  }
+  h6,
+  .editable__container h6 {
+    font-size: 15px;
+  }
+  .section .component__title {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .section .component__subtitle {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .blade-a__title .section .component__subtitle {
+    font-size: 20px;
+  }
+  .section-form .form__title {
+    font-size: 28px;
+  }
+  .section-form .form__caption {
+    font-size: 20px;
+  }
+  .form__name {
+    font-size: 18px;
+  }
+  .locations__container .component__title-caption-wrap {
+    text-align: center;
+  }
+  .locations__container .component__title-caption-wrap:after {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section-banner .banner .text-right,
+  .section-banner .banner .text-left {
+    text-align: center !important;
+  }
+  .section-banner .banner .banner-text__title--extraLarge {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .section-banner .banner .banner-text__title--large {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .section-banner .banner .banner-text__subtitle--medium {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .section-banner .banner .banner-text__subtitle--small {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+/*# sourceMappingURL=brooklyn.css.map */
